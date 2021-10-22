@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
+	<meta name="language" content="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>docodemo reha</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 	<link href="css/animate.min.css" rel="stylesheet">
@@ -36,7 +38,7 @@
     	</div>
     	<div class="hopital container-fluid">
     		<div class="row">
-    			<div class="col-sm-4">
+    			<div class="col-md-4 col-sm-5">
     				<div class="hop-content">
     					<h3>Hợp tác với các bệnh viện công Việt Nam</h3>
     					<p>Các bác sĩ và chuyên viên từ Tập đoàn Bệnh viện Kitahara đã thực hiện thành công các bài tập phục hồi chức năng và đào tạo nhân lực trình độ cao tại các bệnh viện công tại của Việt Nam, với sự hỗ trợ đặc biệt từ Chính phủ hai nước Việt-Nhật.</p>
@@ -46,7 +48,7 @@
 						</div>
     				</div>
     			</div>
-    			<div class="col-sm-8">
+    			<div class="col-md-8 col-sm-7">
     				<div class="swiper myswiper">
     	  				<div class="swiper-wrapper" id="slide">
     	  					<div class="swiper-slide"><img src="images/img-1.jpg" class="img-responsive"></div>
@@ -102,7 +104,7 @@
     					<p>Điền đầy đủ thông tin vào mẫu đăng ký bên dưới và kiểm tra email xác nhận đăng ký thành công </p>
     				</div>
     				<div class="col-md-3 col-sm-6">
-    					<div class="step"><span>2</span></div>
+    					<div class="step two"><span>2</span></div>
     					<img src="images/doco2.svg" class="img-responsive">
     					<h4>
     						Tải và đăng nhập ứng dụng
@@ -110,7 +112,7 @@
     					<p>Khi ứng dụng Docodemo Reha ra mắt vào chúng tôi sẽ gửi đường dẫn tải phần mềm và hướng dẫn đăng nhập đến email bạn đăng ký.</p>
     				</div>
     				<div class="col-md-3 col-sm-6">
-    					<div class="step"><span>3</span></div>
+    					<div class="step third"><span>3</span></div>
     					<img src="images/doco3.svg" class="img-responsive">
     					<h4>
     						Tư vấn trực tuyến
@@ -145,11 +147,11 @@
 				</div>
 				<div class="team">
 					<div class="container">
-						<img src="images/logo-exa.png"/ width="410">
+						<img src="images/logo-exa.png"/ width="410" class="logoexa">
 						<h3>Những khối óc và con tim phía sau Docodemo Reha</h3>
 						<p>Nằm trong nhóm 3 đơn vị trị liệu phục hồi sau đột quỵ hiệu quả nhất Tokyo hằng năm, Tập đoàn Y tế Kitahara hướng đến sự phát triển toàn diện, liên tục. Năm 2016, Kitahara thành lập bệnh viện tại Campuchia, khởi đầu cho nhiệm vụ chia sẻ kiến thức trị liệu Nhật Bản với các nước bạn, và tiếp tục triển khai hợp tác với các nước khác, trong đó có Việt Nam. Bên cạnh đó, Kitahara tích cực nghiên cứu và ứng dụng công nghệ thông tin, trí tuệ nhân tạo để nâng cao hiệu quả và chất lượng trị liệu. </p>
 						<p>Mục tiêu của Kitahara không dừng lại ở việc mang dịch vụ trị liệu vượt ra ngoài biên giới Nhật Bản, mà còn hướng đến việc cung cấp kiến thức về vận hành, đào tạo nhân lực, văn hoá thực dưỡng, và ứng dụng công nghệ thông tin vào những khía cạnh đa dạng của đời sống, đặc biệt là y tế.</p>
-						<div class"row">
+						<div class="row">
 							<div class="col-sm-5"><img src="images/team1.png" class="img-responsive"/></div>
 							<div class="col-sm-3"><img src="images/team2.png" class="img-responsive"/></div>
 							<div class="col-sm-4"><img src="images/team3.png" class="img-responsive"/></div>
@@ -169,10 +171,10 @@
 				<form class="form-contact" name="submit-to-google-sheet">
 					<div class="row">
 						<div class="col-sm-6">
-							<input type="text" placeholder="Họ và tên" class="form-control" name="fullname">
+							<input type="text" placeholder="Họ và tên" class="form-control" name="full_name">
 						</div>
 						<div class="col-sm-6">
-							<input type="text" placeholder="Số điện thoại" class="form-control" name="phonenumber">
+							<input type="text" placeholder="Số điện thoại" class="form-control" name="phone_number">
 						</div>
 					</div>
 					<div class="row">
@@ -182,20 +184,24 @@
 						<div class="col-sm-6">
 							<select name="who_register" class="form-control">
 								<option value="">Bạn đăng ký cho mình hay cho người thân?</option>
+								<option value="Cho mình">Cho mình</option>
+								<option value="Cho người thân">Cho người thân</option>
 							</select>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
-							<select class="form-control" name="problem">
+							<select class="form-control" name="remote_issue">
 								<option value="">Vấn đề bạn thường gặp nhất khi trị liệu từ xa là gì?</option>
+								<option value="Không an toàn">Không an toàn</option>
 							</select>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
-							<select class="form-control" name="channel">
+							<select class="form-control" name="what_channel">
 								<option value="">Bạn biết đến Docodemo Reha qua kênh nào?</option>
+								<option value="Website">Website</option>
 							</select>
 						</div>
 					</div>
@@ -277,16 +283,16 @@
     		<div class="bottom">
     			<div class="row">
     				<div class="col-sm-4">
-	    				<a href=""><img src="images/logo-footer.png" width="270"></a>
+	    				<a href=""><img class="logo-footer" src="images/logo-footer.png" width="270"></a>
 	    			</div>
-	    			<div class="col-sm-4">
+	    			<div class="col-sm-4 col-xs-6">
 	    				<p>© 2021 ExaWizards Inc.</p>
 	    			</div>
-	    			<div class="col-sm-4">
+	    			<div class="col-sm-4 col-xs-6">
 		    			<ul class="social text-right">
-		    				<li><a href="#"><img src="images/icon-fb.svg"></a></li>
-		    				<li><a href="#"><img src="images/icon-linkin.svg"></a></li>
-		    				<li><a href="#"><img src="images/icon-twinter.svg"></a></li>
+		    				<li><a href="#" target="_blank"><img src="images/icon-fb.svg"></a></li>
+		    				<li><a href="#" target="_blank"><img src="images/icon-linkin.svg"></a></li>
+		    				<li><a href="#" target="_blank"><img src="images/icon-twinter.svg"></a></li>
 		    			</ul>
 		    		</div>
 		    	</div>
@@ -314,7 +320,7 @@
 				$('html,body').animate({scrollTop:$('#dang-ky-nhan-uu-dai').offset().top}, 1700);
 			});
 			//submit form
-			$('form').validate({
+			/*$('form').validate({
 				onfocusout: false,
 				onkeyup: false,
 				onclick: true,
@@ -362,21 +368,47 @@
 					}
 				},
 				errorElement : 'div',
-			});
+			});*/
 			$('.btnSubmit').unbind().click(function(e){
-				e.preventDefault();
-				if($('form').valid()){
+				if($.trim($('input[name="full_name"]').val()) == ''){
+					$('input[name="full_name"]').focus();
+					return false;
+				}else if($.trim($('input[name="phone_number"]').val()) == ''){
+					$('input[name="phone_number"]').focus();
+					return false;
+				}else if($.trim($('input[name="email"]').val()) == ''){
+					$('input[name="email"]').focus();
+					return false;
+				}else if(!validateEmail($('input[name="email"]').val())){
+					$('input[name="email"]').focus();
+					return false;
+				}else if($.trim($('select[name="who_register"]').val()) == ''){
+					$('select[name="who_register"]').focus();
+					return false;
+				}else if($.trim($('select[name="remote_issue"]').val()) == ''){
+					$('select[name="remote_issue"]').focus();
+					return false;
+				}else if($.trim($('select[name="what_channel"]').val()) == ''){
+					$('select[name="what_channel"]').focus();
+					return false;
+				}else{
 					const scriptURL = 'https://script.google.com/macros/s/AKfycbwcmd4bzliyfPqEu1d15K7B6WD3LGueLveAipZQZM3lKdwnD25NvDdFhXeZTP2lbBrH/exec';
 					const form = document.forms['submit-to-google-sheet']
 					form.addEventListener('submit', e => {
 						e.preventDefault()
 						fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-						.then(response => console.log('Success!', response))
+						.then(response => function(response){
+							$('input, select').val('')
+						})
 						.catch(error => console.error('Error!', error.message))
 					})
 				}
 			})
 		});
+		function validateEmail(email) {
+			const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			return re.test(String(email).toLowerCase());
+		}
     </script>
 </body>
 </html>

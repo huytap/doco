@@ -1,6 +1,222 @@
 @media(max-width:1600px){
   .hop-content h3{
     font-size: 34px;
-    line-height: 40px;
+    line-height: 1.3;
+  }
+}
+@media (max-width: 1024px) {
+  .res, .team{
+    padding:0;
+  }
+}
+@media (max-width: 815px){
+  .btn-register{
+    font-size: 15px;
+  }
+  .box{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+  }
+  .box h3 {
+    font-size: 28px;
+    margin-bottom: 39px;
+  }
+  .box p{
+    padding: 0 15%;
+  }
+  .hopital{
+    padding-top: 50px;
+    background-position-x: 15px;
+    background-size: 30%;
+  }
+  .hop-content {
+    padding-left: 15%;
+  }
+  .hop-content h3 {
+    font-size: 25px;
+  }
+  .hop-content p {
+    font-size: 13px;
+    line-height: 1.3;
+    margin-top: 10px;
+  }
+  h3{
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  .feature{
+    padding-bottom: 0;
+  }
+  .feature h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .feature h4 span{
+    width: 28px;
+    height: 28px;
+  }
+  .doco::before{
+    top:-26%;
+  }
+  .doco .step span{
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .doco .step.two::after, .doco .step.third::before {
+    height: 0;
+  }
+  .res h3.title {
+    font-size: 30px;
+  }
+  .res::before{
+    width: 192px;
+    height: 288px;
+    top:97px;
+  }
+  .res:after {
+    width: 350px;
+    height: 732px;
+    bottom: 0;
+  }
+  .logoexa{
+    width: 350px!important;
+  }
+  .reha {
+    margin-top: 60px;
+  }
+  .form-contact input, .form-contact select{
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .btnSubmit{
+    font-size: 16px;
+  }
+  .question h3 {
+    font-size: 26px;
+  }
+  .footer p{
+    font-size: 16px;
+  }
+}
+@media(max-width:767px){
+  .logo img{
+    width: 185px;
+  }
+  .header{
+    padding: 15px;
+  }
+  .header .pull-right img{
+    width: 25px!important;
+  }
+  .btn-register{
+    font-size: 12px;
+    padding: 4px 10px 5px;
+    border-radius: 6px;
+  }
+  .box h3{
+    font-size: 22px;
+    padding: 0 15px;
+  }
+  .box{
+    margin-top: 50px;
+    padding-left: 10px;
+  }
+  .box .chart .text{
+    font-size: 15px;
+  }
+  .box img{
+    max-width: 100%;
+  }
+  .box p{
+    padding: 0;
+  }
+  .hopital .row{
+    display: block;
+  }
+  .hopital {
+    background-size: 45%;
+  }
+  .team .row img,
+  .feature img{
+    width: 80%;
+    margin:0 auto;
+  }
+  #slide-pagination {
+    position: relative;
+    bottom: 0;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .doco::before {
+    top: -9%;
+  }
+  .doco{
+    margin-top: 210px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .doco .step.first::after, .doco .step.two::before,
+  .doco .step.third::after, .doco .step.last::before {
+    height: 0;
+  }
+  .doco .step {
+    margin-bottom: 15px;
+  }
+  .doco h4{
+    margin-top: 25px;
+  }
+  .res{
+    padding-top: 30px;
+  }
+  .res::before{
+    top:5px;
+  }
+  .res .row:first-child {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .res .row .col-sm-7{
+    order:2;
+  }
+  .res .row .col-sm-5{
+    order:1;
+  }
+  .res-content{
+    padding-left: 0;
+  }
+  .res h3.title {
+    font-size: 26px;
+  }
+  .logoexa {
+    width: 255px!important;
+  }
+  .team{
+    padding-top: 15px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .team .container{
+    padding: 0;
+  }
+  .panel-title{
+    background-position: calc(100% + 4px);
+    background-size: 5%;
+  }
+  .form-contact select{
+    background-size: 5%;
+  }
+  .footer .logo-footer{
+    width: 180px!important;
+    margin-bottom: 15px;
+  }
+  .footer .bottom{
+    margin-top: 30px;
+  }
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }

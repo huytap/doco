@@ -74,19 +74,19 @@ ul li{
 .box .chart .text{
 	font-weight: 900;
 	font-size: 18px;
-	line-height: 24px;
+	line-height: 1.3;
 	text-align: center;
 	color: #FF9533;
 	display: inline-block;
   	vertical-align: top;
   	margin-right: 15px;
 }
-.hopital .col-sm-8{
+.hopital .col-sm-7{
 	padding-right: 0;
 }
 .myswiper{
 	overflow: hidden;
-	max-height: 441px;
+	max-height: 510px;
 }
 .swiper {
 	width: 100%;
@@ -125,7 +125,8 @@ ul li{
 	width: 40%;
 }
 #slide-pagination{
-	margin-top: 100px;
+	position: absolute;
+	bottom: 0;
 }
 #slide-pagination a:focus {
 	outline: none;
@@ -140,13 +141,16 @@ a[aria-disabled="true"]{
 	margin-top: 45px;
 	overflow: hidden;
 }
+.hopital .row{
+	display: flex;
+}
 .hop-content{
 	padding-left: 28%;
 }
 .hop-content p{
 	font-size: 16px;
 	line-height: 22px;
-	    margin-top: 20px;
+	margin-top: 20px;
 }
 .feature{
 	padding-top: 100px;
@@ -266,7 +270,7 @@ h3{
 	padding:120px;
 	position: relative;
 }
-.res .row{
+.res .row:first-child{
 	display: flex;
 	align-items: center;
 }
@@ -310,7 +314,7 @@ h3{
 }
 .team .container{
 	text-align: center;
-	max-width: calc(1170px - 25%);
+	max-width: 910px;
 	line-height: 1.3;
 }
 .team [class^='col-sm']{
@@ -430,7 +434,7 @@ div.error{
 	font-family: 'Mulish', sans-serif;
 	font-weight: bold;
 	font-size: 32px;
-	line-height: 40px;
+	line-height: 1.3;
 	color:#FF9533;
 	margin-bottom: 15px;
 }
