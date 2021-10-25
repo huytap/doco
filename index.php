@@ -503,13 +503,13 @@
 				}else if(!validateEmail($('input[name="email"]').val())){
 					$('input[name="email"]').focus();
 					return false;
-				}else if($.trim($('select[name="who_register"]').val()) == ''){
+				}else if($.trim($('input[name="who_register"]').val()) == ''){
 					$('select[name="who_register"]').focus();
 					return false;
-				}else if($.trim($('select[name="remote_issue"]').val()) == ''){
+				}else if($.trim($('input[name="remote_issue"]').val()) == ''){
 					$('select[name="remote_issue"]').focus();
 					return false;
-				}else if($.trim($('select[name="what_channel"]').val()) == ''){
+				}else if($.trim($('input[name="what_channel"]').val()) == ''){
 					$('select[name="what_channel"]').focus();
 					return false;
 				}else{
@@ -521,6 +521,9 @@
 						.then(response => console.log("Success!"))
 						.catch(error => console.error('Error!', error.message));
 						document.getElementById("myForm").reset();
+						$('#who_register').find('.text-name').text('Bạn đăng ký cho mình hay cho người thân?')
+						$('#remote_issue').find('.text-name').text('Vấn đề bạn thường gặp nhất khi trị liệu từ xa là gì?')
+						$('#what_channel').find('.text-name').text('Bạn biết đến Docodemo Reha qua kênh nào?')
 					})
 				}
 			})
@@ -532,3 +535,4 @@
     </script>
 </body>
 </html>
+
