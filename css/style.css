@@ -36,7 +36,7 @@ ul li{
 	color: #FFFFFF;
 	background: #FF9533;
 	display: inline-block;
-	padding: 7px 15px 9px;
+	padding: 8px 15px 10px;
 	background: #FF9533;
 	box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
@@ -44,6 +44,44 @@ ul li{
 }
 .btn-register:hover{
 	color: #FFFFFF;
+}
+.banner{
+	background: url(../images/banner.jpg) no-repeat center right;
+	background-size: 100%;
+	color:#F7F7F7;
+	padding: 100px 0 158px 0;
+}
+.banner h1{
+	font-family: 'Be Vietnam', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 23px;
+	margin-top: 0;
+}
+.banner h2{
+	font-family: 'Be Vietnam', sans-serif;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+}
+.banner p{
+	font-size: 16px;
+	line-height: 22px;
+}
+.banner p strong{
+	font-size: 900;
+}
+.video{
+	padding-right: 55px;
+	font-family: 'Be Vietnam', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+video{
+	border-radius: 14px;
 }
 .box{
 	margin: 100px 10% 40px;
@@ -172,6 +210,8 @@ h3{
 	line-height: 30px;
 	color: #FF9533;
 	margin-bottom: 15px;
+	position: relative;
+	display: inline-block;
 }
 .feature h4 span{
 	background: url(../images/icon-rec.png) no-repeat;
@@ -184,6 +224,8 @@ h3{
 	font-size: 14px;
 	line-height: 30px;
 	color: #F7F7F7;
+    position: absolute;
+    left: -15px;
 }
 .feature-img{
 	margin-top: 85px;
@@ -347,7 +389,6 @@ h3{
 	margin-top: 5px;
 }
 .reha p span{
-	color: #090909;
 	font-weight: 700;
 }
 .form-contact{

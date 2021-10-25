@@ -16,14 +16,40 @@
 </head>
 <body>
     <div class="header">
-        <a class="logo" href="#"><img src="images/logo.svg"></a>
+        <a class="logo" href="#">
+			<img src="images/logo.svg" class="hidden-xs">
+			<img src="images/logo-mobile.svg" class="hidden-lg hidden-md hidden-sm">
+		</a>
         <div class="pull-right">
         	<a class="btn-register" href="#dang-ky-nhan-uu-dai">ĐĂNG KÝ QUÀ ƯU ĐÃI</a>
-        	<img src="images/vi.svg" width="42">
+        	<!-- <img src="images/vi.svg" width="42"> -->
         </div>
     </div>
     <div class="banner">
-    	<img src="images/banner.png" class="img-responsive">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-sm-6">
+					<h1>Ứng dụng hỗ trợ trị liệu từ xa từ Nhật Bản</h1>
+					<h2>Món quà ý nghĩa<br/>cho người thân yêu</h2>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-9">
+					<p><strong>Docodemo Reha</strong> cùng bạn gửi gắm tình yêu thương và giúp người thân chủ động phục hồi sức khỏe sau đột quỵ, để tìm lại niềm vui sống mỗi ngày bên gia đình.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-sm-6">
+					<div class="video">
+						<h4>Video giới thiệu</h4>
+						<video width="100%" controls class="wow fadeInUp hidden-xs" data-wow-duration="10s">
+						  <source src="images/video.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+						<!-- <img src="images/video.png" class="img-responsive hidden-xs"> -->
+					</div>
+				</div>
+			</div>
+		</div>
+    	<!-- <img src="images/banner.png" class="img-responsive"> -->
     </div>
     <div class="content">
     	<div class="box">
@@ -32,7 +58,8 @@
     			<span class="text">
     				Mức độ<br/>phục hồi
     			</span>
-    			<img src="images/chart.png" class="img-responsive">
+    			<img src="images/chart.png" class="img-responsive hidden-xs">
+				<img src="images/chart-mobile.png" class="img-responsive hidden-lg hidden-md hidden-sm">
     		</div>
     		<p>Luyện tập tích cực, hợp lý trong 180 ngày đầu tiên của tiến trình trị liệu và duy trì kế hoạch luyện tập sau đó rất quan trọng trong việc phục hồi chức năng của bệnh nhân đột quỵ não.</p>
     	</div>
@@ -60,7 +87,7 @@
     	</div>
     	<div class="feature">
     		<div class="container">
-    			<h3>3 đặc điểm nổi bật của Docodemo Reha hỗ trợ tối đa tiến trình luyện tập</h3>
+    			<h3>3 đặc điểm nổi bật của Docodemo Reha <span>hỗ trợ tối đa tiến trình luyện tập</span></h3>
     			<div class="row">    				
     				<div class="col-sm-4">
     					<img src="images/img-step1.png" class="img-responsive">
@@ -73,7 +100,7 @@
     				<div class="col-sm-4">
     					<img src="images/img-step2.png" class="img-responsive">
     					<h4>
-    						<span>02</span>
+    						<span style="left: -40px;">02</span>
     						Bài tập được<br/>thiết kế riêng
     					</h4>
     					<p>Chuyên viên nghiên cứu bệnh án và thảo luận với người dùng hoặc thân nhân, để xây dựng hệ thống bài tập phù hợp nhất với mục tiêu và thời gian phục hồi.</p>
@@ -81,7 +108,7 @@
 					<div class="col-sm-4">
     					<img src="images/img-step3.png" class="img-responsive">
     					<h4>
-    						<span>03</span>
+    						<span style="left: 34px;">03</span>
     						Ứng dụng<br/>trí thông minh nhân tạo
     					</h4>
     					<p>Dựa trên nền tảng là hiểu biết chuyên sâu và kinh nghiệm của Tập đoàn Công nghệ ExaWizards và Bệnh viện Quốc tế Kitahara, cùng dữ liệu thu thập từ hơn 60 cơ sở y tế trên khắp Nhật Bản. </p>
@@ -96,36 +123,60 @@
     			<p class="doco-short">4 bước thật đơn giản để cùng Trợ lý trị liệu Docodemo Reha phục hồi sức khỏe, tìm lại niềm vui sống mỗi ngày!</p>
     			<div class="row">
     				<div class="col-md-3 col-sm-6">
-    					<div class="step first"><span>1</span></div>
-    					<img src="images/doco1.svg" class="img-responsive">
-    					<h4>
-    						Đăng ký sử dụng
-    					</h4>
-    					<p>Điền đầy đủ thông tin vào mẫu đăng ký bên dưới và kiểm tra email xác nhận đăng ký thành công </p>
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-3">
+								<div class="step first"><span>1</span></div>
+							</div>
+							<div class="col-md-12 col-sm-12 col-xs-9">
+								<img src="images/doco1.svg" class="img-responsive">
+								<h4>
+									Đăng ký sử dụng
+								</h4>
+								<p>Điền đầy đủ thông tin vào mẫu đăng ký bên dưới và kiểm tra email xác nhận đăng ký thành công </p>
+							</div>
+						</div>
     				</div>
     				<div class="col-md-3 col-sm-6">
-    					<div class="step two"><span>2</span></div>
-    					<img src="images/doco2.svg" class="img-responsive">
-    					<h4>
-    						Tải và đăng nhập ứng dụng
-    					</h4>
-    					<p>Khi ứng dụng Docodemo Reha ra mắt vào chúng tôi sẽ gửi đường dẫn tải phần mềm và hướng dẫn đăng nhập đến email bạn đăng ký.</p>
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-3">
+								<div class="step two"><span>2</span></div>
+							</div>
+							<div class="col-md-12 col-sm-12 col-xs-9">
+								<img src="images/doco2.svg" class="img-responsive">
+								<h4>
+									Tải và đăng nhập ứng dụng
+								</h4>
+								<p>Khi ứng dụng Docodemo Reha ra mắt vào chúng tôi sẽ gửi đường dẫn tải phần mềm và hướng dẫn đăng nhập đến email bạn đăng ký.</p>
+							</div>
+						</div>
     				</div>
     				<div class="col-md-3 col-sm-6">
-    					<div class="step third"><span>3</span></div>
-    					<img src="images/doco3.svg" class="img-responsive">
-    					<h4>
-    						Tư vấn trực tuyến
-    					</h4>
-    					<p>Người dùng hoặc thân nhân tham gia buổi tư vấn trực tuyến để thảo luận bệnh án, mục tiêu phục hồi, để chuyên viên xây dựng bài tập thích hợp nhất.</p>
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-3">
+								<div class="step third"><span>3</span></div>
+							</div>
+							<div class="col-md-12 col-sm-12 col-xs-9">
+								<img src="images/doco3.svg" class="img-responsive">
+								<h4>
+									Tư vấn trực tuyến
+								</h4>
+								<p>Người dùng hoặc thân nhân tham gia buổi tư vấn trực tuyến để thảo luận bệnh án, mục tiêu phục hồi, để chuyên viên xây dựng bài tập thích hợp nhất.</p>
+							</div>
+						</div>
     				</div>
     				<div class="col-md-3 col-sm-6">
-    					<div class="step last"><span>4</span></div>
-    					<img src="images/doco1.svg" class="img-responsive">
-    					<h4>
-    						Luyện tập và theo dõi
-    					</h4>
-    					<p>Chuyên viên ghi nhận, góp ý, hỗ trợ và động viên người dùng dựa vào dữ liệu được cập nhật, giúp người dùng giữ vững tiến độ phục hồi.</p>
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-3">
+								<div class="step last"><span>4</span></div>
+							</div>
+							<div class="col-md-12 col-sm-12 col-xs-9">
+								<img src="images/doco1.svg" class="img-responsive">
+								<h4>
+									Luyện tập và theo dõi
+								</h4>
+								<p>Chuyên viên ghi nhận, góp ý, hỗ trợ và động viên người dùng dựa vào dữ liệu được cập nhật, giúp người dùng giữ vững tiến độ phục hồi.</p>
+							</div>
+						</div>	
     				</div>
     			</div>
     		</div>
@@ -136,10 +187,10 @@
 					<div class="col-sm-7">
 						<img src="images/img-4.png" class="img-responsive">
 					</div>
-					<div class="col-sm-5">
+					<div class="col-sm-4">
 						<div class="res-content">
 							<div class="ct">
-								<h3 class="title">Tương thích với mọi thiết bị</h3>
+								<h3 class="title">Tương thích với<br/>mọi thiết bị</h3>
 								<p>Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng. Docodemo Reha được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS</p>
 							</div>
 						</div>
@@ -282,13 +333,13 @@
     		<p>để nhận được hỗ trợ kịp thời</p>
     		<div class="bottom">
     			<div class="row">
-    				<div class="col-sm-4">
+    				<div class="col-sm-4 col-xs-12">
 	    				<a href=""><img class="logo-footer" src="images/logo-footer.png" width="270"></a>
 	    			</div>
-	    			<div class="col-sm-4 col-xs-6">
+	    			<div class="col-sm-4 col-xs-12">
 	    				<p>© 2021 ExaWizards Inc.</p>
 	    			</div>
-	    			<div class="col-sm-4 col-xs-6">
+	    			<div class="col-sm-4 col-xs-12">
 		    			<ul class="social text-right">
 		    				<li><a href="#" target="_blank"><img src="images/icon-fb.svg"></a></li>
 		    				<li><a href="#" target="_blank"><img src="images/icon-linkin.svg"></a></li>
