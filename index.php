@@ -65,12 +65,10 @@
 						  <source src="images/video.mp4#t=10" type="video/mp4">
 							Your browser does not support the video tag.
 						</video>
-						<!-- <img src="images/video.png" class="img-responsive hidden-xs"> -->
 					</div>
 				</div>
 			</div>
 		</div>
-    	<!-- <img src="images/banner.png" class="img-responsive"> -->
     </div>
     <div class="content">
     	<div class="box">
@@ -208,7 +206,7 @@
 					<div class="col-sm-7">
 						<img src="images/img-4.png" class="img-responsive wow fadeInUp" data-wow-duration="1s">
 					</div>
-					<div class="col-md-4 col-sm-5">
+					<div class="col-ld-4 col-md-5 col-sm-5">
 						<div class="res-content">
 							<div class="ct">
 								<h3 class="title wow fadeInUp" data-wow-duration="1s">Tương thích với<br/>mọi thiết bị</h3>
