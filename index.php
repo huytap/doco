@@ -208,7 +208,7 @@
 					<div class="col-sm-7">
 						<img src="images/img-4.png" class="img-responsive wow fadeInUp" data-wow-duration="1s">
 					</div>
-					<div class="col-sm-4">
+					<div class="col-md-4 col-sm-5">
 						<div class="res-content">
 							<div class="ct">
 								<h3 class="title wow fadeInUp" data-wow-duration="1s">Tương thích với<br/>mọi thiết bị</h3>
@@ -240,7 +240,7 @@
 				<span><strong>Giải thưởng tổ chức theo hình thức rút thăm, dành cho 15 khách hàng may mắn nhất.</strong></span><br/>
 				Docodemo Reha sẽ gửi email xác nhận trúng giải đến các khách hàng nhận được phần quà này!
 				</p>
-				<form class="form-contact wow fadeInUp" data-wow-duration="1s" name="submit-to-google-sheet">
+				<form class="form-contact wow fadeInUp" data-wow-duration="1s" id="myForm" name="submit-to-google-sheet">
 					<div class="row">
 						<div class="col-sm-6">
 							<input type="text" placeholder="Họ và tên" class="form-control" name="full_name">
@@ -254,27 +254,46 @@
 							<input type="email" placeholder="Email" class="form-control" name="email">
 						</div>
 						<div class="col-sm-6">
-							<select name="who_register" class="form-control">
-								<option value="">Bạn đăng ký cho mình hay cho người thân?</option>
-								<option value="Cho mình">Cho mình</option>
-								<option value="Cho người thân">Cho người thân</option>
-							</select>
+							<div class="dropdown">
+								<div class="dropdown-toggle" data-toggle="dropdown" id="who_register">
+									<span class="text-name">Bạn đăng ký cho mình hay cho người thân?</span>
+									<span class="carets"><img src="images/icon-arrow.svg" ></span>
+								</div>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="who_register">
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cho mình">Cho mình</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cho người thân">Cho người thân</a></li>
+								</ul>
+								<input type="hidden" name="who_register">
+							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
-							<select class="form-control" name="remote_issue">
-								<option value="">Vấn đề bạn thường gặp nhất khi trị liệu từ xa là gì?</option>
-								<option value="Không an toàn">Không an toàn</option>
-							</select>
+							<div class="dropdown">
+								<div class="dropdown-toggle" data-toggle="dropdown" id="remote_issue">
+									<span class="text-name">Vấn đề bạn thường gặp nhất khi trị liệu từ xa là gì?</span>
+									<span class="carets"><img src="images/icon-arrow.svg" ></span>
+								</div>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="remote_issue">
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Không an toàn">Không an toàn</a></li>
+								</ul>
+								<input type="hidden" name="remote_issue">
+							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
-							<select class="form-control" name="what_channel">
-								<option value="">Bạn biết đến Docodemo Reha qua kênh nào?</option>
-								<option value="Website">Website</option>
-							</select>
+							<div class="dropdown">
+								<div class="dropdown-toggle" data-toggle="dropdown" id="what_channel">
+									<span class="text-name">Bạn biết đến Docodemo Reha qua kênh nào?</span>
+									<span class="carets"><img src="images/icon-arrow.svg" ></span>
+								</div>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="what_channel">
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Website">Website</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Youtube">Youtube</a></li>
+								</ul>
+								<input type="hidden" name="what_channel">
+							</div>
 						</div>
 					</div>
 					<button type="submit" class="btnSubmit">GỬI THÔNG TIN VÀ NHẬN QUÀ!</button>
@@ -382,10 +401,16 @@
 	<script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript">
 		new WOW().init();
+		$('.dropdown-menu').find('li>a').click(function(){
+			let p = $(this).text();
+			$(this).parent().parent().parent().find('.text-name').text(p)
+			$(this).parent().parent().parent().find('input[type="hidden"]').val(p)
+		})
 		$('#viewVideo').click(function(){
 			$('#myVideo').removeClass('hidden-xs');
 			playVid();
-		})
+		});
+		
 		var vid = document.getElementById("myVideo"); 
 		function playVid() { 
 			vid.play(); 
@@ -493,10 +518,9 @@
 					form.addEventListener('submit', e => {
 						e.preventDefault()
 						fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-						.then(response => function(response){
-							$('input, select').val('')
-						})
-						.catch(error => console.error('Error!', error.message))
+						.then(response => console.log("Success!"))
+						.catch(error => console.error('Error!', error.message));
+						document.getElementById("myForm").reset();
 					})
 				}
 			})

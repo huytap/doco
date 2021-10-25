@@ -75,8 +75,8 @@
   .feature .col-sm-4:last-child h4 span{
     left: 24px;
   }
-   .feature .col-sm-4:last-child h4 span{
-    left: -32px;
+  .feature .col-sm-4:nth-child(2) h4 span{
+    left: -36px;
   }
   .doco::before{
     top:-26%;
@@ -114,6 +114,9 @@
   }
   .btnSubmit{
     font-size: 16px;
+  }
+  .col-sm-6 .dropdown{
+    padding: 30px 15px;
   }
   .question h3 {
     font-size: 26px;
@@ -436,6 +439,15 @@
     right: 0;
     z-index: 10;
     text-shadow: 0 0;
+  } 
+  .dropdown{
+    padding: 30px 15px;
+  }
+  .col-sm-6 .dropdown{
+    padding: 24px 15px;
+  }
+  .carets img{
+    width: 20px;
   }
 }
 @media(max-width:440px){
@@ -455,6 +467,9 @@
   }
 }
 @media(max-width:375px) {
+  .dropdown{
+    padding: 33px 15px;
+  }
   .banner{
     padding-bottom: 300px;
   }
