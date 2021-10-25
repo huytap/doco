@@ -121,7 +121,7 @@
     				<div class="col-sm-4 wow fadeInUp" data-wow-duration="1s">
     					<img src="images/img-step2.png" class="img-responsive">
     					<h4>
-    						<span style="left: -40px;">02</span>
+    						<span>02</span>
     						Bài tập được<br/>thiết kế riêng
     					</h4>
     					<p>Chuyên viên nghiên cứu bệnh án và thảo luận với người dùng hoặc thân nhân, để xây dựng hệ thống bài tập phù hợp nhất với mục tiêu và thời gian phục hồi.</p>
@@ -129,7 +129,7 @@
 					<div class="col-sm-4 wow fadeInUp" data-wow-duration="1s">
     					<img src="images/img-step3.png" class="img-responsive">
     					<h4>
-    						<span style="left: 34px;">03</span>
+    						<span>03</span>
     						Ứng dụng<br/>trí thông minh nhân tạo
     					</h4>
     					<p>Dựa trên nền tảng là hiểu biết chuyên sâu và kinh nghiệm của Tập đoàn Công nghệ ExaWizards và Bệnh viện Quốc tế Kitahara, cùng dữ liệu thu thập từ hơn 60 cơ sở y tế trên khắp Nhật Bản. </p>

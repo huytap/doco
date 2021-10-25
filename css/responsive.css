@@ -72,6 +72,12 @@
     width: 28px;
     height: 28px;
   }
+  .feature .col-sm-4:last-child h4 span{
+    left: 24px;
+  }
+   .feature .col-sm-4:last-child h4 span{
+    left: -32px;
+  }
   .doco::before{
     top:-26%;
   }
@@ -249,6 +255,9 @@
   }
   .doco .doco-short{
     font-size: 16px;
+  }
+  .feature .col-sm-4:last-child h4 span{
+    left: 36px;
   }
   .res{
     padding-top: 70px;

@@ -229,6 +229,12 @@ h3{
     position: absolute;
     left: -15px;
 }
+.feature .col-sm-4:nth-child(2) h4 span{
+    left: -40px;
+}
+.feature .col-sm-4:last-child h4 span{
+    left: 34px;
+}
 .feature-img{
 	margin-top: 85px;
 }
