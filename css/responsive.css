@@ -417,6 +417,17 @@
     margin: auto 0;
     border-radius: 0;
   }
+  button.close{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    opacity: 1;
+    position: absolute;
+    top: calc(50% - 150px);
+    right: 0;
+    z-index: 10;
+    text-shadow: 0 0;
+  }
 }
 @media(max-width:440px){
   .btnSubmit{

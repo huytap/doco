@@ -41,6 +41,9 @@
 				<div class="col-md-5 col-sm-6">
 					<div class="video">
 						<h4 id="viewVideo">Video giới thiệu</h4>
+						<button type="button" class="close" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
 						<video width="100%" controls class="wow fadeInUp hidden-xs" data-wow-duration="1s" id="myVideo">
 						  <source src="images/video.mp4#t=10" type="video/mp4">
 							Your browser does not support the video tag.
@@ -369,7 +372,16 @@
 		var vid = document.getElementById("myVideo"); 
 		function playVid() { 
 			vid.play(); 
+			$('.close').show();
+			$('.close').click(function(){
+				$(this).hide();
+				pauseVid()
+				$('#myVideo').addClass('hidden-xs')
+			})
 		} 
+		function pauseVid() {
+			vid.pause();
+		}
 		
     	var swiper = new Swiper('.myswiper', {
 	        spaceBetween: 30,
