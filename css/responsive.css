@@ -409,6 +409,14 @@
   ul.social {
     text-align: center;
   }
+  #myVideo{
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom:0;
+    margin: auto 0;
+    border-radius: 0;
+  }
 }
 @media(max-width:440px){
   .btnSubmit{

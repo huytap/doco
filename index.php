@@ -11,17 +11,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&family=Be+Vietnam:wght@700&family=Mulish&family=Roboto&display=swap" rel="stylesheet">
     <link href="css/swiper-bundle.min.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 </head>
 <body>
     <div class="header">
-        <a class="logo" href="#">
+        <a class="logo wow fadeInUp" data-wow-duration="1s" href="/">
 			<img src="images/logo.svg" class="hidden-xs">
 			<img src="images/logo-mobile.svg" class="hidden-lg hidden-md hidden-sm">
 		</a>
         <div class="pull-right">
-        	<a class="btn-register" href="#dang-ky-nhan-uu-dai">ĐĂNG KÝ QUÀ ƯU ĐÃI</a>
+        	<a class="btn-register wow fadeInUp" data-wow-duration="1s" href="#dang-ky-nhan-uu-dai">ĐĂNG KÝ QUÀ ƯU ĐÃI</a>
         	<!-- <img src="images/vi.svg" width="42"> -->
         </div>
     </div>
@@ -29,19 +30,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5 col-sm-6">
-					<h1>Ứng dụng hỗ trợ trị liệu từ xa từ Nhật Bản</h1>
-					<h2>Món quà ý nghĩa<br/>cho người thân yêu</h2>
+					<h1 class="wow fadeInUp" data-wow-duration="1s">Ứng dụng hỗ trợ trị liệu từ xa từ Nhật Bản</h1>
+					<h2 class="wow fadeInUp" data-wow-duration="1s">Món quà ý nghĩa<br/>cho người thân yêu</h2>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-9">
-					<p><strong>Docodemo Reha</strong> cùng bạn gửi gắm tình yêu thương và giúp người thân chủ động phục hồi sức khỏe sau đột quỵ, để tìm lại niềm vui sống mỗi ngày bên gia đình.
+					<p class="wow fadeInUp" data-wow-duration="1s"><strong>Docodemo Reha</strong> cùng bạn gửi gắm tình yêu thương và giúp người thân chủ động phục hồi sức khỏe sau đột quỵ, để tìm lại niềm vui sống mỗi ngày bên gia đình.
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-5 col-sm-6">
 					<div class="video">
-						<h4>Video giới thiệu</h4>
-						<video width="100%" controls class="wow fadeInUp hidden-xs" data-wow-duration="10s">
-						  <source src="images/video.mp4" type="video/mp4">
+						<h4 id="viewVideo">Video giới thiệu</h4>
+						<video width="100%" controls class="wow fadeInUp hidden-xs" data-wow-duration="1s" id="myVideo">
+						  <source src="images/video.mp4#t=10" type="video/mp4">
 							Your browser does not support the video tag.
 						</video>
 						<!-- <img src="images/video.png" class="img-responsive hidden-xs"> -->
@@ -53,30 +54,30 @@
     </div>
     <div class="content">
     	<div class="box">
-    		<h3>MỨC ĐỘ PHỤC HỒI VÀ VIỆC LUYỆN TẬP HỢP LÝ</h3>
-    		<div class="chart">
+    		<h3 class="wow fadeInUp" data-wow-duration="1s">MỨC ĐỘ PHỤC HỒI VÀ VIỆC LUYỆN TẬP HỢP LÝ</h3>
+    		<div class="chart wow fadeInUp" data-wow-duration="1s">
     			<span class="text">
     				Mức độ<br/>phục hồi
     			</span>
-    			<img src="images/chart.png" class="img-responsive hidden-xs">
-				<img src="images/chart-mobile.png" class="img-responsive hidden-lg hidden-md hidden-sm">
+    			<img src="images/chart.png" class="img-responsive hidden-xs wow fadeInUp" data-wow-duration="1s">
+				<img src="images/chart-mobile.png" class="img-responsive hidden-lg hidden-md hidden-sm wow fadeInUp" data-wow-duration="1s">
     		</div>
-    		<p>Luyện tập tích cực, hợp lý trong 180 ngày đầu tiên của tiến trình trị liệu và duy trì kế hoạch luyện tập sau đó rất quan trọng trong việc phục hồi chức năng của bệnh nhân đột quỵ não.</p>
+    		<p class="wow fadeInUp" data-wow-duration="1s">Luyện tập tích cực, hợp lý trong 180 ngày đầu tiên của tiến trình trị liệu và duy trì kế hoạch luyện tập sau đó rất quan trọng trong việc phục hồi chức năng của bệnh nhân đột quỵ não.</p>
     	</div>
     	<div class="hopital container-fluid">
     		<div class="row">
     			<div class="col-md-4 col-sm-5">
     				<div class="hop-content">
-    					<h3>Hợp tác với các bệnh viện công Việt Nam</h3>
-    					<p>Các bác sĩ và chuyên viên từ Tập đoàn Bệnh viện Kitahara đã thực hiện thành công các bài tập phục hồi chức năng và đào tạo nhân lực trình độ cao tại các bệnh viện công tại của Việt Nam, với sự hỗ trợ đặc biệt từ Chính phủ hai nước Việt-Nhật.</p>
-						<div id="slide-pagination" class="swiper-pagination">
+    					<h3 class="wow fadeInUp" data-wow-duration="1s">Hợp tác với các bệnh viện công Việt Nam</h3>
+    					<p class="wow fadeInUp" data-wow-duration="1s">Các bác sĩ và chuyên viên từ Tập đoàn Bệnh viện Kitahara đã thực hiện thành công các bài tập phục hồi chức năng và đào tạo nhân lực trình độ cao tại các bệnh viện công tại của Việt Nam, với sự hỗ trợ đặc biệt từ Chính phủ hai nước Việt-Nhật.</p>
+						<div id="slide-pagination" class="swiper-pagination wow fadeInUp" data-wow-duration="1s">
 							<a class="swiper-prev"><img src="images/icon-arrow-left.png" width="24"></a>
 							<a class="swiper-next"><img src="images/icon-arrow-right.png" width="24"></a>
 						</div>
     				</div>
     			</div>
     			<div class="col-md-8 col-sm-7">
-    				<div class="swiper myswiper">
+    				<div class="swiper myswiper wow fadeInUp" data-wow-duration="1s">
     	  				<div class="swiper-wrapper" id="slide">
     	  					<div class="swiper-slide"><img src="images/img-1.jpg" class="img-responsive"></div>
     	  					<div class="swiper-slide"><img src="images/img-2.jpg" class="img-responsive"></div>
@@ -87,9 +88,9 @@
     	</div>
     	<div class="feature">
     		<div class="container">
-    			<h3>3 đặc điểm nổi bật của Docodemo Reha <span>hỗ trợ tối đa tiến trình luyện tập</span></h3>
+    			<h3 class="wow fadeInUp" data-wow-duration="1s">3 đặc điểm nổi bật của Docodemo Reha <span>hỗ trợ tối đa tiến trình luyện tập</span></h3>
     			<div class="row">    				
-    				<div class="col-sm-4">
+    				<div class="col-sm-4 wow fadeInUp" data-wow-duration="1s">
     					<img src="images/img-step1.png" class="img-responsive">
     					<h4>
     						<span>01</span>
@@ -97,7 +98,7 @@
     					</h4>
     					<p>Các chuyên viên được đào tạo chuyên sâu và đánh giá khắt khe theo đúng tiêu chuẩn Nhật Bản, tận tâm tư vấn, hỗ trợ người dùng và ghi nhận tiến trình phục hồi sức khỏe. 	</p>
     				</div>
-    				<div class="col-sm-4">
+    				<div class="col-sm-4 wow fadeInUp" data-wow-duration="1s">
     					<img src="images/img-step2.png" class="img-responsive">
     					<h4>
     						<span style="left: -40px;">02</span>
@@ -105,7 +106,7 @@
     					</h4>
     					<p>Chuyên viên nghiên cứu bệnh án và thảo luận với người dùng hoặc thân nhân, để xây dựng hệ thống bài tập phù hợp nhất với mục tiêu và thời gian phục hồi.</p>
     				</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 wow fadeInUp" data-wow-duration="1s">
     					<img src="images/img-step3.png" class="img-responsive">
     					<h4>
     						<span style="left: 34px;">03</span>
@@ -119,10 +120,10 @@
     	</div>
     	<div class="doco">
     		<div class="container">
-    			<h3>Sử dụng Docodemo Reha dễ như thế nào?</h3>
-    			<p class="doco-short">4 bước thật đơn giản để cùng Trợ lý trị liệu Docodemo Reha phục hồi sức khỏe, tìm lại niềm vui sống mỗi ngày!</p>
+    			<h3 class="wow fadeInUp" data-wow-duration="1s">Sử dụng Docodemo Reha dễ như thế nào?</h3>
+    			<p class="doco-short wow fadeInUp" data-wow-duration="1s">4 bước thật đơn giản để cùng Trợ lý trị liệu Docodemo Reha phục hồi sức khỏe, tìm lại niềm vui sống mỗi ngày!</p>
     			<div class="row">
-    				<div class="col-md-3 col-sm-6">
+    				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 						<div class="row">
 							<div class="col-md-12 col-sm-12 col-xs-3">
 								<div class="step first"><span>1</span></div>
@@ -136,7 +137,7 @@
 							</div>
 						</div>
     				</div>
-    				<div class="col-md-3 col-sm-6">
+    				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 						<div class="row">
 							<div class="col-md-12 col-sm-12 col-xs-3">
 								<div class="step two"><span>2</span></div>
@@ -150,7 +151,7 @@
 							</div>
 						</div>
     				</div>
-    				<div class="col-md-3 col-sm-6">
+    				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 						<div class="row">
 							<div class="col-md-12 col-sm-12 col-xs-3">
 								<div class="step third"><span>3</span></div>
@@ -164,7 +165,7 @@
 							</div>
 						</div>
     				</div>
-    				<div class="col-md-3 col-sm-6">
+    				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 						<div class="row">
 							<div class="col-md-12 col-sm-12 col-xs-3">
 								<div class="step last"><span>4</span></div>
@@ -185,27 +186,27 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-7">
-						<img src="images/img-4.png" class="img-responsive">
+						<img src="images/img-4.png" class="img-responsive wow fadeInUp" data-wow-duration="1s">
 					</div>
 					<div class="col-sm-4">
 						<div class="res-content">
 							<div class="ct">
-								<h3 class="title">Tương thích với<br/>mọi thiết bị</h3>
-								<p>Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng. Docodemo Reha được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS</p>
+								<h3 class="title wow fadeInUp" data-wow-duration="1s">Tương thích với<br/>mọi thiết bị</h3>
+								<p class="wow fadeInUp" data-wow-duration="1s">Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng. Docodemo Reha được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="team">
 					<div class="container">
-						<img src="images/logo-exa.png"/ width="410" class="logoexa">
-						<h3>Những khối óc và con tim phía sau Docodemo Reha</h3>
-						<p>Nằm trong nhóm 3 đơn vị trị liệu phục hồi sau đột quỵ hiệu quả nhất Tokyo hằng năm, Tập đoàn Y tế Kitahara hướng đến sự phát triển toàn diện, liên tục. Năm 2016, Kitahara thành lập bệnh viện tại Campuchia, khởi đầu cho nhiệm vụ chia sẻ kiến thức trị liệu Nhật Bản với các nước bạn, và tiếp tục triển khai hợp tác với các nước khác, trong đó có Việt Nam. Bên cạnh đó, Kitahara tích cực nghiên cứu và ứng dụng công nghệ thông tin, trí tuệ nhân tạo để nâng cao hiệu quả và chất lượng trị liệu. </p>
-						<p>Mục tiêu của Kitahara không dừng lại ở việc mang dịch vụ trị liệu vượt ra ngoài biên giới Nhật Bản, mà còn hướng đến việc cung cấp kiến thức về vận hành, đào tạo nhân lực, văn hoá thực dưỡng, và ứng dụng công nghệ thông tin vào những khía cạnh đa dạng của đời sống, đặc biệt là y tế.</p>
+						<img src="images/logo-exa.png"/ width="410" class="logoexa wow fadeInUp" data-wow-duration="1s">
+						<h3 class="wow fadeInUp" data-wow-duration="1s">Những khối óc và con tim phía sau Docodemo Reha</h3>
+						<p class="wow fadeInUp" data-wow-duration="1s">Nằm trong nhóm 3 đơn vị trị liệu phục hồi sau đột quỵ hiệu quả nhất Tokyo hằng năm, Tập đoàn Y tế Kitahara hướng đến sự phát triển toàn diện, liên tục. Năm 2016, Kitahara thành lập bệnh viện tại Campuchia, khởi đầu cho nhiệm vụ chia sẻ kiến thức trị liệu Nhật Bản với các nước bạn, và tiếp tục triển khai hợp tác với các nước khác, trong đó có Việt Nam. Bên cạnh đó, Kitahara tích cực nghiên cứu và ứng dụng công nghệ thông tin, trí tuệ nhân tạo để nâng cao hiệu quả và chất lượng trị liệu. </p>
+						<p class="wow fadeInUp" data-wow-duration="1s">Mục tiêu của Kitahara không dừng lại ở việc mang dịch vụ trị liệu vượt ra ngoài biên giới Nhật Bản, mà còn hướng đến việc cung cấp kiến thức về vận hành, đào tạo nhân lực, văn hoá thực dưỡng, và ứng dụng công nghệ thông tin vào những khía cạnh đa dạng của đời sống, đặc biệt là y tế.</p>
 						<div class="row">
-							<div class="col-sm-5"><img src="images/team1.png" class="img-responsive"/></div>
-							<div class="col-sm-3"><img src="images/team2.png" class="img-responsive"/></div>
-							<div class="col-sm-4"><img src="images/team3.png" class="img-responsive"/></div>
+							<div class="col-sm-5 wow fadeInUp" data-wow-duration="1s"><img src="images/team1.png" class="img-responsive"/></div>
+							<div class="col-sm-3 wow fadeInUp" data-wow-duration="1s"><img src="images/team2.png" class="img-responsive"/></div>
+							<div class="col-sm-4 wow fadeInUp" data-wow-duration="1s"><img src="images/team3.png" class="img-responsive"/></div>
 						</div>
 					</div>
 				</div>
@@ -213,13 +214,13 @@
 		</div>
 		<div class="reha" id="dang-ky-nhan-uu-dai">
 			<div class="container">
-				<h3 class="title">Nhận quà tặng khi dùng thử <span>Docodemo Reha</span></h2>
-				<p>
+				<h3 class="title wow fadeInUp" data-wow-duration="1s">Nhận quà tặng khi dùng thử <span>Docodemo Reha</span></h2>
+				<p class="wow fadeInUp" data-wow-duration="1s">
 				Nhận quà tặng tri ân là 2 tháng dùng thử miễn phí khi đăng ký dùng thử Docodemo Reha <span>từ hôm nay đến hết <strong>31/11/2021.</strong></span><br/> 
 				<span><strong>Giải thưởng tổ chức theo hình thức rút thăm, dành cho 15 khách hàng may mắn nhất.</strong></span><br/>
 				Docodemo Reha sẽ gửi email xác nhận trúng giải đến các khách hàng nhận được phần quà này!
 				</p>
-				<form class="form-contact" name="submit-to-google-sheet">
+				<form class="form-contact wow fadeInUp" data-wow-duration="1s" name="submit-to-google-sheet">
 					<div class="row">
 						<div class="col-sm-6">
 							<input type="text" placeholder="Họ và tên" class="form-control" name="full_name">
@@ -262,10 +263,10 @@
 		</div>
 		<div class="question">
 			<div class="container">
-				<h3>Các câu hỏi thường gặp</h3>
-				<p>Trợ lý Trị liệu từ xa Docodemo Reha cùng bạn giải đáp một số câu hỏi phổ biến, giúp bạn thêm hiểu và tin tưởng để lựa chọn Docodemo Reha cho mình, người thân và gia đình.</p>
+				<h3 class="wow fadeInUp" data-wow-duration="1s">Các câu hỏi thường gặp</h3>
+				<p class="wow fadeInUp" data-wow-duration="1s">Trợ lý Trị liệu từ xa Docodemo Reha cùng bạn giải đáp một số câu hỏi phổ biến, giúp bạn thêm hiểu và tin tưởng để lựa chọn Docodemo Reha cho mình, người thân và gia đình.</p>
 				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-					<div class="panel panel-default">
+					<div class="panel panel-default wow fadeInUp" data-wow-duration="1s">
 						<div class="panel-heading" role="tab" id="headingOne">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -279,7 +280,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="panel panel-default">
+					<div class="panel panel-default wow fadeInUp" data-wow-duration="1s">
 						<div class="panel-heading" role="tab" id="headingTwo">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -293,7 +294,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="panel panel-default">
+					<div class="panel panel-default wow fadeInUp" data-wow-duration="1s">
 						<div class="panel-heading" role="tab" id="headingThree">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="headingThree">
@@ -307,7 +308,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="panel panel-default">
+					<div class="panel panel-default wow fadeInUp" data-wow-duration="1s">
 						<div class="panel-heading" role="tab" id="headingFour">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -327,20 +328,20 @@
     </div>
     <div class="footer">
     	<div class="container">
-    		<p>Bạn cần hỗ trợ? Liên hệ ngay với chúng tôi qua</p>
-    		<p><img src="images/fi-sr-call-history.svg"> Tổng đài <a href="tel:">xxx.xxx.xxx</a> (hoạt động 24/7)</p>
-    		<p><img src="images/fi-sr-envelope.svg"> <a href="mailto:">xxxxxx@xxxx.com</a></p>
-    		<p>để nhận được hỗ trợ kịp thời</p>
+    		<p class="wow fadeInUp" data-wow-duration="1s">Bạn cần hỗ trợ? Liên hệ ngay với chúng tôi qua</p>
+    		<p class="wow fadeInUp" data-wow-duration="1s"><img src="images/fi-sr-call-history.svg"> Tổng đài <a href="tel:">xxx.xxx.xxx</a> (hoạt động 24/7)</p>
+    		<p class="wow fadeInUp" data-wow-duration="1s"><img src="images/fi-sr-envelope.svg"> <a href="mailto:">xxxxxx@xxxx.com</a></p>
+    		<p class="wow fadeInUp" data-wow-duration="1s">để nhận được hỗ trợ kịp thời</p>
     		<div class="bottom">
     			<div class="row">
     				<div class="col-sm-4 col-xs-12">
-	    				<a href=""><img class="logo-footer" src="images/logo-footer.png" width="270"></a>
+	    				<a href="/" class="wow fadeInUp" data-wow-duration="1s"><img class="logo-footer" src="images/logo-footer.png" width="270"></a>
 	    			</div>
 	    			<div class="col-sm-4 col-xs-12">
-	    				<p>© 2021 ExaWizards Inc.</p>
+	    				<p class="wow fadeInUp" data-wow-duration="1s">© 2021 ExaWizards Inc.</p>
 	    			</div>
 	    			<div class="col-sm-4 col-xs-12">
-		    			<ul class="social text-right">
+		    			<ul class="social text-right wow fadeInUp" data-wow-duration="1s"">
 		    				<li><a href="#" target="_blank"><img src="images/icon-fb.svg"></a></li>
 		    				<li><a href="#" target="_blank"><img src="images/icon-linkin.svg"></a></li>
 		    				<li><a href="#" target="_blank"><img src="images/icon-twinter.svg"></a></li>
@@ -350,11 +351,26 @@
     		</div>
     	</div>
     </div>
+	<div id="video" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="menu" aria-hidden="true">
+  		<div class="modal-dialog" role="document">
+
+		</div>
+	</div>
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
-	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript">
+		new WOW().init();
+		$('#viewVideo').click(function(){
+			$('#myVideo').removeClass('hidden-xs');
+			playVid();
+		})
+		var vid = document.getElementById("myVideo"); 
+		function playVid() { 
+			vid.play(); 
+		} 
+		
     	var swiper = new Swiper('.myswiper', {
 	        spaceBetween: 30,
 	        slidesPerView: "auto",
