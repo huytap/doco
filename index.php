@@ -62,8 +62,8 @@
 						<button type="button" class="close" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
-						<video width="100%" controls class="wow fadeInUp hidden-xs" data-wow-duration="1s" id="myVideo">
-						  <source src="images/DOCODEMO-RIHA-for-Vietnam.mp4#t=93" type="video/mp4">
+						<video width="100%" controls class="wow fadeInUp hidden-xs" data-wow-duration="1s" id="myVideo"  poster="images/docoreha-cover.jpg">
+						  <source src="images/DOCODEMO-RIHA-for-Vietnam.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 						</video>
 					</div>
