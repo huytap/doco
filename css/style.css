@@ -17,10 +17,30 @@ ul li{
 }
 .header{
 	padding: 19px 40px;
+	background-color: #fff;
 }
 .header .pull-right{
 	display: flex;
 	align-items: center;
+}
+.header.nav-down {
+    transition: all ease-in-out 0.5s;
+    top: 0!important;
+    position: fixed;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    width: 100%;
+	z-index: 9999;
+	box-shadow: -1px 0px 69px rgb(0 0 0 / 13%);
+	-webkit-box-shadow: -1px 0px 69px rgb(0 0 0 / 13%);
+	-moz-box-shadow: -1px 0px 69px rgb(0 0 0 / 13%);
+}
+.header.nav-up {
+    position: fixed;
+    top: -80px!important;
+    -webkit-transform: translateY(-80px);
+    transform: translateY(-80px);
+    width: 100%;
 }
 .logo{
 	width: 300px;
@@ -48,16 +68,17 @@ button.close{
 	color: #FFFFFF;
 }
 .banner{
-	background: url(../images/banner.jpg) no-repeat center right;
-	background-size: 100%;
+	background: url(../images/banner.jpg) no-repeat top right #FF9533;
+	background-size: 82%;
 	color:#F7F7F7;
-	padding: 100px 0 158px 0;
+	padding: 90px 0 155px 0;
 }
 .banner h1{
 	font-family: 'Be Vietnam', sans-serif;
 	font-style: normal;
 	font-weight: 800;
 	font-size: 23px;
+	line-height: 1.6;
 	margin-top: 0;
 }
 .banner h2{
@@ -80,6 +101,9 @@ button.close{
 	padding-right: 55px;
 	font-family: 'Be Vietnam', sans-serif;
 	font-weight: bold;
+	font-size: 14px;
+}
+.video h4{
 	font-size: 14px;
 }
 video{
@@ -158,11 +182,11 @@ video{
 .swiper-slide {
 	width: 60%;
 }
-.swiper-slide:nth-child(2n) {
+.swiper-slide:nth-child(2) {
 	width: 60%;
 }
-.swiper-slide:nth-child(3n) {
-	width: 40%;
+.swiper-slide:nth-child(3) {
+	width: 60%;
 }
 #slide-pagination{
 	position: absolute;
@@ -352,6 +376,7 @@ h3{
 	color:#FF9533;
 	font-size: 48px;
 	line-height: 1.3;
+	margin-bottom: 20px;
 }
 .res-content{
 	display: flex;
@@ -377,10 +402,11 @@ h3{
 }
 .team h3{
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .reha{
 	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 120px;
 	margin-top: -115px;
 }
 .reha h3.title{
@@ -448,8 +474,11 @@ select.form-control:focus{
 	z-index: 4;
 	cursor: pointer;
 }
+#myForm .row:nth-child(2) .dropdown{
+	z-index: 6;
+}
 #myForm .row:nth-child(3) .dropdown{
-	z-index: 3;
+	z-index: 5;
 }
 #myForm .row:nth-child(4) .dropdown{
 	z-index: 2;
@@ -511,7 +540,7 @@ div.error{
 	padding: 130px 0 65px;
 }
 .question h3{
-	font-family: 'Mulish', sans-serif;
+	font-family: 'Be Vietnam', sans-serif;
 	font-weight: bold;
 	font-size: 32px;
 	line-height: 1.3;

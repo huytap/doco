@@ -1,7 +1,40 @@
+@media(max-width:1900px){
+  .banner{
+    background-size: 94%;
+  }
+}
 @media(max-width:1600px){
+  .banner{
+    background-size: 100%;
+  }
   .hop-content h3{
     font-size: 34px;
     line-height: 1.3;
+  }
+}
+@media(max-width: 1440px){
+  .banner{
+    padding-bottom: 90px;
+  }
+}
+@media(max-width: 1366px){
+  .banner{
+    padding: 50px 0 100px;
+    background-size: 94%;
+  }
+  .banner h2{
+    margin-bottom: 30px;
+  }
+}
+@media(max-width: 1280px){
+  .banner{
+    background-size: 100%;
+    padding-bottom: 74px;
+  }
+}
+@media(max-width: 1200px){
+  .banner{
+    background-position: right bottom;
   }
 }
 @media (max-width: 1024px) {
