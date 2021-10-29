@@ -63,12 +63,13 @@ button.close{
 	background: #FF9533;
 	box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
+	margin-top: 8px;
 }
 .btn-register:hover{
 	color: #FFFFFF;
 }
 .banner{
-	background: url(../images/banner.jpg) no-repeat top right #FF9533;
+	background: url(../images/banner.jpg) no-repeat bottom right #FF9533;
 	background-size: 82%;
 	color:#F7F7F7;
 	padding: 90px 0 155px 0;
