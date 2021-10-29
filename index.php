@@ -52,7 +52,7 @@
 					<h2 class="wow fadeInUp" data-wow-duration="1s">Món quà ý nghĩa<br/>cho người thân yêu</h2>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-9">
-					<p class="wow fadeInUp" data-wow-duration="1s"><strong>Docoreha</strong> cùng bạn gửi gắm tình yêu thương và giúp người thân chủ động phục hồi sức khỏe sau đột quỵ, để tìm lại niềm vui sống mỗi ngày bên gia đình. 
+					<p class="wow fadeInUp" data-wow-duration="1s"><strong>Dokoreha</strong> cùng bạn gửi gắm tình yêu thương và giúp người thân chủ động phục hồi sức khỏe sau đột quỵ, để tìm lại niềm vui sống mỗi ngày bên gia đình. 
 				</div>
 			</div>
 			<div class="row">
@@ -62,7 +62,7 @@
 						<button type="button" class="close" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
-						<video width="100%" controls class="wow fadeInUp hidden-xs" data-wow-duration="1s" id="myVideo"  poster="images/docoreha-cover.jpg">
+						<video width="100%" controls class="wow fadeInUp hidden-xs" data-wow-duration="1s" id="myVideo"  poster="images/Dokoreha-cover.jpg">
 						  <source src="images/DOCODEMO-RIHA-for-Vietnam.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 						</video>
@@ -212,7 +212,7 @@
 						<div class="res-content">
 							<div class="ct">
 								<h3 class="title wow fadeInUp" data-wow-duration="1s">Tương thích với<br/>mọi thiết bị</h3>
-								<p class="wow fadeInUp" data-wow-duration="1s">Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng. Docoreha được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS</p>
+								<p class="wow fadeInUp" data-wow-duration="1s">Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng. Dokoreha được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS</p>
 							</div>
 						</div>
 					</div>
@@ -234,7 +234,7 @@
 		</div>
 		<div class="reha" id="dang-ky-nhan-uu-dai">
 			<div class="container">
-				<h3 class="title wow fadeInUp" data-wow-duration="1s">Nhận quà tặng dùng thử <span>Docoreha</span></h2>
+				<h3 class="title wow fadeInUp" data-wow-duration="1s">Nhận quà tặng dùng thử <span>Dokoreha</span></h2>
 				<p class="wow fadeInUp" data-wow-duration="1s">
 					Nếu bạn muốn dùng thử dịch vụ miễn phí trong 2 tháng cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>31/11/2021.</strong></span>
 				</p>
@@ -294,7 +294,7 @@
 						<div class="col-sm-12">
 							<div class="dropdown">
 								<div class="dropdown-toggle" data-toggle="dropdown" id="what_channel">
-									<span class="text-name">Bạn biết đến Docoreha qua kênh nào?</span>
+									<span class="text-name">Bạn biết đến Dokoreha qua kênh nào?</span>
 									<span class="carets"><img src="images/icon-arrow.svg" ></span>
 								</div>
 								<ul class="dropdown-menu" role="menu" aria-labelledby="what_channel">
