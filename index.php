@@ -52,7 +52,7 @@
 					<h2 class="wow fadeInUp" data-wow-duration="1s">Món quà ý nghĩa<br/>cho người thân yêu</h2>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-9">
-					<p class="wow fadeInUp" data-wow-duration="1s"><strong>Docodemoreha</strong> Dokoreha cùng bạn gửi gắm tình yêu thương và giúp người thân chủ động phục hồi sức khỏe sau đột quỵ, để tìm lại niềm vui sống mỗi ngày bên gia đình. 
+					<p class="wow fadeInUp" data-wow-duration="1s"><strong>Docoreha</strong> cùng bạn gửi gắm tình yêu thương và giúp người thân chủ động phục hồi sức khỏe sau đột quỵ, để tìm lại niềm vui sống mỗi ngày bên gia đình. 
 				</div>
 			</div>
 			<div class="row">
@@ -88,7 +88,7 @@
     			<div class="col-md-4 col-sm-5">
     				<div class="hop-content">
     					<h3 class="wow fadeInUp" data-wow-duration="1s">Hợp tác với các bệnh viện công Việt Nam</h3>
-    					<p class="wow fadeInUp" data-wow-duration="1s">Các bác sĩ và chuyên viên từ Tập đoàn Bệnh viện Kitahara đã thực hiện thành công các bài tập phục hồi chức năng và đào tạo nhân lực trình độ cao tại các bệnh viện công tại của Việt Nam, với sự hỗ trợ từ Chính phủ hai nước Việt-Nhật và sự giúp đỡ của tổ chức ERIA (Economic Research Institute for ASEAN and East Asia).</p>
+    					<p class="wow fadeInUp" data-wow-duration="1s">Các bác sĩ và chuyên viên từ Tập đoàn Bệnh viện Kitahara đã thực hiện thành công các bài tập phục hồi chức năng và đào tạo nhân lực trình độ cao tại các bệnh viện công tại của Việt Nam,  với sự hỗ trợ từ ERIA (Viện Nghiên cứu Kinh tế ASEAN và Đông Á) và Chính phủ hai nước Việt-Nhật.</p>
 						<div id="slide-pagination" class="swiper-pagination wow fadeInUp" data-wow-duration="1s">
 							<a class="swiper-prev"><img src="images/icon-arrow-left.png" width="24"></a>
 							<a class="swiper-next"><img src="images/icon-arrow-right.png" width="24"></a>
@@ -234,15 +234,18 @@
 		</div>
 		<div class="reha" id="dang-ky-nhan-uu-dai">
 			<div class="container">
-				<h3 class="title wow fadeInUp" data-wow-duration="1s">Nhận quà tặng khi dùng thử <span>Docoreha</span></h2>
+				<h3 class="title wow fadeInUp" data-wow-duration="1s">Nhận quà tặng dùng thử <span>Docoreha</span></h2>
 				<p class="wow fadeInUp" data-wow-duration="1s">
-				Nếu bạn muốn dùng thử dịch vụ miễn phí trong 2 tháng cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>31/11/2021.</strong></span><br/>
-				Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp đăng ký thành công. Để đăng ký, vui lòng điền đầy đủ các thông tin dưới đây. Chúng tôi xin phép chỉ gửi phần quà cho những vị đã từng là bệnh nhân mắc bệnh về não, để việc trải nghiệm mang lại hiệu quả thực tế nhất có thể.
+					Nếu bạn muốn dùng thử dịch vụ miễn phí trong 2 tháng cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>31/11/2021.</strong></span>
 				</p>
+				<p class="wow fadeInUp" data-wow-duration="1s">
+					Chúng tôi xin phép gửi ưu đãi đến những bệnh nhân từng mắc bệnh về não, để trải nghiệm mang lại hiệu quả thực tế nhất có thể. Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp đăng ký thành công.
+				</p>
+				<p class="wow fadeInUp" data-wow-duration="1s">Để đăng ký, vui lòng điền đầy đủ các thông tin dưới đây.</p>
 				<form class="form-contact wow fadeInUp" data-wow-duration="1s" id="myForm" name="submit-to-google-sheet">
 					<div class="row">
 						<div class="col-sm-6">
-							<input type="text" placeholder="Họ và tên" class="form-control" name="full_name">
+							<input type="text" placeholder="Họ và Tên" class="form-control" name="full_name">
 						</div>
 						<div class="col-sm-6">
 							<input type="text" placeholder="Số điện thoại" class="form-control" name="phone_number">
@@ -270,13 +273,13 @@
 						<div class="col-sm-12">
 							<div class="dropdown">
 								<div class="dropdown-toggle" data-toggle="dropdown" id="remote_issue">
-									<span class="text-name">Đối với vị nào đã từng mắc bệnh về não và muốn đăng ký để trải nghiệm, vui lòng cho chúng tôi biết thời điểm bạn mắc bệnh.</span>
+									<span class="text-name">Nếu bạn hoặc người thân từng mắc bệnh về não và muốn đăng ký trải nghiệm, vui lòng cho chúng tôi biết thời điểm mắc bệnh</span>
 									<span class="carets"><img src="images/icon-arrow.svg" ></span>
 								</div>
 								<ul class="dropdown-menu" role="menu" aria-labelledby="remote_issue">
 									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Trong vòng nửa năm nay">Trong vòng nửa năm nay</a></li>
 									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Từ nửa năm nay đến 1 năm nay">Từ nửa năm nay đến 1 năm nay</a></li>
-									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Trong vòng nửa năm nay">Trên 1 năm trở về trước</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Trong vòng nửa năm nay">Hơn 1 năm về trước</a></li>
 								</ul>
 								<input type="hidden" name="time_sick">
 							</div>
@@ -291,7 +294,7 @@
 						<div class="col-sm-12">
 							<div class="dropdown">
 								<div class="dropdown-toggle" data-toggle="dropdown" id="what_channel">
-									<span class="text-name">Bạn biết đến Dokoreha qua kênh nào?</span>
+									<span class="text-name">Bạn biết đến Docoreha qua kênh nào?</span>
 									<span class="carets"><img src="images/icon-arrow.svg" ></span>
 								</div>
 								<ul class="dropdown-menu" role="menu" aria-labelledby="what_channel">
@@ -373,13 +376,13 @@
 						<div class="panel-heading" role="tab" id="headingFive">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-								Q：Chi phí là bao nhiêu? 
+								Q: Chi phí là bao nhiêu? 
 								</a>
 							</h4>
 						</div>
 						<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
 							<div class="panel-body">
-							A：Chi phí tuỳ theo gói sản phẩm. Cụ thể thì chúng tôi vẫn còn đang cân nhắc chi phí dịch vụ liên quan đến trị liệu phục hồi, nên chúng tôi xin phép thông báo về mức phí ngay sau khi triển khai dịch vụ.
+							A: Chi phí tuỳ theo gói sản phẩm. Cụ thể thì chúng tôi vẫn còn đang cân nhắc chi phí dịch vụ liên quan đến trị liệu phục hồi, nên chúng tôi xin phép thông báo về mức phí ngay sau khi triển khai dịch vụ.
 							</div>
 						</div>
 					</div>
@@ -387,13 +390,13 @@
 						<div class="panel-heading" role="tab" id="headingSix">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-								Q：Lúc nào sẽ triển khai dịch vụ? 
+								Q: Lúc nào sẽ triển khai dịch vụ? 
 								</a>
 							</h4>
 						</div>
 						<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-expanded="false" aria-labelledby="headingSix">
 							<div class="panel-body">
-							A：Hiện tại vẫn chúng tôi đang trong quá trình chuẩn bị cho việc triển khai dịch vụ cho thị trường Việt Nam, trong thời gian sớm nhất có thể. Chúng tôi sẽ ưu tiên thông báo và hướng dẫn cho những bạn đã để lại thông tin đăng ký trên trang web này ngay sau khi vừa triển khai 
+							A: Hiện tại vẫn chúng tôi đang trong quá trình chuẩn bị cho việc triển khai dịch vụ cho thị trường Việt Nam, trong thời gian sớm nhất có thể. Chúng tôi sẽ ưu tiên thông báo và hướng dẫn cho những bạn đã để lại thông tin đăng ký trên trang web này ngay sau khi vừa triển khai 
 							</div>
 						</div>
 					</div>
@@ -405,7 +408,7 @@
     	<div class="container">
     		<p class="wow fadeInUp" data-wow-duration="1s">Bạn cần hỗ trợ? Liên hệ ngay với chúng tôi qua</p>
     		<p class="wow fadeInUp" data-wow-duration="1s"><img src="images/fi-sr-envelope.svg"> <a href="mailto:">xxxxxx@xxxx.com</a></p>
-    		<p class="wow fadeInUp" data-wow-duration="1s">chúng tôi sẽ phản hồi trong 2-3 ngày</p>
+    		<p class="wow fadeInUp" data-wow-duration="1s">chúng tôi sẽ phản hồi trong 2-3 ngày làm việc</p>
     		<div class="bottom">
     			<div class="row">
     				<div class="col-sm-4 col-xs-12">
@@ -416,22 +419,17 @@
 	    			</div>
 	    			<div class="col-sm-4 col-xs-12">
 		    			<ul class="social text-right wow fadeInUp" data-wow-duration="1s"">
-		    				<li><a href="#" target="_blank"><img src="images/icon-fb.svg"></a></li>
-		    				<li><a href="#" target="_blank"><img src="images/icon-linkin.svg"></a></li>
-		    				<li><a href="#" target="_blank"><img src="images/icon-twinter.svg"></a></li>
+		    				<li><a href=" https://www.facebook.com/Dokereha-Vi%E1%BB%87t-Nam-101926585631833" target="_blank"><img src="images/icon-fb.svg"></a></li>
+		    				<!-- <li><a href="#" target="_blank"><img src="images/icon-linkin.svg"></a></li>
+		    				<li><a href="#" target="_blank"><img src="images/icon-twinter.svg"></a></li> -->
 		    			</ul>
 		    		</div>
 		    	</div>
     		</div>
     	</div>
     </div>
-	<div id="video" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="menu" aria-hidden="true">
-  		<div class="modal-dialog" role="document">
-
-		</div>
-	</div>
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
 	<script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/js.js"></script>

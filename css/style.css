@@ -552,6 +552,7 @@ div.error{
 }
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body{
 	border-top: 0;
+	color: #686868;
 }
 .panel-group{
 	margin-top: 15px;
