@@ -287,7 +287,7 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
-							<input type="text" placeholder="Khó khăn bạn đang gặp phải hiện tại là gì?" class="form-control" name="your_difficulties">
+							<input type="text" placeholder="Vấn đề bạn thường gặp khi luyện tập phục hồi chức năng là gì?" class="form-control" name="your_difficulties">
 						</div>
 					</div>
 					<div class="row">
@@ -407,8 +407,9 @@
     <div class="footer">
     	<div class="container">
     		<p class="wow fadeInUp" data-wow-duration="1s">Bạn cần hỗ trợ? Liên hệ ngay với chúng tôi qua</p>
-    		<p class="wow fadeInUp" data-wow-duration="1s"><img src="images/fi-sr-envelope.svg"> <a href="mailto:">xxxxxx@xxxx.com</a></p>
-    		<p class="wow fadeInUp" data-wow-duration="1s">chúng tôi sẽ phản hồi trong 2-3 ngày làm việc</p>
+    		<p class="wow fadeInUp" data-wow-duration="1s"><img src="images/fi-sr-envelope.svg"> <a href="mailto:dokoreha@kitaharamsi.com">dokoreha@kitaharamsi.com</a></p>
+    		<p class="wow fadeInUp" data-wow-duration="1s">chúng tôi sẽ phản hồi trong 2-3 ngày làm việc.</p>
+			<p class="wow fadeInUp" data-wow-duration="1s">Trong trường hợp không nhận được phản hồi, vui lòng liên hệ lại với chúng tôi qua địa chỉ email trên.</p>
     		<div class="bottom">
     			<div class="row">
     				<div class="col-sm-4 col-xs-12">
