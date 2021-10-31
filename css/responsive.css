@@ -494,6 +494,7 @@
   .dropdown{
     padding: 30px 15px;
   }
+  .dropdown.last,
   .col-sm-6 .dropdown{
     padding: 24px 15px;
   }
@@ -502,6 +503,10 @@
   }
 }
 @media(max-width:440px){
+  .dropdown{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .btnSubmit{
     display: block;
     width: 100%;
@@ -519,7 +524,11 @@
 }
 @media(max-width:375px) {
   .dropdown{
-    padding: 33px 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .res h3.title{
+    font-size: 46px;
   }
   .banner{
     padding-bottom: 300px;

@@ -292,7 +292,7 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
-							<div class="dropdown">
+							<div class="dropdown last">
 								<div class="dropdown-toggle" data-toggle="dropdown" id="what_channel">
 									<span class="text-name">Bạn biết đến Dokoreha qua kênh nào?</span>
 									<span class="carets"><img src="images/icon-arrow.svg" ></span>
