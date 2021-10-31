@@ -408,7 +408,7 @@
     	<div class="container">
     		<p class="wow fadeInUp" data-wow-duration="1s">Bạn cần hỗ trợ? Liên hệ ngay với chúng tôi qua</p>
     		<p class="wow fadeInUp" data-wow-duration="1s"><img src="images/fi-sr-envelope.svg"> <a href="mailto:dokoreha@kitaharamsi.com">dokoreha@kitaharamsi.com</a></p>
-    		<p class="wow fadeInUp" data-wow-duration="1s">chúng tôi sẽ phản hồi trong 2-3 ngày làm việc.</p>
+    		<p class="wow fadeInUp" data-wow-duration="1s">chúng tôi sẽ phản hồi trong 3 ngày làm việc.</p>
 			<p class="wow fadeInUp" data-wow-duration="1s">Trong trường hợp không nhận được phản hồi, vui lòng liên hệ lại với chúng tôi qua địa chỉ email trên.</p>
     		<div class="bottom">
     			<div class="row">
