@@ -52,7 +52,7 @@
 					<h2 class="wow fadeInUp" data-wow-duration="1s">Món quà ý nghĩa<br/>cho người thân yêu</h2>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-9">
-					<p class="wow fadeInUp" data-wow-duration="1s"><strong>Dokoreha</strong> cùng bạn gửi gắm tình yêu thương và giúp người thân chủ động phục hồi sức khỏe sau đột quỵ, để tìm lại niềm vui sống mỗi ngày bên gia đình. 
+					<p class="wow fadeInUp" data-wow-duration="1s"><strong>DOKOREHA</strong> cùng bạn gửi gắm tình yêu thương và giúp người thân chủ động phục hồi sức khỏe sau đột quỵ, để tìm lại niềm vui sống mỗi ngày bên gia đình. 
 				</div>
 			</div>
 			<div class="row">
@@ -62,7 +62,7 @@
 						<button type="button" class="close" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
-						<video width="100%" controls class="wow fadeInUp hidden-xs" data-wow-duration="1s" id="myVideo"  poster="images/Dokoreha-cover.jpg">
+						<video width="100%" controls class="wow fadeInUp hidden-xs" data-wow-duration="1s" id="myVideo"  poster="images/docoreha-cover.jpg">
 						  <source src="images/DOCODEMO-RIHA-for-Vietnam.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 						</video>
@@ -108,7 +108,7 @@
     	</div>
     	<div class="feature">
     		<div class="container">
-    			<h3 class="wow fadeInUp" data-wow-duration="1s">3 đặc điểm nổi bật của Dokoreha<br/>hỗ trợ tối đa tiến trình luyện tập  </h3>
+    			<h3 class="wow fadeInUp" data-wow-duration="1s">3 đặc điểm nổi bật của DOKOREHA<br/>hỗ trợ tối đa tiến trình luyện tập  </h3>
     			<div class="row">    				
     				<div class="col-sm-4 wow fadeInUp" data-wow-duration="1s">
     					<img src="images/img-step1.png" class="img-responsive">
@@ -140,8 +140,8 @@
     	</div>
     	<div class="doco">
     		<div class="container">
-    			<h3 class="wow fadeInUp" data-wow-duration="1s">Sử dụng Dokoreha dễ như thế nào?</h3>
-    			<p class="doco-short wow fadeInUp" data-wow-duration="1s">4 bước thật đơn giản để cùng ứng dụng luyện tập phục hồi chuyên biệt Dokoreha cải thiện sức khỏe, tìm lại niềm vui sống mỗi ngày! </p>
+    			<h3 class="wow fadeInUp" data-wow-duration="1s">Sử dụng DOKOREHA dễ như thế nào?</h3>
+    			<p class="doco-short wow fadeInUp" data-wow-duration="1s">4 bước thật đơn giản để cùng ứng dụng luyện tập phục hồi chuyên biệt DOKOREHA cải thiện sức khỏe, tìm lại niềm vui sống mỗi ngày! </p>
     			<div class="row">
     				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 						<div class="row">
@@ -167,7 +167,7 @@
 								<h4>
 									Tải và đăng nhập ứng dụng
 								</h4>
-								<p>Khi ứng dụng Dokoreha ra mắt, chúng tôi sẽ gửi đường dẫn tải phần mềm và hướng dẫn đăng nhập đến email bạn đăng ký.  </p>
+								<p>Khi ứng dụng DOKOREHA ra mắt, chúng tôi sẽ gửi đường dẫn tải phần mềm và hướng dẫn đăng nhập đến email bạn đăng ký.  </p>
 							</div>
 						</div>
     				</div>
@@ -212,7 +212,7 @@
 						<div class="res-content">
 							<div class="ct">
 								<h3 class="title wow fadeInUp" data-wow-duration="1s">Tương thích với<br/>mọi thiết bị</h3>
-								<p class="wow fadeInUp" data-wow-duration="1s">Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng. Dokoreha được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS</p>
+								<p class="wow fadeInUp" data-wow-duration="1s">Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng. DOKOREHA được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS</p>
 							</div>
 						</div>
 					</div>
@@ -220,9 +220,10 @@
 				<div class="team">
 					<div class="container">
 						<img src="images/logo-exa.png"/ width="410" class="logoexa wow fadeInUp" data-wow-duration="1s">
-						<h3 class="wow fadeInUp" data-wow-duration="1s">Những khối óc và con tim phía sau Dokoreha</h3>
+						<h3 class="wow fadeInUp" data-wow-duration="1s">Những khối óc và con tim phía sau DOKOREHA</h3>
 						<p class="wow fadeInUp" data-wow-duration="1s">Nằm trong nhóm 3 đơn vị trị liệu phục hồi sau đột quỵ hiệu quả nhất Tokyo hằng năm, Tập đoàn Y tế Kitahara hướng đến sự phát triển toàn diện, liên tục. Năm 2016, Kitahara thành lập bệnh viện tại Campuchia, khởi đầu cho nhiệm vụ chia sẻ kiến thức trị liệu Nhật Bản với các nước bạn, và tiếp tục triển khai hợp tác với các nước khác, trong đó có Việt Nam. Bên cạnh đó, Kitahara tích cực nghiên cứu và ứng dụng công nghệ thông tin, trí tuệ nhân  tạo để nâng cao hiệu quả và chất lượng trị liệu.</p>
 						<p class="wow fadeInUp" data-wow-duration="1s">Mục tiêu của Kitahara không dừng lại ở việc mang dịch vụ trị liệu vượt ra ngoài biên giới Nhật Bản, mà còn hướng đến việc cung cấp kiến thức về vận hành, đào tạo nhân lực, văn hoá thực dưỡng, và ứng dụng công nghệ thông tin vào những khía cạnh đa dạng của đời sống, đặc biệt là y tế.</p>
+						<p class="wow fadeInUp" data-wow-duration="1s">DOKOREHA là ứng dụng hỗ trợ luyện tập phục hồi chức năng từ xa, do Bệnh viện Kitahara phát triển.</p>
 						<div class="row">
 							<div class="col-sm-5 wow fadeInUp" data-wow-duration="1s"><img src="images/team1.png" class="img-responsive"/></div>
 							<div class="col-sm-3 wow fadeInUp" data-wow-duration="1s"><img src="images/team2.png" class="img-responsive"/></div>
@@ -234,12 +235,12 @@
 		</div>
 		<div class="reha" id="dang-ky-nhan-uu-dai">
 			<div class="container">
-				<h3 class="title wow fadeInUp" data-wow-duration="1s">Nhận quà tặng dùng thử <span>Dokoreha</span></h2>
+				<h3 class="title wow fadeInUp" data-wow-duration="1s">Nhận quà tặng dùng thử <span>DOKOREHA</span></h2>
 				<p class="wow fadeInUp" data-wow-duration="1s">
-					Nếu bạn muốn dùng thử dịch vụ miễn phí trong 2 tháng cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>31/11/2021.</strong></span>
+					Nếu bạn muốn <strong>dùng thử dịch vụ miễn phí trong 2 tháng</strong> cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>31/11/2021.</strong></span>
 				</p>
 				<p class="wow fadeInUp" data-wow-duration="1s">
-					Chúng tôi xin phép gửi ưu đãi đến những bệnh nhân từng mắc bệnh về não, để trải nghiệm mang lại hiệu quả thực tế nhất có thể. Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp đăng ký thành công.
+				<strong>Chúng tôi xin phép gửi ưu đãi đến những bệnh nhân từng mắc bệnh về não, để trải nghiệm mang lại hiệu quả thực tế nhất có thể.</strong> Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp đăng ký thành công.
 				</p>
 				<p class="wow fadeInUp" data-wow-duration="1s">Để đăng ký, vui lòng điền đầy đủ các thông tin dưới đây.</p>
 				<form class="form-contact wow fadeInUp" data-wow-duration="1s" id="myForm" name="submit-to-google-sheet">
@@ -271,9 +272,9 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
-							<div class="dropdown">
+							<div class="dropdown dotquy">
 								<div class="dropdown-toggle" data-toggle="dropdown" id="remote_issue">
-									<span class="text-name">Nếu bạn hoặc người thân từng mắc bệnh về não và muốn đăng ký trải nghiệm, vui lòng cho chúng tôi biết thời điểm mắc bệnh</span>
+									<span class="text-name">Nếu bạn hoặc người thân từng bị bệnh đột quỵ não (tai biến mạch máu não) và muốn đăng ký trải nghiệm, vui lòng cho chúng tôi biết thời điểm mắc bệnh</span>
 									<span class="carets"><img src="images/icon-arrow.svg" ></span>
 								</div>
 								<ul class="dropdown-menu" role="menu" aria-labelledby="remote_issue">
@@ -294,7 +295,7 @@
 						<div class="col-sm-12">
 							<div class="dropdown last">
 								<div class="dropdown-toggle" data-toggle="dropdown" id="what_channel">
-									<span class="text-name">Bạn biết đến Dokoreha qua kênh nào?</span>
+									<span class="text-name">Bạn cần luyện tập phục hồi chức năng để cải thiện vấn đề sức khoẻ gì?</span>
 									<span class="carets"><img src="images/icon-arrow.svg" ></span>
 								</div>
 								<ul class="dropdown-menu" role="menu" aria-labelledby="what_channel">
@@ -314,7 +315,7 @@
 		<div class="question">
 			<div class="container">
 				<h3 class="wow fadeInUp" data-wow-duration="1s">Các câu hỏi thường gặp</h3>
-				<p class="wow fadeInUp" data-wow-duration="1s">Ứng dụng hỗ trợ luyện tập phục hồi chức năng từ xa Dokoreha cùng bạn giải đáp một số câu hỏi phổ biến, giúp bạn thêm hiểu và tin tưởng để lựa chọn Dokoreha cho mình, người thân và gia đình.</p>
+				<p class="wow fadeInUp" data-wow-duration="1s">Ứng dụng hỗ trợ luyện tập phục hồi chức năng từ xa DOKOREHA cùng bạn giải đáp một số câu hỏi phổ biến, giúp bạn thêm hiểu và tin tưởng để lựa chọn DOKOREHA cho mình, người thân và gia đình.</p>
 				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default wow fadeInUp" data-wow-duration="1s">
 						<div class="panel-heading" role="tab" id="headingOne">
@@ -334,13 +335,13 @@
 						<div class="panel-heading" role="tab" id="headingTwo">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Q: Dokoreha có chịu trách nhiệm trong trường hợp xảy ra tai nạn khi luyện tập? 
+								Q: DOKOREHA có chịu trách nhiệm trong trường hợp xảy ra tai nạn khi luyện tập? 
 								</a>
 							</h4>
 						</div>
 						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 							<div class="panel-body">
-							A: Sau khi thảo luận cùng người dùng hoặc thân nhân, chuyên viên sẽ xây dựng một cách tỉ mỉ hệ thống các bài tập thích hợp. Tuy nhiên, Dokoreha không chịu trách nhiệm nếu có rủi ro hoặc tai nạn xảy ra trong khi luyện tập.  Khi có bất kỳ câu hỏi hoặc vấn đề gì, hãy liên hệ với chuyên viên ngay để được tư vấn, hỗ trợ ngay, tránh những trường hợp ngoài ý muốn 
+							A: Sau khi thảo luận cùng người dùng hoặc thân nhân, chuyên viên sẽ xây dựng một cách tỉ mỉ hệ thống các bài tập thích hợp. Tuy nhiên, DOKOREHA không chịu trách nhiệm nếu có rủi ro hoặc tai nạn xảy ra trong khi luyện tập.  Khi có bất kỳ câu hỏi hoặc vấn đề gì, hãy liên hệ với chuyên viên ngay để được tư vấn, hỗ trợ ngay, tránh những trường hợp ngoài ý muốn 
 							</div>
 						</div>
 					</div>
@@ -354,7 +355,7 @@
 						</div>
 						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 							<div class="panel-body">
-							A: Hệ thống bài tập của Dokoreha được xây dựng một cách hợp lý, giúp người dùng dễ dàng nắm bắt và giữ nhịp luyện tập, bắt đầu bằng việc xây dựng thói quen luyện tập mỗi ngày. 
+							A: Hệ thống bài tập của DOKOREHA được xây dựng một cách hợp lý, giúp người dùng dễ dàng nắm bắt và giữ nhịp luyện tập, bắt đầu bằng việc xây dựng thói quen luyện tập mỗi ngày. 
 							</div>
 						</div>
 					</div>
@@ -407,7 +408,7 @@
     <div class="footer">
     	<div class="container">
     		<p class="wow fadeInUp" data-wow-duration="1s">Bạn cần hỗ trợ? Liên hệ ngay với chúng tôi qua</p>
-    		<p class="wow fadeInUp" data-wow-duration="1s"><img src="images/fi-sr-envelope.svg"> <a href="mailto:dokoreha@kitaharamsi.com">dokoreha@kitaharamsi.com</a></p>
+    		<p class="wow fadeInUp" data-wow-duration="1s"><img src="images/fi-sr-envelope.svg"> <a href="mailto:DOKOREHA@kitaharamsi.com">DOKOREHA@kitaharamsi.com</a></p>
     		<p class="wow fadeInUp" data-wow-duration="1s">chúng tôi sẽ phản hồi trong 3 ngày làm việc.</p>
 			<p class="wow fadeInUp" data-wow-duration="1s">Trong trường hợp không nhận được phản hồi, vui lòng liên hệ lại với chúng tôi qua địa chỉ email trên.</p>
     		<div class="bottom">
