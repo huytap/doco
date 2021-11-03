@@ -35,7 +35,7 @@
 <body>
     <div class="header">
         <a class="logo" href="/">
-			<img src="images/logo.svg" class="hidden-xs">
+			<img src="images/logo.png" class="hidden-xs" width="255">
 			<img src="images/logo-mobile.svg" class="hidden-lg hidden-md hidden-sm">
 		</a>
         <div class="pull-right">
@@ -413,7 +413,7 @@
     		<div class="bottom">
     			<div class="row">
     				<div class="col-sm-4 col-xs-12">
-	    				<a href="/" class="wow fadeInUp" data-wow-duration="1s"><img class="logo-footer" src="images/logo-footer.svg"></a>
+	    				<a href="/" class="wow fadeInUp" data-wow-duration="1s"><img class="logo-footer" src="images/logo-footer.png" width="255"></a>
 	    			</div>
 	    			<div class="col-sm-4 col-xs-12">
 	    				<p class="wow fadeInUp" data-wow-duration="1s">© 2021 ExaWizards Inc.</p>
