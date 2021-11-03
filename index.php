@@ -295,10 +295,10 @@
 									<span class="carets"><img src="images/icon-arrow.svg" ></span>
 								</div>
 								<ul class="dropdown-menu" role="menu" aria-labelledby="your_difficulties">
-									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Facebook">Facebook</a></li>
+									<!-- <li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Facebook"></a></li>
 									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Google search">Google search</a></li>
 									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Người quen">Người quen</a></li>
-									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Các website khác">Các website khác</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Các website khác">Các website khác</a></li> -->
 								</ul>
 								<input type="hidden" name="your_difficulties">
 							</div>
@@ -421,7 +421,7 @@
     <div class="footer">
     	<div class="container">
     		<p class="wow fadeInUp" data-wow-duration="1s">Bạn cần hỗ trợ? Liên hệ ngay với chúng tôi qua</p>
-    		<p class="wow fadeInUp" data-wow-duration="1s"><img src="images/fi-sr-envelope.svg"> <a href="mailto:DOKOREHA@kitaharamsi.com">DOKOREHA@kitaharamsi.com</a></p>
+    		<p class="wow fadeInUp" data-wow-duration="1s"><img src="images/fi-sr-envelope.svg"> <a href="mailto:dokoreha@kitaharamsi.com">dokoreha@kitaharamsi.com</a></p>
     		<p class="wow fadeInUp" data-wow-duration="1s">chúng tôi sẽ phản hồi trong 3 ngày làm việc.</p>
 			<p class="wow fadeInUp" data-wow-duration="1s">Trong trường hợp không nhận được phản hồi, vui lòng liên hệ lại với chúng tôi qua địa chỉ email trên.</p>
     		<div class="bottom">
