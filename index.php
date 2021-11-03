@@ -240,7 +240,7 @@
 					Nếu bạn muốn <strong>dùng thử dịch vụ miễn phí trong 2 tháng</strong> cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>31/11/2021.</strong></span>
 				</p>
 				<p class="wow fadeInUp" data-wow-duration="1s">
-				<strong>Chúng tôi xin phép gửi ưu đãi đến những bệnh nhân từng mắc bệnh về não, để trải nghiệm mang lại hiệu quả thực tế nhất có thể.</strong> Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp đăng ký thành công.
+					Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp đăng ký thành công.
 				</p>
 				<p class="wow fadeInUp" data-wow-duration="1s">Để đăng ký, vui lòng điền đầy đủ các thông tin dưới đây.</p>
 				<form class="form-contact wow fadeInUp" data-wow-duration="1s" id="myForm" name="submit-to-google-sheet">
@@ -281,6 +281,7 @@
 									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Trong vòng nửa năm nay">Trong vòng nửa năm nay</a></li>
 									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Từ nửa năm nay đến 1 năm nay">Từ nửa năm nay đến 1 năm nay</a></li>
 									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Trong vòng nửa năm nay">Hơn 1 năm về trước</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Tôi bị bệnh đột quỵ khác">Tôi bị bệnh đột quỵ khác</a></li>
 								</ul>
 								<input type="hidden" name="time_sick">
 							</div>
@@ -288,14 +289,26 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
-							<input type="text" placeholder="Vấn đề bạn thường gặp khi luyện tập phục hồi chức năng là gì?" class="form-control" name="your_difficulties">
+							<div class="dropdown three">
+								<div class="dropdown-toggle" data-toggle="dropdown" id="your_difficulties">
+									<span class="text-name">Bạn cần luyện tập phục hồi chức năng để cải thiện vấn đề sức khoẻ gì?</span>
+									<span class="carets"><img src="images/icon-arrow.svg" ></span>
+								</div>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="your_difficulties">
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Facebook">Facebook</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Google search">Google search</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Người quen">Người quen</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Các website khác">Các website khác</a></li>
+								</ul>
+								<input type="hidden" name="your_difficulties">
+							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="dropdown last">
 								<div class="dropdown-toggle" data-toggle="dropdown" id="what_channel">
-									<span class="text-name">Bạn cần luyện tập phục hồi chức năng để cải thiện vấn đề sức khoẻ gì?</span>
+									<span class="text-name">Bạn biết đến DOKOREHA qua kênh nào?</span>
 									<span class="carets"><img src="images/icon-arrow.svg" ></span>
 								</div>
 								<ul class="dropdown-menu" role="menu" aria-labelledby="what_channel">
@@ -327,7 +340,7 @@
 						</div>
 						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 							<div class="panel-body">
-							A: Để đạt được hiệu quả, bạn nên duy trì luyện tập từ xa thường xuyên mỗi ngày, có thể linh hoạt trong những không gian khác nhau, để chủ động tạo thành thói quen trong cuộc sống, giúp thiết lập và duy trì tiến độ phục hồi vững chắc.  
+							A: Để đạt được hiệu quả, bạn nên duy trì luyện tập từ xa thường xuyên mỗi ngày, có thể linh hoạt trong những không gian khác nhau, để chủ động tạo thành thói quen trong cuộc sống, giúp thiết lập và duy trì tiến độ phục hồi vững chắc. Các bài luyện tập phục hồi chức năng được thiết kế phù hợp cho các vấn đề liên quan đến đột quỵ não (tai biến mạch máu não).
 							</div>
 						</div>
 					</div>
@@ -341,7 +354,7 @@
 						</div>
 						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 							<div class="panel-body">
-							A: Sau khi thảo luận cùng người dùng hoặc thân nhân, chuyên viên sẽ xây dựng một cách tỉ mỉ hệ thống các bài tập thích hợp. Tuy nhiên, DOKOREHA không chịu trách nhiệm nếu có rủi ro hoặc tai nạn xảy ra trong khi luyện tập.  Khi có bất kỳ câu hỏi hoặc vấn đề gì, hãy liên hệ với chuyên viên ngay để được tư vấn, hỗ trợ ngay, tránh những trường hợp ngoài ý muốn 
+							A: Sau khi thảo luận cùng người dùng hoặc thân nhân, chuyên viên sẽ xây dựng một cách tỉ mỉ hệ thống các bài tập thích hợp. Tuy nhiên, DOKOREHA không chịu trách nhiệm nếu có rủi ro hoặc tai nạn xảy ra trong khi luyện tập.  Khi có bất kỳ câu hỏi hoặc vấn đề gì, hãy liên hệ với chuyên viên ngay để được tư vấn, hỗ trợ ngay, tránh những trường hợp ngoài ý muốn.
 							</div>
 						</div>
 					</div>
@@ -397,7 +410,7 @@
 						</div>
 						<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-expanded="false" aria-labelledby="headingSix">
 							<div class="panel-body">
-							A: Hiện tại vẫn chúng tôi đang trong quá trình chuẩn bị cho việc triển khai dịch vụ cho thị trường Việt Nam, trong thời gian sớm nhất có thể. Chúng tôi sẽ ưu tiên thông báo và hướng dẫn cho những bạn đã để lại thông tin đăng ký trên trang web này ngay sau khi vừa triển khai 
+							A: Hiện tại vẫn chúng tôi đang trong quá trình chuẩn bị cho việc triển khai dịch vụ cho thị trường Việt Nam, trong thời gian sớm nhất có thể. Chúng tôi sẽ ưu tiên thông báo và hướng dẫn cho những bạn đã để lại thông tin đăng ký trên trang web này ngay sau khi vừa triển khai.
 							</div>
 						</div>
 					</div>

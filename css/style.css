@@ -453,6 +453,9 @@ select.form-control:focus{
 	margin-bottom: 15px;
 	z-index: 1;
 }
+.dropdown.last{
+	z-index: 1;
+}
 .dotquy{
 	padding-top: 35px;
 	padding-bottom: 35px;
