@@ -69,6 +69,7 @@
 					</div>
 				</div>
 			</div>
+			<strong class="img-demo"><i>*hình ảnh chỉ mang tính chất minh hoạ</i></strong>
 		</div>
     </div>
     <div class="content">

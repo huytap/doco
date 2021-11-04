@@ -73,6 +73,7 @@ button.close{
 	background-size: 82%;
 	color:#F7F7F7;
 	padding: 90px 0 155px 0;
+	position: relative;
 }
 .banner h1{
 	font-family: 'Be Vietnam', sans-serif;
@@ -109,6 +110,11 @@ button.close{
 }
 video{
 	border-radius: 14px;
+}
+.banner .img-demo{
+	position: absolute;
+	bottom: 5px;
+	left: 40%;
 }
 .box{
 	margin: 100px 10% 40px;
