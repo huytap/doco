@@ -441,6 +441,13 @@ select.form-control:focus{
 	box-shadow: none;
 	border-color: #FF9533;
 }
+.dropdown.hasError{
+	border-color: #FF9533;
+}
+.form-contact .dropdown input:focus{
+	border-color: #FF9533;
+	outline: none;
+}
 .dropdown,
 .form-contact input,
 .form-contact select{
@@ -461,10 +468,6 @@ select.form-control:focus{
 }
 .dropdown.last{
 	z-index: 1;
-}
-.dotquy{
-	padding-top: 35px;
-	padding-bottom: 35px;
 }
 .btnSubmit{
 	background: #FF9533;
@@ -487,6 +490,11 @@ select.form-control:focus{
 	text-align: left;
 	z-index: 4;
 	cursor: pointer;
+}
+.dropdown input[type="text"]{
+	height: 40px;
+	width: 95%;
+	display: inline-block;
 }
 #myForm .row:nth-child(2) .dropdown{
 	z-index: 6;

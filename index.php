@@ -271,7 +271,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-sm-12">
 							<div class="dropdown dotquy">
 								<div class="dropdown-toggle" data-toggle="dropdown" id="remote_issue">
@@ -287,7 +287,7 @@
 								<input type="hidden" name="time_sick">
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="dropdown three">
@@ -296,12 +296,34 @@
 									<span class="carets"><img src="images/icon-arrow.svg" ></span>
 								</div>
 								<ul class="dropdown-menu" role="menu" aria-labelledby="your_difficulties">
-									<!-- <li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Facebook"></a></li>
-									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Google search">Google search</a></li>
-									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Người quen">Người quen</a></li>
-									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Các website khác">Các website khác</a></li> -->
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Loạng choạng lúc đi đứng">Loạng choạng lúc đi đứng</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cánh tay bị tê, không hoạt động được bình thường trong sinh hoạt">Cánh tay bị tê, không hoạt động được bình thường trong sinh hoạt</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Đau nhức">Đau nhức</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Không muốn phụ thuộc nhiều vào sự trợ giúp của người thân">Không muốn phụ thuộc nhiều vào sự trợ giúp của người thân</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Mong muốn đầu óc, nhận thức trở nên linh hoạt hơn">Mong muốn đầu óc, nhận thức trở nên linh hoạt hơn</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" class="other" data-value="Khác">Khác <input type="text" placeholder="Khác"></a></li>
 								</ul>
 								<input type="hidden" name="your_difficulties">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="dropdown dotquy">
+								<div class="dropdown-toggle" data-toggle="dropdown" id="remote_issue">
+									<span class="text-name">Xin hãy cho chúng tôi biết nguyên nhân dẫn đến những vấn đề mà bạn gặp phải ở câu trên</span>
+									<span class="carets"><img src="images/icon-arrow.svg" ></span>
+								</div>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="remote_issue">
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Đột quỵ não">Đột quỵ não</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Bị gãy xương">Bị gãy xương</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Chấn thương tuỷ sống">Chấn thương tuỷ sống</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Đau khớp">Đau khớp</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Chấn thương vùng đầu">Chấn thương vùng đầu</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Bệnh liệt rung (bệnh Parkinson)">Bệnh liệt rung (bệnh Parkinson)</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" class="other" data-value="Khác">Khác <input type="text" placeholder="Khác"></a></li>
+								</ul>
+								<input type="hidden" name="reason">
 							</div>
 						</div>
 					</div>
@@ -341,7 +363,7 @@
 						</div>
 						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 							<div class="panel-body">
-							A: Để đạt được hiệu quả, bạn nên duy trì luyện tập từ xa thường xuyên mỗi ngày, có thể linh hoạt trong những không gian khác nhau, để chủ động tạo thành thói quen trong cuộc sống, giúp thiết lập và duy trì tiến độ phục hồi vững chắc. Các bài luyện tập phục hồi chức năng được thiết kế phù hợp cho các vấn đề liên quan đến đột quỵ não (tai biến mạch máu não).
+							A: Để đạt được hiệu quả, bạn nên duy trì luyện tập từ xa thường xuyên mỗi ngày, có thể linh hoạt trong những không gian khác nhau, để chủ động tạo thành thói quen trong cuộc sống, giúp thiết lập và duy trì tiến độ phục hồi vững chắc. Tuy nhiên xin lưu ý rằng trong giai đoạn đầu triển khai ứng dụng, đối tượng chúng tôi muốn hướng đến là các bệnh nhân mắc căn bệnh về đột quỵ não (tai biến mạch máu não).
 							</div>
 						</div>
 					</div>
