@@ -39,7 +39,7 @@
 			<img src="images/logo-mobile.svg" class="hidden-lg hidden-md hidden-sm">
 		</a>
         <div class="pull-right">
-        	<a class="btn-register" href="#dang-ky-nhan-uu-dai">ĐĂNG KÝ QUÀ ƯU ĐÃI</a>
+        	<a class="btn-register" href="#dang-ky-nhan-uu-dai">ĐĂNG KÝ NHẬN QUÀ</a>
         	<!-- <img src="images/vi.svg" width="42"> -->
         </div>
     </div>
