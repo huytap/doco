@@ -191,6 +191,13 @@
   }
 }
 @media(max-width:767px){
+  .banner .img-demo{
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    color: #B8B8B8;
+    text-align: center;
+  }
   .header{
     padding: 15px;
   }
