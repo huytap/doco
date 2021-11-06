@@ -77,7 +77,7 @@
     		<h3 class="wow fadeInUp" data-wow-duration="1s">MỨC ĐỘ PHỤC HỒI VÀ VIỆC LUYỆN TẬP HỢP LÝ</h3>
     		<div class="chart wow fadeInUp" data-wow-duration="1s">
     			<span class="text">
-    				Mức độ<br/>phục hồi
+    				Chức năng<br/>của cơ thể
     			</span>
     			<img src="images/chart.png" class="img-responsive hidden-xs wow fadeInUp" data-wow-duration="1s">
 				<img src="images/chart-mobile.png" class="img-responsive hidden-lg hidden-md hidden-sm wow fadeInUp" data-wow-duration="1s">
