@@ -335,8 +335,8 @@
 									<span class="carets"><img src="images/icon-arrow.svg" ></span>
 								</div>
 								<ul class="dropdown-menu" role="menu" aria-labelledby="what_channel">
-									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="iPhone">iPhone</a></li>
-									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="iPad">iPad</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Điện thoại iPhone">Điện thoại iPhone</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Máy tính bảng iPad">Máy tính bảng iPad</a></li>
 									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Điện thoại hệ điều hành Android">Điện thoại hệ điều hành Android</a></li>
 									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Máy tính bảng hệ điều hành Android">Máy tính bảng hệ điều hành Android</a></li>
 									<li role="presentation"><a role="menuitem" href="javascript:void(0);" class="other" data-value="Khác">Khác <input type="text" placeholder="Khác"></a></li>
