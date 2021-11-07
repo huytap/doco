@@ -329,6 +329,24 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
+							<div class="dropdown device">
+								<div class="dropdown-toggle" data-toggle="dropdown" id="what_channel">
+									<span class="text-name">Bạn đang sử dụng thiết bị di động nào?</span>
+									<span class="carets"><img src="images/icon-arrow.svg" ></span>
+								</div>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="what_channel">
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="iPhone">iPhone</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="iPad">iPad</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Điện thoại hệ điều hành Android">Điện thoại hệ điều hành Android</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Máy tính bảng hệ điều hành Android">Máy tính bảng hệ điều hành Android</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" class="other" data-value="Khác">Khác <input type="text" placeholder="Khác"></a></li>
+								</ul>
+								<input type="hidden" name="what_channel">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
 							<div class="dropdown last">
 								<div class="dropdown-toggle" data-toggle="dropdown" id="what_channel">
 									<span class="text-name">Bạn biết đến DOKOREHA qua kênh nào?</span>

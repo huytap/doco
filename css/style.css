@@ -466,9 +466,6 @@ select.form-control:focus{
 	margin-bottom: 15px;
 	z-index: 1;
 }
-.dropdown.last{
-	z-index: 1;
-}
 .btnSubmit{
 	background: #FF9533;
 	box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1);
@@ -488,7 +485,7 @@ select.form-control:focus{
 .dropdown{
 	background-color: #fff;
 	text-align: left;
-	z-index: 4;
+	z-index: 6;
 	cursor: pointer;
 }
 .dropdown input[type="text"]{
@@ -497,13 +494,19 @@ select.form-control:focus{
 	display: inline-block;
 }
 #myForm .row:nth-child(2) .dropdown{
-	z-index: 6;
-}
-#myForm .row:nth-child(3) .dropdown{
 	z-index: 5;
 }
+#myForm .row:nth-child(3) .dropdown{
+	z-index: 4;
+}
 #myForm .row:nth-child(4) .dropdown{
+	z-index: 3;
+}
+.dropdown.device{
 	z-index: 2;
+}
+.dropdown.last{
+	z-index: 1;
 }
 .dropdown .text-name{
 	padding-right: 20px;
