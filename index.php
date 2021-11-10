@@ -213,7 +213,7 @@
 						<div class="res-content">
 							<div class="ct">
 								<h3 class="title wow fadeInUp" data-wow-duration="1s">Tương thích với<br/>mọi thiết bị</h3>
-								<p class="wow fadeInUp" data-wow-duration="1s">Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng. DOKOREHA được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS</p>
+								<p class="wow fadeInUp" data-wow-duration="1s">Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng. DOKOREHA được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS.</p>
 							</div>
 						</div>
 					</div>
