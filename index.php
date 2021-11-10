@@ -89,7 +89,7 @@
     			<div class="col-md-4 col-sm-5">
     				<div class="hop-content">
     					<h3 class="wow fadeInUp" data-wow-duration="1s">Hợp tác với các bệnh viện công Việt Nam</h3>
-    					<p class="wow fadeInUp" data-wow-duration="1s">Các bác sĩ và chuyên viên từ Tập đoàn Bệnh viện Kitahara đã thực hiện thành công các bài tập phục hồi chức năng và đào tạo nhân lực trình độ cao tại các bệnh viện công tại của Việt Nam,  với sự hỗ trợ từ ERIA (Viện Nghiên cứu Kinh tế ASEAN và Đông Á) và Chính phủ hai nước Việt-Nhật.</p>
+    					<p class="wow fadeInUp" data-wow-duration="1s">Các bác sĩ và chuyên viên từ Tập đoàn Bệnh viện Kitahara đã thực hiện thành công các bài tập phục hồi chức năng và đào tạo nhân lực trình độ cao tại các bệnh viện công của Việt Nam,  với sự hỗ trợ từ ERIA (Viện Nghiên cứu Kinh tế ASEAN và Đông Á) và Chính phủ hai nước Việt-Nhật.</p>
 						<div id="slide-pagination" class="swiper-pagination wow fadeInUp" data-wow-duration="1s">
 							<a class="swiper-prev"><img src="images/icon-arrow-left.png" width="24"></a>
 							<a class="swiper-next"><img src="images/icon-arrow-right.png" width="24"></a>
@@ -168,7 +168,7 @@
 								<h4>
 									Tải và đăng nhập ứng dụng
 								</h4>
-								<p>Khi ứng dụng DOKOREHA ra mắt, chúng tôi sẽ gửi đường dẫn tải phần mềm và hướng dẫn đăng nhập đến email bạn đăng ký.  </p>
+								<p>Khi ứng dụng DOKOREHA ra mắt, chúng tôi sẽ gửi đường dẫn tải và hướng dẫn đăng nhập đến email bạn đăng ký.  </p>
 							</div>
 						</div>
     				</div>
@@ -224,7 +224,7 @@
 						<h3 class="wow fadeInUp" data-wow-duration="1s">Những khối óc và con tim phía sau DOKOREHA</h3>
 						<p class="wow fadeInUp" data-wow-duration="1s">Nằm trong nhóm 3 đơn vị trị liệu phục hồi sau đột quỵ hiệu quả nhất Tokyo hằng năm, Tập đoàn Y tế Kitahara hướng đến sự phát triển toàn diện, liên tục. Năm 2016, Kitahara thành lập bệnh viện tại Campuchia, khởi đầu cho nhiệm vụ chia sẻ kiến thức trị liệu Nhật Bản với các nước bạn, và tiếp tục triển khai hợp tác với các nước khác, trong đó có Việt Nam. Bên cạnh đó, Kitahara tích cực nghiên cứu và ứng dụng công nghệ thông tin, trí tuệ nhân  tạo để nâng cao hiệu quả và chất lượng trị liệu.</p>
 						<p class="wow fadeInUp" data-wow-duration="1s">Mục tiêu của Kitahara không dừng lại ở việc mang dịch vụ trị liệu vượt ra ngoài biên giới Nhật Bản, mà còn hướng đến việc cung cấp kiến thức về vận hành, đào tạo nhân lực, văn hoá thực dưỡng, và ứng dụng công nghệ thông tin vào những khía cạnh đa dạng của đời sống, đặc biệt là y tế.</p>
-						<p class="wow fadeInUp" data-wow-duration="1s">DOKOREHA là ứng dụng hỗ trợ luyện tập phục hồi chức năng từ xa, do tập đoàn Bệnh viện Kitahara phát triển.</p>
+						<p class="wow fadeInUp" data-wow-duration="1s">DOKOREHA là ứng dụng hỗ trợ luyện tập phục hồi chức năng từ xa, do Tập đoàn Bệnh viện Kitahara và Tập đoàn Công nghệ ExaWizards hợp tác phát triển.</p>
 						<div class="row">
 							<div class="col-sm-5 wow fadeInUp" data-wow-duration="1s"><img src="images/team1.png" class="img-responsive"/></div>
 							<div class="col-sm-3 wow fadeInUp" data-wow-duration="1s"><img src="images/team2.png" class="img-responsive"/></div>
@@ -347,7 +347,7 @@
 						</div>
 						<div class="col-sm-6">
 							<div class="input-label">
-								<div id="remote_issue" class="text-name">Xin hãy cho chúng tôi biết nguyên nhân dẫn đến những vấn đề mà bạn gặp phải ở câu trên</div>
+								<div id="remote_issue" class="text-name">Xin hãy cho chúng tôi biết nguyên nhân dẫn đến những vấn đề sức khoẻ mà bạn gặp phải</div>
 								<div class="list-option">
 									<div class="checkbox">
 										<label>
@@ -612,7 +612,7 @@
 						<div class="panel-heading" role="tab" id="headingFour">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-								Q: Có cần phải luyện tập mỗi ngày không?  
+								Q: Tần suất luyện tập như thế nào là phù hợp?
 								</a>
 							</h4>
 						</div>
@@ -689,7 +689,7 @@
 					<h3>
 						Cảm ơn bạn đã quan tâm đến<br/>ứng dụng DOKOREHA
 					</h3>
-					<p>Chúng tôi sẽ liên lạc với bạn qua email trong<br/>thời gian sớm nhất</p>
+					<p>Chúng tôi sẽ liên lạc với bạn qua email trong<br/>thời gian sớm nhất.</p>
 				</div>
 			</div>
 		</div>
