@@ -576,7 +576,7 @@
 						</div>
 						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 							<div class="panel-body">
-							A: Để đạt được hiệu quả, bạn nên duy trì luyện tập từ xa thường xuyên mỗi ngày, có thể linh hoạt trong những không gian khác nhau, để chủ động tạo thành thói quen trong cuộc sống, giúp thiết lập và duy trì tiến độ phục hồi vững chắc. Tuy nhiên xin lưu ý rằng trong giai đoạn đầu triển khai ứng dụng, đối tượng chúng tôi muốn hướng đến là các bệnh nhân mắc căn bệnh về đột quỵ não (tai biến mạch máu não).
+							A: Để đạt được hiệu quả, bạn nên duy trì luyện tập từ xa thường xuyên mỗi ngày, có thể linh hoạt trong những không gian khác nhau, để chủ động tạo thành thói quen trong cuộc sống, giúp thiết lập và duy trì tiến độ phục hồi vững chắc. Các bài luyện tập phục hồi chức năng được thiết kế phù hợp cho các vấn đề liên quan đến đột quỵ não (tai biến mạch máu não)
 							</div>
 						</div>
 					</div>
