@@ -542,6 +542,9 @@
   .question{
     padding-top: 75px;
   }
+  .swiper-slide:nth-child(3) {
+    width: 73%;
+  }
 }
 @media(max-width:375px) {
   .dropdown{
