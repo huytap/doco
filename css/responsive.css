@@ -545,6 +545,10 @@
   .swiper-slide:nth-child(3) {
     width: 73%;
   }
+  .btn-register{
+    margin-top: 5px;
+    font-size: 14px;
+  }
 }
 @media(max-width:375px) {
   .dropdown{
