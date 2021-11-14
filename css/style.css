@@ -588,11 +588,11 @@ input:checked + label + .checkmark::after{
 .modal-content{
 	box-shadow: 0 0;
 	-webkit-box-shadow: 0 0;
-	background: url(../images/banner.jpg) no-repeat;
+	background: url(../images/banner.jpg) #FF9533 no-repeat bottom;
 	background-size: 100%;
 	color: #fff;
 	font-size: 18px;
-	padding: 56px 56px 220px;
+	padding: 56px 56px 242px;
 	border: 0;
 }
 .modal-content h3{
@@ -603,6 +603,10 @@ input:checked + label + .checkmark::after{
 	text-transform: uppercase;
 	color: #fff;
 	margin-bottom: 30px;
+	width: 60%;
+}
+.modal-content p{
+	width: 45%;
 }
 .modal-header .close{
 	padding: 10px;
@@ -621,7 +625,6 @@ input:checked + label + .checkmark::after{
 	font-family: 'Mulish';
 	font-size: 18px;
 	font-weight: normal;
-	font-size: 18px;
 }
 .modal-body{
 	padding: 0;

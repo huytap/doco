@@ -121,11 +121,13 @@ $(document).ready(function () {
                 url: scriptURL,
                 type: "post",
                 beforeSend: function(){
+                    //history.pushState(null, null, 'https://dokoreha.vn/thankyou.html');
                     $('#loading').show();
                 },
                 data: data
             });
             request.done(function (response, textStatus, jqXHR){
+                location.href = 'https://dokoreha.vn/thankyou.html';
                 $('#loading').hide();
                 document.getElementById("myForm").reset();
                 $('#popup').modal('show');

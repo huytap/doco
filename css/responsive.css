@@ -524,6 +524,18 @@
   }
 }
 @media(max-width:440px){
+  .modal-content{
+    padding: 40px 20px 290px;
+    background-size: 140%;
+    background-position: 100% 100%;
+  }
+  .modal-content h3{
+    letter-spacing: -0.3px;
+    width: 100%;
+  }
+  .modal-content p{
+    width: 100%;
+  }
   .dropdown{
     padding-top: 40px;
     padding-bottom: 40px;

@@ -4,6 +4,11 @@
     <meta charset="utf-8">
 	<meta name="language" content="en">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Ứng dụng hỗ trợ luyện tập phục hồi chức năng từ xa của Nhật Bản">
+	<meta name="og:description" content="Ứng dụng hỗ trợ luyện tập phục hồi chức năng từ xa của Nhật Bản">
+	<meta property="og:image" content="https://dokoreha.vn/images/banner-share.jpg">
+	<meta property="og:title" content="DOKOREHA">
+	<meta property="og:url" content="https://dokoreha.vn">
     <title>DOKOREHA</title>
 	<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
@@ -29,8 +34,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&family=Be+Vietnam:wght@700&family=Mulish&family=Roboto&display=swap" rel="stylesheet">
     <link href="css/swiper-bundle.min.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/style.css?v=001" rel="stylesheet">
-    <link href="css/responsive.css?v=001" rel="stylesheet">
+    <link href="css/style.css?v=003" rel="stylesheet">
+    <link href="css/responsive.css?v=003" rel="stylesheet">
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5SCGPK8');</script>
+	<!-- End Google Tag Manager -->
+
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SCGPK8"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 </head>
 <body>
     <div class="header">
@@ -683,13 +701,13 @@
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
-					<span class="close" data-dismiss="modal" aria-hidden="true">Đóng <img src="images/close.svg"></span>
+					<span id="close" class="close" data-dismiss="modal" aria-hidden="true">Đóng <img src="images/close.svg"></span>
 				</div>
 				<div class="modal-body">
 					<h3>
-						Cảm ơn bạn đã quan tâm đến<br/>ứng dụng DOKOREHA
+						Cảm ơn bạn đã quan tâm đến ứng dụng DOKOREHA
 					</h3>
-					<p>Chúng tôi sẽ liên lạc với bạn qua email trong<br/>thời gian sớm nhất.</p>
+					<p>Chúng tôi sẽ liên lạc với bạn qua email trong thời gian sớm nhất.</p>
 				</div>
 			</div>
 		</div>
@@ -703,7 +721,15 @@
 	<script type="text/javascript" src="js/wow.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.js"></script> -->
-    <script type="text/javascript" src="js/js.js"></script>
+    <script type="text/javascript" src="js/js.js?v=002"></script>
+	<?php if(isset($_GET['param']) && $_GET['param'] == 'thankyou'){?>
+		<script>
+			$('#popup').modal('show');
+			$('#close').click(function(){
+				location.href= '/';
+			})
+		</script>
+	<?php }?>
 </body>
 </html>
 
