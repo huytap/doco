@@ -684,7 +684,7 @@
 	    				<a href="/" class="wow fadeInUp" data-wow-duration="1s"><img class="logo-footer" src="images/logo-footer.png" width="255"></a>
 	    			</div>
 	    			<div class="col-sm-4 col-xs-12">
-	    				<p class="wow fadeInUp" data-wow-duration="1s">© 2021 ExaWizards Inc.</p>
+	    				<p class="wow fadeInUp" data-wow-duration="1s">© 2021 Kitahara Medical Strategies International Co., Ltd.</p>
 	    			</div>
 	    			<div class="col-sm-4 col-xs-12">
 		    			<ul class="social text-right wow fadeInUp" data-wow-duration="1s"">
