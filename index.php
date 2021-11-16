@@ -256,7 +256,7 @@
 			<div class="container">
 				<h3 class="title wow fadeInUp" data-wow-duration="1s">Nhận quà tặng dùng thử DOKOREHA</h2>
 				<p class="wow fadeInUp" data-wow-duration="1s">
-					Nếu bạn muốn <strong>dùng thử dịch vụ miễn phí trong 2 tháng</strong> cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>31/11/2021.</strong></span>
+					Nếu bạn muốn <strong>dùng thử dịch vụ miễn phí trong 2 tháng</strong> cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>15/12/2021.</strong></span>
 				</p>
 				<p class="wow fadeInUp" data-wow-duration="1s">
 					Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp đăng ký thành công.
