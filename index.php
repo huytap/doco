@@ -34,7 +34,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&family=Be+Vietnam:wght@700&family=Mulish&family=Roboto&display=swap" rel="stylesheet">
     <link href="css/swiper-bundle.min.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/style.css?v=003" rel="stylesheet">
+    <link href="css/style.css?v=002" rel="stylesheet">
     <link href="css/responsive.css?v=003" rel="stylesheet">
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
