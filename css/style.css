@@ -420,7 +420,7 @@ h3{
 	background: #FF9533;
 	border-radius: 10px;
 	display: inline-block;
-	padding:10px 15px;
+	padding:15px 15px 15px;
 }
 .reha h3.title span{
 	color:#090909;
@@ -567,6 +567,19 @@ input:checked + label + .checkmark::after{
 }
 .checkbox input[type="text"]::-ms-input-placeholder { /* Microsoft Edge */
 	color: #BCBCBC;
+}
+.fill-text{
+	font-size: 20px;
+}
+.chose-fill{
+	line-height: 1.8;
+	margin-bottom: 20px;
+}
+.chose-fill strong{
+	font-size: 24px;
+}
+.chose-fill strong span{
+	color:#FF9533;
 }
 .switch {
 	position: relative;

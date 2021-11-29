@@ -305,6 +305,7 @@ $(function(){
     $('#bxslider').bxSlider({
       mode: 'fade',
       captions: false,
+      touchEnabled: false,
       nextSelector: "#slider-next",
       prevSelector: "#slider-prev",
       nextText: '<img src="images/icon-arrow-right.png" width="24">',

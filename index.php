@@ -259,14 +259,10 @@
 		</div>
 		<div class="reha" id="dang-ky-nhan-uu-dai">
 			<div class="container">
-				<h3 class="title wow fadeInUp" data-wow-duration="1s">Cơ hội nhận quà tặng dùng thử từ DOKOREHA</h2>
-				<p class="wow fadeInUp" data-wow-duration="1s">
-					Nếu bạn muốn <strong>dùng thử dịch vụ miễn phí trong 2 tháng</strong> cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>15/12/2021.</strong></span>
+				<h3 class="title wow fadeInUp" data-wow-duration="1s">Đăng ký để được tư vấn về dịch vụ DOKOREHA<br/>cùng cơ hội nhận được 2 tháng trải nghiệm miễn phí</h2>
+				<p class="wow fadeInUp fill-text" data-wow-duration="1s">
+					Vui lòng điền các thông tin dưới đây để nhận sự tư vấn sớm nhất từ các chuyên viên DOKOREHA.
 				</p>
-				<p class="wow fadeInUp" data-wow-duration="1s">
-					Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp được nhận ưu đãi.
-				</p>
-				<p class="wow fadeInUp" data-wow-duration="1s">Để đăng ký, vui lòng điền đầy đủ các thông tin dưới đây.</p>
 				<form class="form-contact wow fadeInUp" data-wow-duration="1s" id="myForm" name="submit-to-google-sheet">
 					<div class="row">
 						<div class="col-sm-6">
@@ -283,8 +279,10 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-12">
-							<p>
-							Cảm ơn bạn đã cung cấp thông tin để tư vấn. Trả lời thêm những câu dưới đây để đăng ký cơ hội <strong>dùng thử dịch vụ miễn phí trong 2 tháng</strong> cho người thân hoặc cho bản thân (Từ hôm nay đến hết 15/12/2021)
+							<p class="chose-fill">
+							Cảm ơn bạn đã cung cấp thông tin để được nhận tư vấn.<br/>
+							<strong>Trả lời thêm những câu dưới đây để có <span>cơ hội dùng thử dịch vụ miễn phí trong 2 tháng</span></strong><br/>
+							cho người thân hoặc cho bản thân, hãy đăng ký sớm từ hôm nay đến hết 15/12/2021. Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp được nhận ưu đãi.
 							</p>
 							<div class="switch">
 								<label class="col-xs-6">
@@ -292,8 +290,8 @@
 									<span class="slider round">Tôi muốn đăng ký cơ hội dùng thử</span>			
 								</label>
 								<label class="col-xs-6">
-									<input type="radio" name="try_register" value="Tôi không có đầy đủ thông tin">
-									<span class="slider round">Tôi không có đầy đủ thông tin</span>			
+									<input type="radio" name="try_register" value="Tôi chưa muốn đăng ký dùng thử">
+									<span class="slider round">Tôi chưa muốn đăng ký dùng thử</span>			
 								</label>						
 							</div>
 						</div>
