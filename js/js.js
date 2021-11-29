@@ -74,9 +74,11 @@ $(document).ready(function () {
             if($(this).is(":checked") && $(j).val() == 'Tôi muốn đăng ký cơ hội dùng thử'){
                 $('#step2').show();
                 step2 = true;
+                $('.btnSubmit').text('GỬI THÔNG TIN ĐĂNG KÝ')
             }else{
                 $('#step2').hide();
                 step2 = false;
+                $('.btnSubmit').text('GỬI THÔNG TIN NHẬN TƯ VẤN')
             }
         })
     })
@@ -188,7 +190,6 @@ $(document).ready(function () {
         var data = {};
         
         $(form).serializeArray().map(function(x){
-            console.log(x.value)
             if(x.value=='Khác'){                
                 if($.trim($('input[name="'+x.name+'"]').next().next().val()) == ''){
                     var other = '<span class="error">Vui lòng điền thông tin vào ô khác</span>';
@@ -209,9 +210,10 @@ $(document).ready(function () {
             else
                 data[x.name] = x.value;
         }); 
-        if(goSubmit == 'false'){
+        if(goSubmit == false){
             return false;
         }
+        
         request = $.ajax({
             url: scriptURL,
             type: "post",
@@ -231,6 +233,7 @@ $(document).ready(function () {
         });
         return false;
     }
+    /*scroll*/
     var lastScroll = 105;
     var mgTop = $('#btnRegister').offset().top;
     window.onscroll = function () {
@@ -258,7 +261,8 @@ $(document).ready(function () {
     }
     var url = location.hash;
     if(url)
-    $('html,body').animate({scrollTop:$(url).offset().top}, 1700);
+        $('html,body').animate({scrollTop:$(url).offset().top}, 1700);
+    
     $(".btn-register").click(function () {
         $('html,body').animate({scrollTop:$('#dang-ky-nhan-uu-dai').offset().top}, 1700);
     });
