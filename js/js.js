@@ -207,7 +207,9 @@ $(document).ready(function () {
             data: data
         });
         request.done(function (response, textStatus, jqXHR){
-            location.href = 'https://dokoreha.vn/thankyou.html';
+            //location.href = 'https://dokoreha.vn/thankyou.html';
+            var url = window.location.href;
+            location.href = url + '/thankyou.html';
             $('#loading').hide();
             document.getElementById("myForm").reset();
             $('#popup').modal('show');
