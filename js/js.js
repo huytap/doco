@@ -177,8 +177,8 @@ $(document).ready(function () {
         });
     }
 
-    function formSubmit(form, goSubmit,e){
-        if(!goSubmit){
+    function formSubmit(form, goSubmit,e){        
+        if(goSubmit == 'false'){
             return false;
         }
         e.preventDefault();
@@ -188,7 +188,20 @@ $(document).ready(function () {
         var data = {};
         
         $(form).serializeArray().map(function(x){
-            if(x.value=='Khác'){
+            console.log(x.value)
+            if(x.value=='Khác'){                
+                if($.trim($('input[name="'+x.name+'"]').next().next().val()) == ''){
+                    var other = '<span class="error">Vui lòng điền thông tin vào ô khác</span>';
+                    if($('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').length){
+
+                    }else{
+                        $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').append(other);
+                    }
+                    goSubmit = false;
+                }else{
+                    goSubmit = true;
+                    $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').remove()
+                }
                 x.value = 'Khác: '+$('input[name="'+x.name+'"]').next().next().val();
             }
             if(data[x.name] != undefined)
@@ -196,7 +209,9 @@ $(document).ready(function () {
             else
                 data[x.name] = x.value;
         }); 
-        
+        if(goSubmit == 'false'){
+            return false;
+        }
         request = $.ajax({
             url: scriptURL,
             type: "post",

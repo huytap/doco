@@ -278,18 +278,22 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12">
+						<div class="col-xs-12">
 							<p class="chose-fill">
 							Cảm ơn bạn đã cung cấp thông tin để được nhận tư vấn.<br/>
 							<strong>Trả lời thêm những câu dưới đây để có <span>cơ hội dùng thử dịch vụ miễn phí trong 2 tháng</span></strong><br/>
 							cho người thân hoặc cho bản thân, hãy đăng ký sớm từ hôm nay đến hết 15/12/2021. Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp được nhận ưu đãi.
 							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
 							<div class="switch">
-								<label class="col-xs-6">
+								<label class="col-sm-6 col-xs-12">
 									<input type="radio" name="try_register" value="Tôi muốn đăng ký cơ hội dùng thử" checked="checked">
 									<span class="slider round">Tôi muốn đăng ký cơ hội dùng thử</span>			
 								</label>
-								<label class="col-xs-6">
+								<label class="col-sm-6 col-xs-12">
 									<input type="radio" name="try_register" value="Tôi chưa muốn đăng ký dùng thử">
 									<span class="slider round">Tôi chưa muốn đăng ký dùng thử</span>			
 								</label>						
