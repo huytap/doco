@@ -34,8 +34,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&family=Be+Vietnam:wght@700&family=Mulish&family=Roboto&display=swap" rel="stylesheet">
     <link href="css/swiper-bundle.min.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/style.css?v=002" rel="stylesheet">
-    <link href="css/responsive.css?v=003" rel="stylesheet">
+    <link href="css/style.css?v=003" rel="stylesheet">
+    <link href="css/responsive.css?v=004" rel="stylesheet">
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -53,10 +53,10 @@
 <body>
     <div class="header">
         <a class="logo" href="/">
-			<img src="images/logo.png" class="hidden-xs" width="255">
-			<img src="images/logo-mobile.svg" class="hidden-lg hidden-md hidden-sm">
+			<img src="images/logo.png" width="255">
+			<!-- <img src="images/logo-mobile.svg" class="hidden-lg hidden-md hidden-sm"> -->
 		</a>
-        <div class="pull-right">
+        <div class="pull-right hidden-xs" id="btnRegisterDesk">
         	<a class="btn-register" href="#dang-ky-nhan-uu-dai">ĐĂNG KÝ ĐỂ CÓ CƠ HỘI NHẬN QUÀ</a>
         	<!-- <img src="images/vi.svg" width="42"> -->
         </div>
@@ -76,7 +76,8 @@
 			<div class="row">
 				<div class="col-md-5 col-sm-6">
 					<div class="video">
-						<h4 id="viewVideo">Video giới thiệu</h4>
+						<h4 id="viewVideo">Video giới thiệu</h4><br/>
+						<a class="btn-register hidden-lg hidden-md hidden-sm" id="btnRegister" href="#dang-ky-nhan-uu-dai">ĐĂNG KÝ ĐỂ CÓ<br/>CƠ HỘI NHẬN QUÀ</a>
 						<button type="button" class="close" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
@@ -161,13 +162,13 @@
     		<div class="container">
     			<h3 class="wow fadeInUp" data-wow-duration="1s">Sử dụng DOKOREHA dễ như thế nào?</h3>
     			<p class="doco-short wow fadeInUp" data-wow-duration="1s">4 bước thật đơn giản để cùng ứng dụng luyện tập phục hồi chuyên biệt DOKOREHA cải thiện sức khỏe, tìm lại niềm vui sống mỗi ngày! </p>
-    			<div class="row">
-    				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+    			<div class="row" id="bxslider">
+    				<div class="col-md-3 col-sm-6 item">
 						<div class="row">
-							<div class="col-md-12 col-sm-12 col-xs-3">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<div class="step first"><span>1</span></div>
 							</div>
-							<div class="col-md-12 col-sm-12 col-xs-9">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<img src="images/doco1.svg" class="img-responsive">
 								<h4>
 									Đăng ký sử dụng
@@ -176,12 +177,12 @@
 							</div>
 						</div>
     				</div>
-    				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+    				<div class="col-md-3 col-sm-6 item">
 						<div class="row">
-							<div class="col-md-12 col-sm-12 col-xs-3">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<div class="step two"><span>2</span></div>
 							</div>
-							<div class="col-md-12 col-sm-12 col-xs-9">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<img src="images/doco2.svg" class="img-responsive">
 								<h4>
 									Tải và đăng nhập ứng dụng
@@ -190,12 +191,12 @@
 							</div>
 						</div>
     				</div>
-    				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+    				<div class="col-md-3 col-sm-6 item">
 						<div class="row">
-							<div class="col-md-12 col-sm-12 col-xs-3">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<div class="step third"><span>3</span></div>
 							</div>
-							<div class="col-md-12 col-sm-12 col-xs-9">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<img src="images/doco3.svg" class="img-responsive">
 								<h4>
 									Tư vấn trực tuyến
@@ -204,12 +205,12 @@
 							</div>
 						</div>
     				</div>
-    				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+    				<div class="col-md-3 col-sm-6 item">
 						<div class="row">
-							<div class="col-md-12 col-sm-12 col-xs-3">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<div class="step last"><span>4</span></div>
 							</div>
-							<div class="col-md-12 col-sm-12 col-xs-9">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<img src="images/doco1.svg" class="img-responsive">
 								<h4>
 									Luyện tập và theo dõi
@@ -219,6 +220,10 @@
 						</div>	
     				</div>
     			</div>
+				<div class="slider-paination hidden-lg hidden-sm hidden-md">
+					<div id="slider-prev" role="button" aria-label="Prev slide" aria-disabled="false"></div>
+					<div id="slider-next" role="button" aria-label="Next slide" aria-disabled="false"></div>
+				</div>
     		</div>
     	</div>
 		<div class="res">
@@ -231,7 +236,7 @@
 						<div class="res-content">
 							<div class="ct">
 								<h3 class="title wow fadeInUp" data-wow-duration="1s">Tương thích với<br/>mọi thiết bị</h3>
-								<p class="wow fadeInUp" data-wow-duration="1s">Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng. DOKOREHA được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS.</p>
+								<p class="wow fadeInUp" data-wow-duration="1s">Với sự thấu hiểu tuyệt đối đến nhu cầu luyện tập linh hoạt cho khách hàng, DOKOREHA được thiết kế để hoạt động tối ưu trên hầu hết tất cả các thiết bị iOS.</p>
 							</div>
 						</div>
 					</div>
@@ -254,12 +259,12 @@
 		</div>
 		<div class="reha" id="dang-ky-nhan-uu-dai">
 			<div class="container">
-				<h3 class="title wow fadeInUp" data-wow-duration="1s">Nhận quà tặng dùng thử DOKOREHA</h2>
+				<h3 class="title wow fadeInUp" data-wow-duration="1s">Cơ hội nhận quà tặng dùng thử từ DOKOREHA</h2>
 				<p class="wow fadeInUp" data-wow-duration="1s">
 					Nếu bạn muốn <strong>dùng thử dịch vụ miễn phí trong 2 tháng</strong> cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>15/12/2021.</strong></span>
 				</p>
 				<p class="wow fadeInUp" data-wow-duration="1s">
-					Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp đăng ký thành công.
+					Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp được nhận ưu đãi.
 				</p>
 				<p class="wow fadeInUp" data-wow-duration="1s">Để đăng ký, vui lòng điền đầy đủ các thông tin dưới đây.</p>
 				<form class="form-contact wow fadeInUp" data-wow-duration="1s" id="myForm" name="submit-to-google-sheet">
@@ -277,225 +282,244 @@
 						</div>
 					</div>
 					<div class="row">
-						<!-- <div class="col-sm-6">
-							<div class="dropdown">
-								<div class="dropdown-toggle" data-toggle="dropdown" id="who_register">
-									<span class="text-name">Bạn đăng ký cho mình hay cho người thân?</span>
-									<span class="carets"><img src="images/icon-arrow.svg" ></span>
-								</div>
-								<ul class="dropdown-menu" role="menu" aria-labelledby="who_register">
-									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cho mình">Cho mình</a></li>
-									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cho người thân">Cho người thân</a></li>
-								</ul>
-								<input type="hidden" name="who_register">
-							</div>
-						</div> -->
 						<div class="col-sm-12">
-							<div class="input-label radio">
-								<div id="who_register" class="text-name">Bạn đăng ký cho mình hay cho người thân?</div>
-								<div class="list-option">
-									<div class="checkbox">
-										<label>
-											Cho mình
-											<input type="radio" name="who_register" value="Cho mình">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Cho người thân
-											<input type="radio" name="who_register" value="Cho người thân">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-								</div>
+							<p>
+							Cảm ơn bạn đã cung cấp thông tin để tư vấn. Trả lời thêm những câu dưới đây để đăng ký cơ hội <strong>dùng thử dịch vụ miễn phí trong 2 tháng</strong> cho người thân hoặc cho bản thân (Từ hôm nay đến hết 15/12/2021)
+							</p>
+							<div class="switch">
+								<label class="col-xs-6">
+									<input type="radio" name="try_register" value="Tôi muốn đăng ký cơ hội dùng thử" checked="checked">
+									<span class="slider round">Tôi muốn đăng ký cơ hội dùng thử</span>			
+								</label>
+								<label class="col-xs-6">
+									<input type="radio" name="try_register" value="Tôi không có đầy đủ thông tin">
+									<span class="slider round">Tôi không có đầy đủ thông tin</span>			
+								</label>						
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="input-label">
-								<div class="text-name" id="your_difficulties">Bạn cần luyện tập phục hồi chức năng để cải thiện vấn đề sức khoẻ gì?</div>
-								<div class="list-option">
-									<div class="checkbox">
-										<label>
-											Loạng choạng lúc đi đứng
-											<input type="checkbox" name="your_difficulties[]" value="Loạng choạng lúc đi đứng">
-											<span class="checkmark"></span>
-										</label>
-									</div>								
-									<div class="checkbox">
-										<label>
-											Cánh tay bị tê, không hoạt động được bình thường trong sinh hoạt
-											<input type="checkbox" name="your_difficulties[]" value="Cánh tay bị tê, không hoạt động được bình thường trong sinh hoạt">
-											<span class="checkmark"></span>
-										</label>
+					<div id="step2">
+						<div class="row">
+							<!-- <div class="col-sm-6">
+								<div class="dropdown">
+									<div class="dropdown-toggle" data-toggle="dropdown" id="who_register">
+										<span class="text-name">Bạn đăng ký cho mình hay cho người thân?</span>
+										<span class="carets"><img src="images/icon-arrow.svg" ></span>
 									</div>
-									<div class="checkbox">
-										<label>
-											Đau nhức
-											<input type="checkbox" name="your_difficulties[]" value="Đau nhức">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Không muốn phụ thuộc nhiều vào sự trợ giúp của người thân
-											<input type="checkbox" name="your_difficulties[]" value="Không muốn phụ thuộc nhiều vào sự trợ giúp của người thân">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Mong muốn đầu óc, nhận thức trở nên linh hoạt hơn
-											<input type="checkbox" name="your_difficulties[]" value="Mong muốn đầu óc, nhận thức trở nên linh hoạt hơn">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox other">
-										<label>
-											Khác
-											<input type="checkbox" name="your_difficulties[]" value="Khác">
-											<span class="checkmark"></span>
-											<input type="text" placeholder="Điền thông tin khác" id="your_difficulties_other">
-										</label>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="who_register">
+										<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cho mình">Cho mình</a></li>
+										<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cho người thân">Cho người thân</a></li>
+									</ul>
+									<input type="hidden" name="who_register">
+								</div>
+							</div> -->
+							<div class="col-sm-12">
+								<div class="input-label radio">
+									<div id="who_register" class="text-name">Bạn đăng ký cho mình hay cho người thân?</div>
+									<div class="list-option">
+										<div class="checkbox">
+											<label>
+												Cho mình
+												<input type="radio" name="who_register" value="Cho mình">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Cho người thân
+												<input type="radio" name="who_register" value="Cho người thân">
+												<span class="checkmark"></span>
+											</label>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6">
-							<div class="input-label">
-								<div id="remote_issue" class="text-name">Xin hãy cho chúng tôi biết nguyên nhân dẫn đến những vấn đề sức khoẻ mà bạn gặp phải</div>
-								<div class="list-option">
-									<div class="checkbox">
-										<label>
-											Đột quỵ não
-											<input type="checkbox" name="reason[]" value="Đột quỵ não">
-											<span class="checkmark"></span>
-										</label>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="input-label">
+									<div class="text-name" id="your_difficulties">Bạn cần luyện tập phục hồi chức năng để cải thiện vấn đề sức khoẻ gì?</div>
+									<div class="list-option">
+										<div class="checkbox">
+											<label>
+												Loạng choạng lúc đi đứng
+												<input type="checkbox" name="your_difficulties[]" value="Loạng choạng lúc đi đứng">
+												<span class="checkmark"></span>
+											</label>
+										</div>								
+										<div class="checkbox">
+											<label>
+												Cánh tay bị tê, không hoạt động được bình thường trong sinh hoạt
+												<input type="checkbox" name="your_difficulties[]" value="Cánh tay bị tê, không hoạt động được bình thường trong sinh hoạt">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Đau nhức
+												<input type="checkbox" name="your_difficulties[]" value="Đau nhức">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Không muốn phụ thuộc nhiều vào sự trợ giúp của người thân
+												<input type="checkbox" name="your_difficulties[]" value="Không muốn phụ thuộc nhiều vào sự trợ giúp của người thân">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Mong muốn đầu óc, nhận thức trở nên linh hoạt hơn
+												<input type="checkbox" name="your_difficulties[]" value="Mong muốn đầu óc, nhận thức trở nên linh hoạt hơn">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox other">
+											<label>
+												Khác
+												<input type="checkbox" name="your_difficulties[]" value="Khác">
+												<span class="checkmark"></span>
+												<input type="text" placeholder="Điền thông tin khác" id="your_difficulties_other">
+											</label>
+										</div>
 									</div>
-									<div class="checkbox">
-										<label>
-											Bị gãy xương
-											<input type="checkbox" name="reason[]" value="Bị gãy xương">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Chấn thương tuỷ sống
-											<input type="checkbox" name="reason[]" value="Chấn thương tuỷ sống">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Đau khớp
-											<input type="checkbox" name="reason[]" value="Đau khớp">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Chấn thương vùng đầu
-											<input type="checkbox" name="reason[]" value="Chấn thương vùng đầu">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Bệnh liệt rung (bệnh Parkinson)
-											<input type="checkbox" name="reason[]" value="Bệnh liệt rung (bệnh Parkinson)">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox other">
-										<label>
-											Khác
-											<input type="checkbox" name="reason[]" value="Khác">
-											<span class="checkmark"></span>
-											<input type="text" placeholder="Điền thông tin khác" id="reason_other">
-										</label>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="input-label">
+									<div id="remote_issue" class="text-name">Xin hãy cho chúng tôi biết nguyên nhân dẫn đến những vấn đề sức khoẻ mà bạn gặp phải</div>
+									<div class="list-option">
+										<div class="checkbox">
+											<label>
+												Đột quỵ não
+												<input type="checkbox" name="reason[]" value="Đột quỵ não">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Bị gãy xương
+												<input type="checkbox" name="reason[]" value="Bị gãy xương">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Chấn thương tuỷ sống
+												<input type="checkbox" name="reason[]" value="Chấn thương tuỷ sống">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Đau khớp
+												<input type="checkbox" name="reason[]" value="Đau khớp">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Chấn thương vùng đầu
+												<input type="checkbox" name="reason[]" value="Chấn thương vùng đầu">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Bệnh liệt rung (bệnh Parkinson)
+												<input type="checkbox" name="reason[]" value="Bệnh liệt rung (bệnh Parkinson)">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox other">
+											<label>
+												Khác
+												<input type="checkbox" name="reason[]" value="Khác">
+												<span class="checkmark"></span>
+												<input type="text" placeholder="Điền thông tin khác" id="reason_other">
+											</label>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="input-label">
-								<div id="what_device" class="text-name">Bạn đang sử dụng thiết bị di động nào?</div>
-								<div class="list-option">
-									<div class="checkbox">
-										<label>
-											Điện thoại iPhone
-											<input type="checkbox" name="what_device[]" value="Điện thoại iPhone">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Máy tính bảng iPad
-											<input type="checkbox" name="what_device[]" value="Máy tính bảng iPad">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Điện thoại hệ điều hành Android
-											<input type="checkbox" name="what_device[]" value="Điện thoại hệ điều hành Android">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Máy tính bảng hệ điều hành Android
-											<input type="checkbox" name="what_device[]" value="Máy tính bảng hệ điều hành Android">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox other">
-										<label>
-											Khác
-											<input type="checkbox" name="what_device[]" value="Khác">
-											<span class="checkmark"></span>
-											<input type="text" placeholder="Điền thông tin khác" id="what_device_other">
-										</label>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="input-label">
+									<div id="what_device" class="text-name">Bạn đang sử dụng thiết bị di động nào?</div>
+									<div class="list-option">
+										<div class="checkbox">
+											<label>
+												Điện thoại iPhone
+												<input type="checkbox" name="what_device[]" value="Điện thoại iPhone">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Máy tính bảng iPad
+												<input type="checkbox" name="what_device[]" value="Máy tính bảng iPad">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Điện thoại hệ điều hành Android
+												<input type="checkbox" name="what_device[]" value="Điện thoại hệ điều hành Android">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Máy tính bảng hệ điều hành Android
+												<input type="checkbox" name="what_device[]" value="Máy tính bảng hệ điều hành Android">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox other">
+											<label>
+												Khác
+												<input type="checkbox" name="what_device[]" value="Khác">
+												<span class="checkmark"></span>
+												<input type="text" placeholder="Điền thông tin khác" id="what_device_other">
+											</label>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="input-label">
-								<div id="what_channel" class="text-name">Bạn biết đến DOKOREHA qua kênh nào?</div>
-								<div class="list-option">
-									<div class="checkbox">
-										<label>
-											Facebook
-											<input type="checkbox" name="what_channel[]" value="Facebook">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Google search
-											<input type="checkbox" name="what_channel[]" value="Google search">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox">
-										<label>
-											Người quen
-											<input type="checkbox" name="what_channel[]" value="Người quen">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="checkbox other">
-										<label>
-											Các website khác
-											<input type="checkbox" name="what_channel[]" value="Các website khác">
-											<span class="checkmark"></span>
-										</label>
+							<div class="col-sm-6">
+								<div class="input-label">
+									<div id="what_channel" class="text-name">Bạn biết đến DOKOREHA qua kênh nào?</div>
+									<div class="list-option">
+										<div class="checkbox">
+											<label>
+												Facebook
+												<input type="checkbox" name="what_channel[]" value="Facebook">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Google search
+												<input type="checkbox" name="what_channel[]" value="Google search">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												Người quen
+												<input type="checkbox" name="what_channel[]" value="Người quen">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="checkbox other">
+											<label>
+												Các website khác
+												<input type="checkbox" name="what_channel[]" value="Các website khác">
+												<span class="checkmark"></span>
+											</label>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -608,7 +632,7 @@
 						</div>
 						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 							<div class="panel-body">
-							A: Sau khi thảo luận cùng người dùng hoặc thân nhân, chuyên viên sẽ xây dựng một cách tỉ mỉ hệ thống các bài tập thích hợp. Tuy nhiên, DOKOREHA không chịu trách nhiệm nếu có rủi ro hoặc tai nạn xảy ra trong khi luyện tập.  Khi có bất kỳ câu hỏi hoặc vấn đề gì, hãy liên hệ với chuyên viên ngay để được tư vấn, hỗ trợ ngay, tránh những trường hợp ngoài ý muốn.
+							A: Sau khi thảo luận cùng người dùng hoặc người nhân, chuyên viên sẽ xây dựng một cách tỉ mỉ hệ thống các bài tập thích hợp. Tuy nhiên, DOKOREHA không chịu trách nhiệm nếu có rủi ro hoặc tai nạn xảy ra trong khi luyện tập.  Khi có bất kỳ câu hỏi hoặc vấn đề gì, hãy liên hệ với chuyên viên ngay để được tư vấn và hỗ trợ, tránh những trường hợp ngoài ý muốn.
 							</div>
 						</div>
 					</div>
@@ -636,7 +660,7 @@
 						</div>
 						<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-expanded="false" aria-labelledby="headingFour">
 							<div class="panel-body">
-							A: Chuyên viên sẽ nghiên cứu dự liệu tập luyện và thảo luận để nắm được nhịp sinh hoạt trong 1 tháng, 1 tuần, 1 ngày, và từ đó xây dựng hệ thống bài tập, chương trình luyện tập phù hợp nhất với thể trạng người dùng. 
+							A: Chuyên viên sẽ nghiên cứu dữ liệu tập luyện và thảo luận để nắm được nhịp sinh hoạt trong 1 tháng, 1 tuần, 1 ngày, và từ đó xây dựng hệ thống bài tập, chương trình luyện tập phù hợp nhất với thể trạng người dùng. 
 							</div>
 						</div>
 					</div>
@@ -650,7 +674,7 @@
 						</div>
 						<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
 							<div class="panel-body">
-							A: Chi phí tuỳ theo gói sản phẩm. Cụ thể thì chúng tôi vẫn còn đang cân nhắc chi phí dịch vụ liên quan đến trị liệu phục hồi, nên chúng tôi xin phép thông báo về mức phí ngay sau khi triển khai dịch vụ.
+							A: Chi phí tuỳ theo gói sản phẩm. Cụ thể thì chúng tôi vẫn còn đang cân nhắc chi phí dịch vụ liên quan đến luyện tập phục hồi, nên chúng tôi xin phép thông báo về mức phí ngay sau khi triển khai dịch vụ.
 							</div>
 						</div>
 					</div>
@@ -664,7 +688,7 @@
 						</div>
 						<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-expanded="false" aria-labelledby="headingSix">
 							<div class="panel-body">
-							A: Hiện tại vẫn chúng tôi đang trong quá trình chuẩn bị cho việc triển khai dịch vụ cho thị trường Việt Nam, trong thời gian sớm nhất có thể. Chúng tôi sẽ ưu tiên thông báo và hướng dẫn cho những bạn đã để lại thông tin đăng ký trên trang web này ngay sau khi vừa triển khai.
+							A: Hiện tại chúng tôi vẫn đang trong quá trình chuẩn bị cho việc triển khai dịch vụ cho thị trường Việt Nam, trong thời gian sớm nhất có thể. Chúng tôi sẽ ưu tiên thông báo và hướng dẫn cho những bạn đã để lại thông tin đăng ký trên trang web này ngay sau khi vừa triển khai.
 							</div>
 						</div>
 					</div>
@@ -720,8 +744,8 @@
     <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
 	<script type="text/javascript" src="js/wow.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
-	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.js"></script> -->
-    <script type="text/javascript" src="js/js.js?v=002"></script>
+	<script type="text/javascript" src="js/bxslider.min.js"></script>
+    <script type="text/javascript" src="js/js.js?v=006"></script>
 	<?php if(isset($_GET['param']) && $_GET['param'] == 'thankyou'){?>
 		<script>
 			$('#popup').modal('show');

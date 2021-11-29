@@ -4,3 +4,8 @@ protected/runtime/*
 !protected/runtime/.gitignore
 protected/data/*.db
 themes/classic/views/
+<<<<<<< HEAD
+images/DOCODEMO-RIHA-for-Vietnam.mp4
+images/DOCODEMO-RIHA-for-Vietnam.mp4
+=======
+>>>>>>> parent of 9243f10 (up)

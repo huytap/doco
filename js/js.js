@@ -1,21 +1,21 @@
 new WOW().init();
-$('.dropdown-menu').find('li>a').click(function(){
-    if($(this).hasClass('other') && $(this).find('input').val() == ''){
-        $(this).find('input').focus();
-        return false;
-    }else{
-        if($(this).hasClass('other')){
-            var txt = $(this).find('input').val();
-            txt = 'Khác: '+ txt;
-            $(this).parent().parent().parent().parent().find('.text-name').text(txt);
-            $(this).parent().parent().parent().find('input[type="hidden"]').val(txt);
-        }else{
-            let p = $(this).text();
-            $(this).parent().parent().parent().find('.text-name').text(p)
-            $(this).parent().parent().parent().find('input[type="hidden"]').val(p);
-        }
-    }
-})
+// $('.dropdown-menu').find('li>a').click(function(){
+//     if($(this).hasClass('other') && $(this).find('input').val() == ''){
+//         $(this).find('input').focus();
+//         return false;
+//     }else{
+//         if($(this).hasClass('other')){
+//             var txt = $(this).find('input').val();
+//             txt = 'Khác: '+ txt;
+//             $(this).parent().parent().parent().parent().find('.text-name').text(txt);
+//             $(this).parent().parent().parent().find('input[type="hidden"]').val(txt);
+//         }else{
+//             let p = $(this).text();
+//             $(this).parent().parent().parent().find('.text-name').text(p)
+//             $(this).parent().parent().parent().find('input[type="hidden"]').val(p);
+//         }
+//     }
+// })
 $('#viewVideo').click(function(){
     $('#myVideo').removeClass('hidden-xs');
     playVid();
@@ -45,106 +45,197 @@ var swiper = new Swiper('.myswiper', {
 });
 
 $(document).ready(function () {
-    $("#myForm").validate({        
-        // onfocusout: true,
-        // onkeyup: false,
-        // onclick: false,
-        rules: {
-            "full_name": {
-                required: true
-            },
-            "phone_number": {
-                required: true,
-                minlength: 10
-            },
-            "email": {
-                required: true,
-                email: true
-            },
-            "who_register": {
-                required: true,
-            },
-            "your_difficulties[]": {
-                required: true,
-            },
-            "what_device[]": {
-                required: true,
-            },
-            "reason[]": {
-                required: true,
-            },
-            "what_channel[]": {
-                required: true,
-            }
-        },
-        messages: {
-            "full_name": {
-                required: "Vui lòng nhập Họ và Tên"
-            },
-            "phone_number": {
-                required: "Vui lòng nhập số điện thoại",
-            },
-            "email": {
-                required: "Vui lòng nhập email",
-                email: 'Email không đúng định dạng'
-            },
-            "who_register": {
-                required: "Vui lòng tick vào lựa chọn bên dưới",
-            },
-            "your_difficulties[]": {
-                required: "Vui lòng tick vào lựa chọn bên dưới"
-            },
-            "what_device[]": {
-                required: "Vui lòng tick vào lựa chọn bên dưới",
-            },
-            "reason[]": {
-                required: "Vui lòng tick vào lựa chọn bên dưới",
-            },
-            "what_channel[]": {
-                required: "Vui lòng tick vào lựa chọn bên dưới",
-            }
-        },
-        submitHandler: function(form, e) {
-            e.preventDefault();
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbwcmd4bzliyfPqEu1d15K7B6WD3LGueLveAipZQZM3lKdwnD25NvDdFhXeZTP2lbBrH/exec';
-            var data = {};
-            $(form).serializeArray().map(function(x){
-                if(x.value=='Khác'){
-                    x.value = 'Khác: '+$('input[name="'+x.name+'"]').next().next().val();
+    var goSubmit=true;
+    $(".btnSubmit").click(function(){
+        $("#myForm").serializeArray().map(function(x){
+            goSubmit=true;
+            if(x.value=='Khác'){
+                if($.trim($('input[name="'+x.name+'"]').next().next().val()) == ''){
+                    var other = '<span class="error">Vui lòng điền thông tin vào ô khác</span>';
+                    if($('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').length){
+
+                    }else{
+                        $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').append(other);
+                    }
+                    goSubmit = false;
+                }else{
+                    goSubmit = true;
+                    $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').remove()
                 }
-                if(data[x.name] != undefined)
-                    data[x.name] += ';' + x.value;
-                else
-                    data[x.name] = x.value;
-            }); 
-            request = $.ajax({
-                url: scriptURL,
-                type: "post",
-                beforeSend: function(){
-                    //history.pushState(null, null, 'https://dokoreha.vn/thankyou.html');
-                    $('#loading').show();
+            }
+        }); 
+    });
+    var step2 = true;
+    if($('.switch').find('input[type="radio"]:checked').val() !== 'Tôi muốn đăng ký cơ hội dùng thử'){
+        $('#step2').hide();
+    }
+    $('.switch').find('input[type="radio"]').each(function(i, j){
+        $(j).change(function(){
+            if($(this).is(":checked") && $(j).val() == 'Tôi muốn đăng ký cơ hội dùng thử'){
+                $('#step2').show();
+                step2 = true;
+            }else{
+                $('#step2').hide();
+                step2 = false;
+            }
+        })
+    })
+    if(step2){
+        $("#myForm").validate({        
+            // onfocusout: true,
+            // onkeyup: false,
+            // onclick: false,
+            rules: {
+                "full_name": {
+                    required: true
                 },
-                data: data
-            });
-            request.done(function (response, textStatus, jqXHR){
-                location.href = 'https://dokoreha.vn/thankyou.html';
-                $('#loading').hide();
-                document.getElementById("myForm").reset();
-                $('#popup').modal('show');
-            });
+                "phone_number": {
+                    required: true,
+                    minlength: 10
+                },
+                "email": {
+                    required: true,
+                    email: true
+                },
+                "who_register": {
+                    required: true,
+                },
+                "your_difficulties[]": {
+                    required: true,
+                },
+                "what_device[]": {
+                    required: true,
+                },
+                "reason[]": {
+                    required: true,
+                },
+                "what_channel[]": {
+                    required: true,
+                }
+            },
+            messages: {
+                "full_name": {
+                    required: "Vui lòng nhập Họ và Tên"
+                },
+                "phone_number": {
+                    required: "Vui lòng nhập số điện thoại",
+                },
+                "email": {
+                    required: "Vui lòng nhập email",
+                    email: 'Email không đúng định dạng'
+                },
+                "who_register": {
+                    required: "Vui lòng tick vào lựa chọn bên dưới",
+                },
+                "your_difficulties[]": {
+                    required: "Vui lòng tick vào lựa chọn bên dưới"
+                },
+                "what_device[]": {
+                    required: "Vui lòng tick vào lựa chọn bên dưới",
+                },
+                "reason[]": {
+                    required: "Vui lòng tick vào lựa chọn bên dưới",
+                },
+                "what_channel[]": {
+                    required: "Vui lòng tick vào lựa chọn bên dưới",
+                }
+            },
+            submitHandler: function(form, e) {
+                formSubmit(form, goSubmit,e)
+            }
+        });
+    }else{
+        $("#myForm").validate({   
+            rules: {
+                "full_name": {
+                    required: true
+                },
+                "phone_number": {
+                    required: true,
+                    minlength: 10
+                },
+                "email": {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                "full_name": {
+                    required: "Vui lòng nhập Họ và Tên"
+                },
+                "phone_number": {
+                    required: "Vui lòng nhập số điện thoại",
+                },
+                "email": {
+                    required: "Vui lòng nhập email",
+                    email: 'Email không đúng định dạng'
+                }
+            },
+            submitHandler: function(form, e) {
+                formSubmit(form, goSubmit,e)
+            }
+        });
+    }
+
+    function formSubmit(form, goSubmit,e){
+        if(!goSubmit){
             return false;
         }
-    });
-
+        e.preventDefault();
+        //const scriptURL = 'https://script.google.com/macros/s/AKfycbwcmd4bzliyfPqEu1d15K7B6WD3LGueLveAipZQZM3lKdwnD25NvDdFhXeZTP2lbBrH/exec';
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbybhhZ2otQ06lVR9MxfGYfLSulqUUif3VQf-lHzogAAEgPyTYNi7Ev_YVJK64GmJyQS/exec';
+        
+        var data = {};
+        
+        $(form).serializeArray().map(function(x){
+            if(x.value=='Khác'){
+                x.value = 'Khác: '+$('input[name="'+x.name+'"]').next().next().val();
+            }
+            if(data[x.name] != undefined)
+                data[x.name] += ';' + x.value;
+            else
+                data[x.name] = x.value;
+        }); 
+        
+        request = $.ajax({
+            url: scriptURL,
+            type: "post",
+            beforeSend: function(){
+                //history.pushState(null, null, 'https://dokoreha.vn/thankyou.html');
+                $('#loading').show();
+            },
+            data: data
+        });
+        request.done(function (response, textStatus, jqXHR){
+            location.href = 'https://dokoreha.vn/thankyou.html';
+            $('#loading').hide();
+            document.getElementById("myForm").reset();
+            $('#popup').modal('show');
+        });
+        return false;
+    }
     var lastScroll = 105;
+    var mgTop = $('#btnRegister').offset().top;
     window.onscroll = function () {
         var st = $(this).scrollTop();
-        if(lastScroll>105){
-            //$('.header').removeClass('nav-up');
-            $('.header').addClass('nav-down');
-        }else{
-            //$('.header').removeClass('nav-up');
-            $('.header').removeClass('nav-down');
+       // if($(window).width() > 767){
+            if(lastScroll>105){
+                //$('.header').removeClass('nav-up');
+                $('.header').addClass('nav-down');
+            }else{
+                //$('.header').removeClass('nav-up');
+                $('.header').removeClass('nav-down');
+            }
+        //}else{
+        if($(window).width() <= 767){    
+            if(lastScroll >= mgTop){
+                $('.logo').hide();
+                $('#btnRegisterDesk').removeClass('hidden-xs');
+                
+            }else{
+                $('.logo').show();
+                $('#btnRegisterDesk').addClass('hidden-xs');
+            }
         }
         lastScroll = st<0?0:st;
     }
@@ -206,3 +297,15 @@ function validateEmail(email) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 }
+/*slide*/
+$(function(){
+    if($(window).width()<768)
+    $('#bxslider').bxSlider({
+      mode: 'fade',
+      captions: false,
+      nextSelector: "#slider-next",
+      prevSelector: "#slider-prev",
+      nextText: '<img src="images/icon-arrow-right.png" width="24">',
+      prevText: '<img src="images/icon-arrow-left.png" width="24">'
+    });
+  });
