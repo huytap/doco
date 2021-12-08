@@ -259,10 +259,14 @@
 		</div>
 		<div class="reha" id="dang-ky-nhan-uu-dai">
 			<div class="container">
-				<h3 class="title wow fadeInUp" data-wow-duration="1s">Đăng ký để được tư vấn về dịch vụ DOKOREHA<br/>cùng cơ hội nhận được 2 tháng trải nghiệm miễn phí</h2>
-				<p class="wow fadeInUp fill-text" data-wow-duration="1s">
-					Vui lòng điền các thông tin dưới đây để nhận sự tư vấn sớm nhất từ các chuyên viên DOKOREHA.
+				<h3 class="title wow fadeInUp" data-wow-duration="1s">Cơ hội nhận quà tặng dùng thử từ DOKOREHA</h2>
+				<p class="wow fadeInUp" data-wow-duration="1s">
+					Nếu bạn muốn <strong>dùng thử dịch vụ miễn phí trong 2 tháng</strong> cho người thân hoặc cho bản thân, hãy đăng ký sớm <span>từ hôm nay đến hết <strong>15/12/2021.</strong></span>
 				</p>
+				<p class="wow fadeInUp" data-wow-duration="1s">
+					Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp được nhận ưu đãi.
+				</p>
+				<p class="wow fadeInUp" data-wow-duration="1s">Để đăng ký, vui lòng điền đầy đủ các thông tin dưới đây.</p>
 				<form class="form-contact wow fadeInUp" data-wow-duration="1s" id="myForm" name="submit-to-google-sheet">
 					<div class="row">
 						<div class="col-sm-6">
@@ -278,249 +282,225 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-12">
-							<p class="chose-fill">
-							<strong>Trả lời thêm những câu dưới đây để có <span>cơ hội dùng thử dịch vụ miễn phí trong 2 tháng</span></strong><br/>
-							cho người thân hoặc cho bản thân, hãy đăng ký sớm từ hôm nay đến hết 15/12/2021. Dựa vào tổng số đăng ký thực tế và kế hoạch phân bổ chuyên viên luyện tập phục hồi chức năng, chúng tôi sẽ gửi thông báo đến email cá nhân của những trường hợp được nhận ưu đãi.
-							</p>
+						<!-- <div class="col-sm-6">
+							<div class="dropdown">
+								<div class="dropdown-toggle" data-toggle="dropdown" id="who_register">
+									<span class="text-name">Bạn đăng ký cho mình hay cho người thân?</span>
+									<span class="carets"><img src="images/icon-arrow.svg" ></span>
+								</div>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="who_register">
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cho mình">Cho mình</a></li>
+									<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cho người thân">Cho người thân</a></li>
+								</ul>
+								<input type="hidden" name="who_register">
+							</div>
+						</div> -->
+						<div class="col-sm-12">
+							<div class="input-label radio">
+								<div id="who_register" class="text-name">Bạn đăng ký cho mình hay cho người thân?</div>
+								<div class="list-option">
+									<div class="checkbox">
+										<label>
+											Cho mình
+											<input type="radio" name="who_register" value="Cho mình">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Cho người thân
+											<input type="radio" name="who_register" value="Cho người thân">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-12">
-							<div class="switch">
-								<label class="col-sm-6 col-xs-12">
-									<input type="radio" name="try_register" value="Tôi muốn đăng ký cơ hội dùng thử" checked="checked">
-									<span class="slider round">Tôi muốn đăng ký cơ hội dùng thử</span>			
-								</label>
-								<label class="col-sm-6 col-xs-12">
-									<input type="radio" name="try_register" value="Tôi chưa muốn đăng ký dùng thử">
-									<span class="slider round">Tôi chưa muốn đăng ký dùng thử</span>			
-								</label>						
+						<div class="col-sm-6">
+							<div class="input-label">
+								<div class="text-name" id="your_difficulties">Bạn cần luyện tập phục hồi chức năng để cải thiện vấn đề sức khoẻ gì?</div>
+								<div class="list-option">
+									<div class="checkbox">
+										<label>
+											Loạng choạng lúc đi đứng
+											<input type="checkbox" name="your_difficulties[]" value="Loạng choạng lúc đi đứng">
+											<span class="checkmark"></span>
+										</label>
+									</div>								
+									<div class="checkbox">
+										<label>
+											Cánh tay bị tê, không hoạt động được bình thường trong sinh hoạt
+											<input type="checkbox" name="your_difficulties[]" value="Cánh tay bị tê, không hoạt động được bình thường trong sinh hoạt">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Đau nhức
+											<input type="checkbox" name="your_difficulties[]" value="Đau nhức">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Không muốn phụ thuộc nhiều vào sự trợ giúp của người thân
+											<input type="checkbox" name="your_difficulties[]" value="Không muốn phụ thuộc nhiều vào sự trợ giúp của người thân">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Mong muốn đầu óc, nhận thức trở nên linh hoạt hơn
+											<input type="checkbox" name="your_difficulties[]" value="Mong muốn đầu óc, nhận thức trở nên linh hoạt hơn">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox other">
+										<label>
+											Khác
+											<input type="checkbox" name="your_difficulties[]" value="Khác">
+											<span class="checkmark"></span>
+											<input type="text" placeholder="Điền thông tin khác" id="your_difficulties_other">
+										</label>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div id="step2">
-						<div class="row">
-							<!-- <div class="col-sm-6">
-								<div class="dropdown">
-									<div class="dropdown-toggle" data-toggle="dropdown" id="who_register">
-										<span class="text-name">Bạn đăng ký cho mình hay cho người thân?</span>
-										<span class="carets"><img src="images/icon-arrow.svg" ></span>
+						<div class="col-sm-6">
+							<div class="input-label">
+								<div id="remote_issue" class="text-name">Xin hãy cho chúng tôi biết nguyên nhân dẫn đến những vấn đề sức khoẻ mà bạn gặp phải</div>
+								<div class="list-option">
+									<div class="checkbox">
+										<label>
+											Đột quỵ não
+											<input type="checkbox" name="reason[]" value="Đột quỵ não">
+											<span class="checkmark"></span>
+										</label>
 									</div>
-									<ul class="dropdown-menu" role="menu" aria-labelledby="who_register">
-										<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cho mình">Cho mình</a></li>
-										<li role="presentation"><a role="menuitem" href="javascript:void(0);" data-value="Cho người thân">Cho người thân</a></li>
-									</ul>
-									<input type="hidden" name="who_register">
-								</div>
-							</div> -->
-							<div class="col-sm-12">
-								<div class="input-label radio">
-									<div id="who_register" class="text-name">Bạn đăng ký cho mình hay cho người thân?</div>
-									<div class="list-option">
-										<div class="checkbox">
-											<label>
-												Cho mình
-												<input type="radio" name="who_register" value="Cho mình">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Cho người thân
-												<input type="radio" name="who_register" value="Cho người thân">
-												<span class="checkmark"></span>
-											</label>
-										</div>
+									<div class="checkbox">
+										<label>
+											Bị gãy xương
+											<input type="checkbox" name="reason[]" value="Bị gãy xương">
+											<span class="checkmark"></span>
+										</label>
 									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="input-label">
-									<div class="text-name" id="your_difficulties">Bạn cần luyện tập phục hồi chức năng để cải thiện vấn đề sức khoẻ gì?</div>
-									<div class="list-option">
-										<div class="checkbox">
-											<label>
-												Loạng choạng lúc đi đứng
-												<input type="checkbox" name="your_difficulties[]" value="Loạng choạng lúc đi đứng">
-												<span class="checkmark"></span>
-											</label>
-										</div>								
-										<div class="checkbox">
-											<label>
-												Cánh tay bị tê, không hoạt động được bình thường trong sinh hoạt
-												<input type="checkbox" name="your_difficulties[]" value="Cánh tay bị tê, không hoạt động được bình thường trong sinh hoạt">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Đau nhức
-												<input type="checkbox" name="your_difficulties[]" value="Đau nhức">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Không muốn phụ thuộc nhiều vào sự trợ giúp của người thân
-												<input type="checkbox" name="your_difficulties[]" value="Không muốn phụ thuộc nhiều vào sự trợ giúp của người thân">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Mong muốn đầu óc, nhận thức trở nên linh hoạt hơn
-												<input type="checkbox" name="your_difficulties[]" value="Mong muốn đầu óc, nhận thức trở nên linh hoạt hơn">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox other">
-											<label>
-												Khác
-												<input type="checkbox" name="your_difficulties[]" value="Khác">
-												<span class="checkmark"></span>
-												<input type="text" placeholder="Điền thông tin khác" id="your_difficulties_other">
-											</label>
-										</div>
+									<div class="checkbox">
+										<label>
+											Chấn thương tuỷ sống
+											<input type="checkbox" name="reason[]" value="Chấn thương tuỷ sống">
+											<span class="checkmark"></span>
+										</label>
 									</div>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="input-label">
-									<div id="remote_issue" class="text-name">Xin hãy cho chúng tôi biết nguyên nhân dẫn đến những vấn đề sức khoẻ mà bạn gặp phải</div>
-									<div class="list-option">
-										<div class="checkbox">
-											<label>
-												Đột quỵ não
-												<input type="checkbox" name="reason[]" value="Đột quỵ não">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Bị gãy xương
-												<input type="checkbox" name="reason[]" value="Bị gãy xương">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Chấn thương tuỷ sống
-												<input type="checkbox" name="reason[]" value="Chấn thương tuỷ sống">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Đau khớp
-												<input type="checkbox" name="reason[]" value="Đau khớp">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Chấn thương vùng đầu
-												<input type="checkbox" name="reason[]" value="Chấn thương vùng đầu">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Bệnh liệt rung (bệnh Parkinson)
-												<input type="checkbox" name="reason[]" value="Bệnh liệt rung (bệnh Parkinson)">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox other">
-											<label>
-												Khác
-												<input type="checkbox" name="reason[]" value="Khác">
-												<span class="checkmark"></span>
-												<input type="text" placeholder="Điền thông tin khác" id="reason_other">
-											</label>
-										</div>
+									<div class="checkbox">
+										<label>
+											Đau khớp
+											<input type="checkbox" name="reason[]" value="Đau khớp">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Chấn thương vùng đầu
+											<input type="checkbox" name="reason[]" value="Chấn thương vùng đầu">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Bệnh liệt rung (bệnh Parkinson)
+											<input type="checkbox" name="reason[]" value="Bệnh liệt rung (bệnh Parkinson)">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox other">
+										<label>
+											Khác
+											<input type="checkbox" name="reason[]" value="Khác">
+											<span class="checkmark"></span>
+											<input type="text" placeholder="Điền thông tin khác" id="reason_other">
+										</label>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="input-label">
-									<div id="what_device" class="text-name">Bạn đang sử dụng thiết bị di động nào?</div>
-									<div class="list-option">
-										<div class="checkbox">
-											<label>
-												Điện thoại iPhone
-												<input type="checkbox" name="what_device[]" value="Điện thoại iPhone">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Máy tính bảng iPad
-												<input type="checkbox" name="what_device[]" value="Máy tính bảng iPad">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Điện thoại hệ điều hành Android
-												<input type="checkbox" name="what_device[]" value="Điện thoại hệ điều hành Android">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Máy tính bảng hệ điều hành Android
-												<input type="checkbox" name="what_device[]" value="Máy tính bảng hệ điều hành Android">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox other">
-											<label>
-												Khác
-												<input type="checkbox" name="what_device[]" value="Khác">
-												<span class="checkmark"></span>
-												<input type="text" placeholder="Điền thông tin khác" id="what_device_other">
-											</label>
-										</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="input-label">
+								<div id="what_device" class="text-name">Bạn đang sử dụng thiết bị di động nào?</div>
+								<div class="list-option">
+									<div class="checkbox">
+										<label>
+											Điện thoại iPhone
+											<input type="checkbox" name="what_device[]" value="Điện thoại iPhone">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Máy tính bảng iPad
+											<input type="checkbox" name="what_device[]" value="Máy tính bảng iPad">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Điện thoại hệ điều hành Android
+											<input type="checkbox" name="what_device[]" value="Điện thoại hệ điều hành Android">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Máy tính bảng hệ điều hành Android
+											<input type="checkbox" name="what_device[]" value="Máy tính bảng hệ điều hành Android">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox other">
+										<label>
+											Khác
+											<input type="checkbox" name="what_device[]" value="Khác">
+											<span class="checkmark"></span>
+											<input type="text" placeholder="Điền thông tin khác" id="what_device_other">
+										</label>
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6">
-								<div class="input-label">
-									<div id="what_channel" class="text-name">Bạn biết đến DOKOREHA qua kênh nào?</div>
-									<div class="list-option">
-										<div class="checkbox">
-											<label>
-												Facebook
-												<input type="checkbox" name="what_channel[]" value="Facebook">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Google search
-												<input type="checkbox" name="what_channel[]" value="Google search">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox">
-											<label>
-												Người quen
-												<input type="checkbox" name="what_channel[]" value="Người quen">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="checkbox other">
-											<label>
-												Các website khác
-												<input type="checkbox" name="what_channel[]" value="Các website khác">
-												<span class="checkmark"></span>
-											</label>
-										</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="input-label">
+								<div id="what_channel" class="text-name">Bạn biết đến DOKOREHA qua kênh nào?</div>
+								<div class="list-option">
+									<div class="checkbox">
+										<label>
+											Facebook
+											<input type="checkbox" name="what_channel[]" value="Facebook">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Google search
+											<input type="checkbox" name="what_channel[]" value="Google search">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											Người quen
+											<input type="checkbox" name="what_channel[]" value="Người quen">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="checkbox other">
+										<label>
+											Các website khác
+											<input type="checkbox" name="what_channel[]" value="Các website khác">
+											<span class="checkmark"></span>
+										</label>
 									</div>
 								</div>
 							</div>
@@ -602,54 +582,6 @@
 					</div> -->
 					<button type="submit" class="btnSubmit">GỬI THÔNG TIN ĐĂNG KÝ</button>
 				</form>
-			</div>
-		</div>
-
-		<div class="chuyenvien">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-offset-1 col-md-10 col-sm-12">
-						<h3 class="wow fadeInUp text-center">Chuyên viên DOKOREHA tại Việt Nam</h3>
-						<div id="chuyenvien" class="bxslider">
-							<div class="row">
-								<div class="col-md-8 col-sm-8">
-									<h4 class="title-chuyenvien">Chuyên viên LÊ THỊ HIỀN</h4>
-									<p class="short-chuyenvien">Tốt nghiệp Đại học Y dược TPHCM, chuyên ngành vật lý trị liệu/ phục hồi chức năng Chứng chỉ phiên dịch y tế Đại học Y Hà Nội Hội viên Hội Vật lý Trị liệu Việt Nam</p>
-									<p class="desc-chuyenvien">
-									5 năm làm việc ở chuyên ngành chấn thương chỉnh hình, chấn thương sọ não, tai biến, tổn thương thần kinh tại Bệnh viện Quân Y 175, Bệnh viện Saigon Ito, Bệnh viện Việt Đức. Cộng tác cùng các chuyên gia Nhật Bản, đã hoàn thành khoá đào tạo ngắn hạn tại Bệnh viện Kitahara Nhật Bản.
-									</p>
-								</div>
-								<div class="col-md-4 col-sm-4">
-									<img src="images/chuyenvien-1.png" class="img-responsive">
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-8 col-sm-8">
-									<h4 class="title-chuyenvien">Chuyên viên TRẦN THỊ HẰNG</h4>
-									<p class="short-chuyenvien">Tốt nghiệp Đại học Kỹ thuật Y tế Hải Dương, chuyên ngành phục hồi chức năng</p>
-									<p class="desc-chuyenvien">
-									2 năm làm việc trong chuyên ngành chấn thương sọ não, tai biến, chấn thương chỉnh hình, tổn thương thần kinh tại Bệnh viện Việt Đức và Bệnh viện Đa khoa tỉnh Quảng ninh. Cộng tác cùng các chuyên gia Nhật Bản.
-									</p>
-								</div>
-								<div class="col-md-4 col-sm-4">
-									<img src="images/chuyenvien-2.png" class="img-responsive">
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-8 col-sm-8">
-								<div id="chuyenvien-pager">
-									<a href="javascript:void(0);" data-slide-index="0"><img src="images/chuyenvien-thumb1.png" class="img-repsonsive"></a>
-									<a href="javascript:void(0);" data-slide-index="1"><img src="images/chuyenvien-thumb2.png" class="img-repsonsive"></a>
-								</div>
-								<div class="slider-chuyenvien">
-									<div id="chuyenvien-prev" role="button" aria-label="Prev slide" aria-disabled="false"></div>
-									<div id="chuyenvien-next" role="button" aria-label="Next slide" aria-disabled="false"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 		<div class="question">
@@ -794,7 +726,7 @@
 	<script type="text/javascript" src="js/wow.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/bxslider.min.js"></script>
-    <script type="text/javascript" src="js/js.js?v=006"></script>
+    <script type="text/javascript" src="js/js.js?v=007"></script>
 	<?php if(isset($_GET['param']) && $_GET['param'] == 'thankyou'){?>
 		<script>
 			$('#popup').modal('show');

@@ -903,3 +903,58 @@ span.error,
 	display: inline-block;
 	margin-left: 15px;
 }
+.chuyenvien{
+	padding-bottom: 100px;
+}
+.chuyenvien h3{
+	padding-bottom: 15px;
+}
+.chuyenvien h4{
+	font-size: 25px;
+	color: rgba(255, 149, 51, 1);
+	font-weight: 800;
+	font-family: 'Be Vietnam';
+	padding-top: 15px;
+}
+#chuyenvien-pager,
+#chuyenvien{
+	text-align: right;
+}
+#chuyenvien-pager{
+	padding-right: 60px;
+}
+#chuyenvien-pager a{
+	opacity: .5;
+	display: inline-block;
+}
+#chuyenvien-pager a:last-child{
+	padding-left: 15px;
+}
+#chuyenvien-pager a.active{
+	opacity: 1;
+}
+.slider-chuyenvien{
+	position: relative;
+	width: 280px;
+	margin-top: -64px;
+	float: right;
+}
+.slider-chuyenvien div{
+	position: absolute;
+}
+#chuyenvien-prev{
+	left: 0;
+}
+#chuyenvien-next{
+	right:21px;
+}
+.chuyenvien p{
+	font-size: 16px;
+	color: rgba(104, 104, 104, 1);	
+}
+.chuyenvien p.short-chuyenvien{
+	font-weight: 700;
+	border-bottom: 1px solid rgba(104, 104, 104, 1);
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}

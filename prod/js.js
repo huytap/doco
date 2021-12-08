@@ -65,175 +65,118 @@ $(document).ready(function () {
             }
         }); 
     });
-    var step2 = true;
-    if($('.switch').find('input[type="radio"]:checked').val() !== 'Tôi muốn đăng ký cơ hội dùng thử'){
-        $('#step2').hide();
-    }
-    $('.switch').find('input[type="radio"]').each(function(i, j){
-        $(j).change(function(){
-            if($(this).is(":checked") && $(j).val() == 'Tôi muốn đăng ký cơ hội dùng thử'){
-                $('#step2').show();
-                step2 = true;
-                $('.btnSubmit').text('GỬI THÔNG TIN ĐĂNG KÝ')
-            }else{
-                $('#step2').hide();
-                step2 = false;
-                $('.btnSubmit').text('GỬI THÔNG TIN NHẬN TƯ VẤN')
-            }
-        })
-    })
-    if(step2){
-        $("#myForm").validate({        
-            // onfocusout: true,
-            // onkeyup: false,
-            // onclick: false,
-            rules: {
-                "full_name": {
-                    required: true
-                },
-                "phone_number": {
-                    required: true,
-                    minlength: 10
-                },
-                "email": {
-                    required: true,
-                    email: true
-                },
-                "who_register": {
-                    required: true,
-                },
-                "your_difficulties[]": {
-                    required: true,
-                },
-                "what_device[]": {
-                    required: true,
-                },
-                "reason[]": {
-                    required: true,
-                },
-                "what_channel[]": {
-                    required: true,
-                }
-            },
-            messages: {
-                "full_name": {
-                    required: "Vui lòng nhập Họ và Tên"
-                },
-                "phone_number": {
-                    required: "Vui lòng nhập số điện thoại",
-                },
-                "email": {
-                    required: "Vui lòng nhập email",
-                    email: 'Email không đúng định dạng'
-                },
-                "who_register": {
-                    required: "Vui lòng tick vào lựa chọn bên dưới",
-                },
-                "your_difficulties[]": {
-                    required: "Vui lòng tick vào lựa chọn bên dưới"
-                },
-                "what_device[]": {
-                    required: "Vui lòng tick vào lựa chọn bên dưới",
-                },
-                "reason[]": {
-                    required: "Vui lòng tick vào lựa chọn bên dưới",
-                },
-                "what_channel[]": {
-                    required: "Vui lòng tick vào lựa chọn bên dưới",
-                }
-            },
-            submitHandler: function(form, e) {
-                formSubmit(form, goSubmit,e)
-            }
-        });
-    }else{
-        $("#myForm").validate({   
-            rules: {
-                "full_name": {
-                    required: true
-                },
-                "phone_number": {
-                    required: true,
-                    minlength: 10
-                },
-                "email": {
-                    required: true,
-                    email: true
-                }
-            },
-            messages: {
-                "full_name": {
-                    required: "Vui lòng nhập Họ và Tên"
-                },
-                "phone_number": {
-                    required: "Vui lòng nhập số điện thoại",
-                },
-                "email": {
-                    required: "Vui lòng nhập email",
-                    email: 'Email không đúng định dạng'
-                }
-            },
-            submitHandler: function(form, e) {
-                formSubmit(form, goSubmit,e)
-            }
-        });
-    }
 
-    function formSubmit(form, goSubmit,e){        
-        if(goSubmit == 'false'){
-            return false;
-        }
-        e.preventDefault();
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwcmd4bzliyfPqEu1d15K7B6WD3LGueLveAipZQZM3lKdwnD25NvDdFhXeZTP2lbBrH/exec';
-        //const scriptURL = 'https://script.google.com/macros/s/AKfycbybhhZ2otQ06lVR9MxfGYfLSulqUUif3VQf-lHzogAAEgPyTYNi7Ev_YVJK64GmJyQS/exec';
-        
-        var data = {};
-        
-        $(form).serializeArray().map(function(x){
-            if(x.value=='Khác'){                
-                if($.trim($('input[name="'+x.name+'"]').next().next().val()) == ''){
-                    var other = '<span class="error">Vui lòng điền thông tin vào ô khác</span>';
-                    if($('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').length){
+    $("#myForm").validate({        
+        // onfocusout: true,
+        // onkeyup: false,
+        // onclick: false,
+        rules: {
+            "full_name": {
+                required: true
+            },
+            "phone_number": {
+                required: true,
+                minlength: 10
+            },
+            "email": {
+                required: true,
+                email: true
+            },
+            "who_register": {
+                required: true,
+            },
+            "your_difficulties[]": {
+                required: true,
+            },
+            "what_device[]": {
+                required: true,
+            },
+            "reason[]": {
+                required: true,
+            },
+            "what_channel[]": {
+                required: true,
+            }
+        },
+        messages: {
+            "full_name": {
+                required: "Vui lòng nhập Họ và Tên"
+            },
+            "phone_number": {
+                required: "Vui lòng nhập số điện thoại",
+            },
+            "email": {
+                required: "Vui lòng nhập email",
+                email: 'Email không đúng định dạng'
+            },
+            "who_register": {
+                required: "Vui lòng tick vào lựa chọn bên dưới",
+            },
+            "your_difficulties[]": {
+                required: "Vui lòng tick vào lựa chọn bên dưới"
+            },
+            "what_device[]": {
+                required: "Vui lòng tick vào lựa chọn bên dưới",
+            },
+            "reason[]": {
+                required: "Vui lòng tick vào lựa chọn bên dưới",
+            },
+            "what_channel[]": {
+                required: "Vui lòng tick vào lựa chọn bên dưới",
+            }
+        },
+        submitHandler: function(form, e) {
+            if(!goSubmit){
+                return false;
+            }
+            e.preventDefault();
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwcmd4bzliyfPqEu1d15K7B6WD3LGueLveAipZQZM3lKdwnD25NvDdFhXeZTP2lbBrH/exec';
+            var data = {};
+            
+            $(form).serializeArray().map(function(x){
+                if(x.value=='Khác'){
+                    x.value = 'Khác: '+$('input[name="'+x.name+'"]').next().next().val();
 
+                    if($.trim($('input[name="'+x.name+'"]').next().next().val()) == ''){
+                        var other = '<span class="error">Vui lòng điền thông tin vào ô khác</span>';
+                        if($('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').length){
+    
+                        }else{
+                            $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').append(other);
+                        }
+                        goSubmit = false;
                     }else{
-                        $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').append(other);
+                        goSubmit = true;
+                        $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').remove()
                     }
-                    goSubmit = false;
-                }else{
-                    goSubmit = true;
-                    $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').remove()
                 }
-                x.value = 'Khác: '+$('input[name="'+x.name+'"]').next().next().val();
+                if(data[x.name] != undefined)
+                    data[x.name] += ';' + x.value;
+                else
+                    data[x.name] = x.value;
+            }); 
+            if(goSubmit == false){
+                return false;
             }
-            if(data[x.name] != undefined)
-                data[x.name] += ';' + x.value;
-            else
-                data[x.name] = x.value;
-        }); 
-        if(goSubmit == false){
+            request = $.ajax({
+                url: scriptURL,
+                type: "post",
+                beforeSend: function(){
+                    //history.pushState(null, null, 'https://dokoreha.vn/thankyou.html');
+                    $('#loading').show();
+                },
+                data: data
+            });
+            request.done(function (response, textStatus, jqXHR){
+                location.href = 'https://dokoreha.vn/thankyou.html';
+                $('#loading').hide();
+                document.getElementById("myForm").reset();
+                $('#popup').modal('show');
+            });
             return false;
         }
-        
-        request = $.ajax({
-            url: scriptURL,
-            type: "post",
-            beforeSend: function(){
-                //history.pushState(null, null, 'https://dokoreha.vn/thankyou.html');
-                $('#loading').show();
-            },
-            data: data
-        });
-        request.done(function (response, textStatus, jqXHR){
-            //location.href = 'https://dokoreha.vn/thankyou.html';
-            var url = window.location.href;
-            location.href = url + '/thankyou.html';
-            $('#loading').hide();
-            document.getElementById("myForm").reset();
-            $('#popup').modal('show');
-        });
-        return false;
-    }
-    /*scroll*/
+    });
+
     var lastScroll = 105;
     var mgTop = $('#btnRegister').offset().top;
     window.onscroll = function () {
@@ -261,8 +204,7 @@ $(document).ready(function () {
     }
     var url = location.hash;
     if(url)
-        $('html,body').animate({scrollTop:$(url).offset().top}, 1700);
-    
+    $('html,body').animate({scrollTop:$(url).offset().top}, 1700);
     $(".btn-register").click(function () {
         $('html,body').animate({scrollTop:$('#dang-ky-nhan-uu-dai').offset().top}, 1700);
     });
@@ -320,24 +262,13 @@ function validateEmail(email) {
 }
 /*slide*/
 $(function(){
-    $('#chuyenvien').bxSlider({
-        mode: 'fade',
-        captions: false,
-        touchEnabled: false,
-        nextSelector: "#chuyenvien-next",
-        prevSelector: "#chuyenvien-prev",
-        nextText: '<img src="images/chuyenvien-right.png" width="24">',
-        prevText: '<img src="images/chuyenvien-left.png" width="24">',
-        pagerCustom: '#chuyenvien-pager',
-    });
     if($(window).width()<768)
-        $('#bxslider').bxSlider({
-        mode: 'fade',
-        captions: false,
-        touchEnabled: false,
-        nextSelector: "#slider-next",
-        prevSelector: "#slider-prev",
-        nextText: '<img src="images/icon-arrow-right.png" width="24">',
-        prevText: '<img src="images/icon-arrow-left.png" width="24">'
-        });
+    $('#bxslider').bxSlider({
+      mode: 'fade',
+      captions: false,
+      nextSelector: "#slider-next",
+      prevSelector: "#slider-prev",
+      nextText: '<img src="images/icon-arrow-right.png" width="24">',
+      prevText: '<img src="images/icon-arrow-left.png" width="24">'
+    });
   });
