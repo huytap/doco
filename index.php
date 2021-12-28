@@ -666,7 +666,7 @@
 							<div id="chuyenvien-hotro">
 								<div class="row">
 									<div class="col-md-2 col-sm-3">
-										<img src="images/chuyenvien-1.png" class="img-responsive">
+										<img src="images/chuyenvien-hotro.png" class="img-responsive">
 									</div>
 									<div class="col-md-10 col-sm-9">
 										<h4 class="title-chuyenvien">Yusuke Hirai</h4>
