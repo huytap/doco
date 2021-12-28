@@ -914,30 +914,65 @@ span.error,
 	color: rgba(255, 149, 51, 1);
 	font-weight: 800;
 	font-family: 'Be Vietnam';
-	padding-top: 15px;
+	padding-top: 0;
 }
-#chuyenvien-pager,
-#chuyenvien{
-	text-align: right;
+a[role="button"]{
+	font-size: 18px;
+	font-family: 'Be Vietnam';
+	color:#FF9533;
+	text-decoration: underline;
+	display: block;
+}
+a[role="button"] span{
+	position: relative;
+	display: inline-block;
+	width: 23px;
+	height: 13px;
+}
+a[role="button"] span:before{
+	content:"";
+	width: 23px;
+	height: 13px;
+	position: absolute;
+	top:0;
+	right: 0;
+	background:url(../images/chuyenvien-down.png) no-repeat;
+	background-size: 100%;
+}
+a[aria-expanded="true"] span:before{
+	background:url(../images/chuyenvien-up.png) no-repeat;
+	background-size: 100%;
+}
+a.close-d[aria-expanded="false"],
+a.open[aria-expanded="true"]{
+	display: none;
+}
+a.close-d[aria-expanded="true"],
+a.open[aria-expanded="false"]{
+	display: block;
 }
 #chuyenvien-pager{
-	padding-right: 60px;
+	text-align: center;
+}
+#chuyenvien{
+	text-align: left;
 }
 #chuyenvien-pager a{
 	opacity: .5;
 	display: inline-block;
-}
-#chuyenvien-pager a:last-child{
-	padding-left: 15px;
+	max-width: 40px;
 }
 #chuyenvien-pager a.active{
 	opacity: 1;
 }
 .slider-chuyenvien{
 	position: relative;
-	width: 280px;
-	margin-top: -64px;
-	float: right;
+	width: 100%;
+	margin-top: -35px;
+}
+.slider-chuyenvien a{
+	max-width: 12px;
+	display: inline-block;
 }
 .slider-chuyenvien div{
 	position: absolute;
@@ -946,15 +981,38 @@ span.error,
 	left: 0;
 }
 #chuyenvien-next{
-	right:21px;
+	right:3px;
 }
 .chuyenvien p{
 	font-size: 16px;
 	color: rgba(104, 104, 104, 1);	
 }
+.desc-chuyenvien{
+	border-top: 1px solid rgba(104, 104, 104, 1);
+	padding-top: 15px;
+}
 .chuyenvien p.short-chuyenvien{
 	font-weight: 700;
-	border-bottom: 1px solid rgba(104, 104, 104, 1);
-	padding-bottom: 15px;
 	margin-bottom: 20px;
+}
+.slide-nav{
+	position: absolute;
+	top: 230px;
+    width: calc(16.66666667% - 30px);
+    height: 42px;
+	z-index: 99;
+}
+.cv-content{
+	position: relative;
+	padding: 0 45px;
+}
+#chuyenvien-hotro a[role="button"]{
+	padding-top: 15px;
+}
+.cv-content.bgxam{
+	background-color: #f1f1f1;
+	border-radius: 16px;
+	margin-top: 30px;
+	padding-top: 45px;
+	padding-bottom: 45px;
 }

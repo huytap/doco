@@ -326,18 +326,29 @@ $(function(){
         touchEnabled: false,
         nextSelector: "#chuyenvien-next",
         prevSelector: "#chuyenvien-prev",
-        nextText: '<img src="images/chuyenvien-right.png" width="24">',
-        prevText: '<img src="images/chuyenvien-left.png" width="24">',
+        nextText: '<img src="images/chuyenvien-right.png" class="img-responsive">',
+        prevText: '<img src="images/chuyenvien-left.png" class="img-responsive">',
         pagerCustom: '#chuyenvien-pager',
     });
     if($(window).width()<768)
         $('#bxslider').bxSlider({
-        mode: 'fade',
-        captions: false,
-        touchEnabled: false,
-        nextSelector: "#slider-next",
-        prevSelector: "#slider-prev",
-        nextText: '<img src="images/icon-arrow-right.png" width="24">',
-        prevText: '<img src="images/icon-arrow-left.png" width="24">'
+            mode: 'fade',
+            captions: false,
+            touchEnabled: false,
+            nextSelector: "#slider-next",
+            prevSelector: "#slider-prev",
+            nextText: '<img src="images/icon-arrow-right.png" class="img-responsive">',
+            prevText: '<img src="images/icon-arrow-left.png" class="img-responsive">'
         });
-  });
+    //
+    var flag = false;
+    $('#chuyenvien').find('a[role="button"]').click(function(e){
+        if(!flag){
+            e.preventDefault();
+            let h1 = $('#chuyenvien').parent().height();
+            let h2 = $(this).parent().height();
+            $('#chuyenvien').parent().css('height', (h1+h2+30))
+            flag = true;
+        }
+    });
+});

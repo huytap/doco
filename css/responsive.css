@@ -282,7 +282,7 @@
     margin-top: 30px;
   }
   .doco::before {
-    top: -10%;
+    top: -25%;
     background-position: 110px 0;
   }
   .doco{
@@ -568,6 +568,29 @@
   .carets img{
     width: 20px;
   }
+  .cv-content{
+    padding: 0;
+  }
+  .cv-content.bgxam{
+    padding: 15px;
+  }
+  #chuyenvien>.row{
+    margin: 0 auto;
+  }
+  .slide-nav {
+    position: relative;
+    top: auto;
+    height: 42px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+  #chuyenvien-pager a{
+    max-width: 75px;
+  }
+  .slider-chuyenvien a {
+    max-width: 20px;
+  }
   #chuyenvien-pager,
   #chuyenvien{
     text-align: center;
@@ -579,12 +602,17 @@
   }
   .slider-chuyenvien{
     width: 100%;
+    margin-top: -60px;
   }
   #chuyenvien-next{
     right: 0;
   }
   .chuyenvien h3{
     padding-bottom: 0;
+    line-height: 1.3;
+  }
+  .chuyenvien h4{
+    line-height: 1.3;
   }
   .chuyenvien p.desc-chuyenvien{
     padding-bottom: 15px;
