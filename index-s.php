@@ -609,42 +609,38 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-offset-1 col-md-10 col-sm-12">
-						<div class="cv-content">
-							<h3 class="wow fadeInUp">Chuyên viên DOKOREHA tại Việt Nam</h3>
-							<div id="chuyenvien" class="bxslider">
-								<div class="row">
-									<div class="col-md-2 col-sm-3">
-										<img src="images/chuyenvien-1.png" class="img-responsive">
-									</div>
-									<div class="col-md-10 col-sm-9">
-										<h4 class="title-chuyenvien">Chuyên viên LÊ THỊ HIỀN</h4>
-										<p class="short-chuyenvien">Tốt nghiệp Đại học Y dược TPHCM, chuyên ngành vật lý trị liệu/ phục hồi chức năng, Chứng chỉ phiên dịch y tế Đại học Y Hà Nội, Hội viên Hội Vật lý Trị liệu Việt Nam</p>
-										<p class="desc-chuyenvien collapse" id="collapseOne" role="tabpanel">
-											5 năm làm việc ở chuyên ngành chấn thương chỉnh hình, chấn thương sọ não, tai biến, tổn thương thần kinh tại Bệnh viện Quân Y 175, Bệnh viện Saigon Ito, Bệnh viện Việt Đức. Cộng tác cùng các chuyên gia Nhật Bản, đã hoàn thành khoá đào tạo ngắn hạn tại Bệnh viện Kitahara Nhật Bản.
-										</p>
-										<a class="open" role="button" data-toggle="collapse" data-parent="#chuyenvien" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Chi tiết <span></span></a>
-										<a class="close-d" role="button" data-toggle="collapse" data-parent="#chuyenvien" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Đóng <span></span></a>
-									</div>
+						<h3 class="wow fadeInUp text-center">Chuyên viên DOKOREHA tại Việt Nam</h3>
+						<div id="chuyenvien" class="bxslider">
+							<div class="row">
+								<div class="col-md-8 col-sm-8">
+									<h4 class="title-chuyenvien">Chuyên viên LÊ THỊ HIỀN</h4>
+									<p class="short-chuyenvien">Tốt nghiệp Đại học Y dược TPHCM, chuyên ngành vật lý trị liệu/ phục hồi chức năng Chứng chỉ phiên dịch y tế Đại học Y Hà Nội, Hội viên Hội Vật lý Trị liệu Việt Nam</p>
+									<p class="desc-chuyenvien">
+									5 năm làm việc ở chuyên ngành chấn thương chỉnh hình, chấn thương sọ não, tai biến, tổn thương thần kinh tại Bệnh viện Quân Y 175, Bệnh viện Saigon Ito, Bệnh viện Việt Đức. Cộng tác cùng các chuyên gia Nhật Bản, đã hoàn thành khoá đào tạo ngắn hạn tại Bệnh viện Kitahara Nhật Bản.
+									</p>
 								</div>
-								<div class="row">
-									<div class="col-md-2 col-sm-3">
-										<img src="images/chuyenvien-2.png" class="img-responsive">
-									</div>
-									<div class="col-md-10 col-sm-9">
-										<h4 class="title-chuyenvien">Chuyên viên TRẦN THỊ HẰNG</h4>
-										<p class="short-chuyenvien">Tốt nghiệp Đại học Kỹ thuật Y tế Hải Dương, chuyên ngành phục hồi chức năng</p>
-										<p class="desc-chuyenvien collapse" id="collapseTwo" role="tabpanel">
-											2 năm làm việc trong chuyên ngành chấn thương sọ não, tai biến, chấn thương chỉnh hình, tổn thương thần kinh tại Bệnh viện Việt Đức và Bệnh viện Đa khoa tỉnh Quảng ninh. Cộng tác cùng các chuyên gia Nhật Bản.
-										</p>
-										<a class="open" role="button" data-toggle="collapse" data-parent="#chuyenvien" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Chi tiết <span></span></a>
-										<a class="close-d" role="button" data-toggle="collapse" data-parent="#chuyenvien" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Đóng <span></span></a>
-									</div>
+								<div class="col-md-4 col-sm-4">
+									<img src="images/chuyenvien-1.png" class="img-responsive">
 								</div>
 							</div>
-							<div class="slide-nav">
+							<div class="row">
+								<div class="col-md-8 col-sm-8">
+									<h4 class="title-chuyenvien">Chuyên viên TRẦN THỊ HẰNG</h4>
+									<p class="short-chuyenvien">Tốt nghiệp Đại học Kỹ thuật Y tế Hải Dương, chuyên ngành phục hồi chức năng</p>
+									<p class="desc-chuyenvien">
+									2 năm làm việc trong chuyên ngành chấn thương sọ não, tai biến, chấn thương chỉnh hình, tổn thương thần kinh tại Bệnh viện Việt Đức và Bệnh viện Đa khoa tỉnh Quảng ninh. Cộng tác cùng các chuyên gia Nhật Bản.
+									</p>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<img src="images/chuyenvien-2.png" class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8">
 								<div id="chuyenvien-pager">
-									<a href="javascript:void(0);" data-slide-index="0"><img src="images/chuyenvien-thumb1.png" class="img-responsive"></a>
-									<a href="javascript:void(0);" data-slide-index="1"><img src="images/chuyenvien-thumb2.png" class="img-responsive"></a>
+									<a href="javascript:void(0);" data-slide-index="0"><img src="images/chuyenvien-thumb1.png" class="img-repsonsive"></a>
+									<a href="javascript:void(0);" data-slide-index="1"><img src="images/chuyenvien-thumb2.png" class="img-repsonsive"></a>
 								</div>
 								<div class="slider-chuyenvien">
 									<div id="chuyenvien-prev" role="button" aria-label="Prev slide" aria-disabled="false"></div>
@@ -656,43 +652,6 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="chuyenvien">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-offset-1 col-md-10 col-sm-12">
-						<div class="cv-content bgxam">
-							<h3 class="wow fadeInUp">Với sự hỗ trợ của chuyên viên Nhật Bản</h3>
-							<div id="chuyenvien-hotro">
-								<div class="row">
-									<div class="col-md-2 col-sm-3">
-										<img src="images/chuyenvien-hotro.png" class="img-responsive">
-									</div>
-									<div class="col-md-10 col-sm-9">
-										<h4 class="title-chuyenvien">Yusuke Hirai</h4>
-										<p class="short-chuyenvien">Nơi công tác: Tập đoàn Y tế KNI, Bệnh viện Quốc tế Kitahara, 
-											Khoa Phục hồi Chức năng, Phòng Kinh doanh Nước ngoài.
-											Tốt nghiệp Khoa Vật lý Trị liệu, Trường Đại học Y tế và Phúc lợi Quốc tế năm 2006,
-											lấy giấy phép bác sĩ vật lý trị liệu.</p>
-										<div class="desc-chuyenvien collapse" id="collapseThree" role="tabpanel">
-											<p class="short">Quá trình hoạt động</p>
-											<ul>
-												<li>Từ 2006, hoạt động điều trị phục hồi chức năng tại Bệnh viện Phục hồi Chức năng Kitahara, Bệnh viện Quốc tế Kitahara, Tập đoàn y tế KNI.</li>
-												<li>2015 - 2017, được bổ nhiệm đến Phnom Penh, Campuchia và tham gia vào việc thành lập Bệnh viên Sunrise Japan, dự án xuất khẩu y tế đầu tiên của Nhật Bản.</li>
-												<li>2017 - 2020, được cử đến Hà Nội, tham gia vào công tác tại Bệnh viện Việt Đức. Đồng thời, ông Yusuke Hirai cũng tiến hành khảo sát về tình trạng y tế Việt Nam, với tâm niệm giúp phục hồi chức năng thêm phổ biến ở Việt Nam - nơi dân số đang già đi.</li>
-											</ul>
-										</div>
-										<a class="open" role="button" data-toggle="collapse" data-parent="#chuyenvien-hotro" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Chi tiết <span></span></a>
-										<a class="close-d" role="button" data-toggle="collapse" data-parent="#chuyenvien-hotro" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Đóng <span></span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
 		<div class="question">
 			<div class="container">
 				<h3 class="wow fadeInUp" data-wow-duration="1s">Các câu hỏi thường gặp</h3>

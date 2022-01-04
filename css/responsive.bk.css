@@ -1,0 +1,697 @@
+@media(max-width:1900px){
+  .banner{
+    background-size: 94%;
+  }
+}
+@media(max-width:1600px){
+  .banner{
+    background-size: 100%;
+    padding-top: 4%;
+  }
+  .hop-content h3{
+    font-size: 34px;
+    line-height: 1.3;
+  }
+  .banner .img-demo{
+    left: 25%;
+  }
+}
+@media(max-width: 1440px){
+  .banner{
+    padding-bottom: 90px;
+  }
+}
+@media(max-width: 1366px){
+  .banner{
+    padding: 50px 0 100px;
+    background-size: 94%;
+  }
+  .banner h2{
+    margin-bottom: 30px;
+  }
+}
+@media(max-width: 1280px){
+  .banner{
+    background-size: 100%;
+    padding-bottom: 74px;
+  }
+}
+@media(max-width: 1200px){
+  .banner{
+    background-position: right bottom;
+  }
+}
+@media (max-width: 1024px) {
+  .res, .team{
+    padding:0;
+  }
+  .banner{
+    background-position: bottom center;
+    background-color: #FF9533;
+    padding: 50px 0 100px;
+  }
+  .banner h1{
+    font-size: 21px;
+    line-height: 1.3;
+  }
+  .banner h2{
+    font-size: 30px;
+    line-height: 1.3;
+  }
+}
+@media (max-width:1180px) {
+  .banner{
+    background-color: #FF9533;
+    background-size: 100%;
+  }
+  .banner h1{
+    font-size: 22px;
+  }
+  .banner h2{
+    font-size: 34px;
+    line-height: 1.3;
+  }
+  .res h3.title {
+    font-size: 42px;
+  }
+  .res-content{
+    padding-left: 0;
+  }
+}
+@media (max-width: 820px){
+  .banner h1 {
+    font-size: 20px;
+  }
+  .banner h2 {
+    font-size: 31px;
+  }
+  .banner {
+    background-position: bottom;
+  }
+  .header {
+    padding: 19px 15px;
+  }
+  .box{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+  }
+  .box h3 {
+    font-size: 28px;
+    margin-bottom: 39px;
+  }
+  .box p{
+    padding: 0 15%;
+  }
+  .hopital{
+    padding-top: 50px;
+    background-position-x: 15px;
+    background-size: 30%;
+  }
+  .hop-content {
+    padding-left: 13%;
+  }
+  #slide-pagination {
+      bottom: -5px;
+  }
+  .hop-content h3 {
+    font-size: 25px;
+  }
+  .hop-content p {
+    font-size: 13px;
+    line-height: 1.3;
+    margin-top: 10px;
+  }
+  h3{
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  .feature{
+    padding-bottom: 0;
+  }
+  .feature h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .feature h4 span{
+    width: 28px;
+    height: 28px;
+  }
+  .feature .col-sm-4:last-child h4 span{
+    left: 24px;
+  }
+  .feature .col-sm-4:nth-child(2) h4 span{
+    left: -36px;
+  }
+  .doco::before{
+    top:-26%;
+  }
+  .doco .step span{
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .doco .step.two::after, .doco .step.third::before {
+    height: 0;
+  }
+  .res h3.title {
+    font-size: 30px;
+  }
+  .res::before{
+    width: 192px;
+    height: 288px;
+    top:97px;
+  }
+  .res:after {
+    width: 350px;
+    height: 732px;
+    bottom: 0;
+  }
+  .logoexa{
+    width: 350px!important;
+  }
+  .reha {
+    margin-top: 60px;
+  }
+  .form-contact input, .form-contact select{
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .btnSubmit{
+    font-size: 16px;
+  }
+  .col-sm-6 .dropdown{
+    padding: 30px 15px;
+  }
+  .question h3 {
+    font-size: 26px;
+  }
+  .footer p{
+    font-size: 16px;
+  }
+}
+@media(max-width:767px){
+  .banner .img-demo{
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    color: #B8B8B8;
+    text-align: center;
+  }
+  .header{
+    padding: 15px;
+  }
+  .header .pull-right{
+    padding-top: 4px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  .banner{
+    background: url(../images/banner-mobile.jpg) no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    background-color: #FF9533;
+    padding: 30px 0 320px;
+  }
+  .banner h1{
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  .banner h2{
+    font-size: 30px;
+    line-height: 1.3;
+  }
+  .banner p{
+    font-size: 14px;
+  }
+  .banner h2{
+    margin-bottom: 25px;
+    margin-top: 0;
+  }
+  .banner h4{
+    background: #FFFFFF;
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 20px;
+    padding:14px 20px;
+    display: inline-block;
+    color:#FF9533;
+  }
+  .box h3{
+    font-size: 24px;
+    padding: 0 15px;
+  }
+  .box{
+    margin-top: 60px;
+    padding-left: 10px;
+  }
+  .box .chart .text{
+    font-size: 14px;
+    font-weight: 900;
+    text-align: left;
+    display: block;
+  }
+  .box img{
+    max-width: 100%;
+  }
+  .box p{
+    padding: 0;
+  }
+  .hop-content{
+    padding-left: 0;
+  }
+  .hopital .row{
+    display: block;
+  }
+  .hopital {
+    background: transparent;
+  }
+  .hop-content p{
+    font-size: 16px;
+  }
+  .team .row img{
+    width: 80%;
+    margin:0 auto;
+  }
+  #slide-pagination {
+    position: relative;
+    bottom: 0;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .doco::before {
+    top: -25%;
+    background-position: 110px 0;
+  }
+  .doco{
+    margin-top: 275px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .doco .step span{
+    z-index: 2;
+    position: relative;
+  }  
+  .doco .step{
+    display: none;
+  }
+  #bxslider .item,#bxslider{
+    width: calc(100%)!important;
+    margin: 0 auto;
+  }
+  .bx-pager-item{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 45px;
+  }
+  .bx-pager-item:last-child{
+    margin-right: 0;
+  }
+  .bx-pager-item a{
+    color:#FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 24px;
+    background-color: rgba(255,149,51,.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+  }
+  .bx-pager-item a.active{
+    background-color: #FF9533 ;
+  }
+  .slider-paination div{
+    position: absolute;
+    text-indent: -9999;
+  }
+  #slider-prev{
+    left:0;
+  }
+  #slider-next{
+    right:0;
+  }
+  .slider-paination{
+    position: relative;
+    margin-top: -24px;
+  }
+  /* .doco .step.first::after, .doco .step.two::before,
+  .doco .step.third::after, .doco .step.last::before,
+  .doco .step.two::after, .doco .step.third::before{
+    height: 100%;
+    width: 1px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100%;
+    border-left: 1px dashed #000;
+    background: transparent;
+    z-index: 1;
+  }
+  .doco .step.last::before,
+  .doco .step.third::before,
+  .doco .step.two::before{
+    top: -60px;
+    height: 120%;
+  }
+  .doco .step.first::after{
+    height: 134%;
+  }
+  .doco .step.two::after,
+  .doco .step.third::after{
+    height: 156%;
+  } */
+  .doco .step {
+    margin-bottom: 0;
+    padding-top: 100%;
+    position: initial;
+  }
+  .doco h4{
+    margin-top: 25px;
+  }
+  .doco .doco-short{
+    font-size: 16px;
+  }
+  .feature .col-sm-4:last-child h4 span{
+    left: 36px;
+  }
+  .res{
+    padding-top: 70px;
+  }
+  .res::before{
+    top:5px;
+  }
+  .res .row:first-child {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .res .col-sm-7{
+    padding-left: 15px;
+  }
+  .res-content{
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .res h3.title {
+    font-size: 48px;
+  }
+  .res-content p{
+    font-size: 16px;
+  }
+  .logoexa {
+    width: 100%!important;
+  }
+  .team{
+    padding-top: 50px;
+  }
+  .team p{
+    padding: 0 15px;
+  }
+  .team .row{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .team [class^='col-sm']{
+    overflow: hidden;
+  }
+  .team .col-sm-5{
+    order:3;
+    position: absolute;
+    top: 22%;
+  }
+  .team .row .col-sm-5 img{
+    position: relative;
+    margin-right: -90px;
+    width: 80%;
+  }
+  .team .col-sm-3{
+    order:1;
+    margin-bottom: 50px;
+  }
+  .team .col-sm-3 img{
+    margin-left: -70px;
+  }
+  .team .col-sm-4{
+    order:2;
+  }
+  .team .col-sm-4 img{
+    margin-left: -50px;
+  }
+  .feature{
+    position: relative;
+    padding-top: 120px;
+    overflow: hidden;
+  }
+  .feature h4{
+    font-size: 24px;
+    line-height: 1.3;
+    margin-top: 0;
+  }
+  .feature::before,
+  .feature:after{
+    content:"";
+    position: absolute;
+    width: 235px;
+    height: 512px;
+    z-index: -1;
+  }
+  .feature::before{
+    background: url(../images/rectangle3.png) no-repeat;
+    background-size: 100%;
+    top: 50px;
+  }
+  .feature::after{
+    background: url(../images/rectangle2.png) no-repeat;
+    background-size: 100%;
+    bottom: 170px;
+    left: 0;
+    width: 255px;
+  }
+  .feature p{
+    margin-bottom: 0;
+  }
+  .feature h3,
+  .hop-content h3 {
+    font-size: 36px;
+  }
+  .feature h3 span{
+    font-size: 24px;
+  }
+  .feature h4 span {
+    width: 32px;
+    height: 32px;
+  }
+  .team .container{
+    padding: 0;
+  }
+  .panel-title{
+    background-position: calc(100% + 4px);
+    background-size: 5%;
+  }
+  .res::before{
+    background:transparent;
+  }
+  .reha h3.title{
+    border-radius: 26px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .reha h3.title span {
+    display: block;
+  }
+  .reha p{
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .form-contact select{
+    background-size: 5%;
+  }
+  .footer .logo-footer{
+    margin-bottom: 15px;
+  }
+  .footer .bottom{
+    margin-top: 30px;
+  }
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer .bottom .row{
+    /* display: flex;
+    align-items: center; */
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .footer .bottom .col-sm-4:first-child{
+    order:1;
+  }
+  .footer .bottom .col-sm-4:nth-child(2){
+    order:3;
+  }
+  .footer .bottom .col-sm-4:last-child{
+    order:2;
+  }
+  ul.social {
+    text-align: center;
+  }
+  #myVideo{
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom:0;
+    margin: auto 0;
+    border-radius: 0;
+  }
+  button.close{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    opacity: 1;
+    position: absolute;
+    top: calc(50% - 150px);
+    right: 0;
+    z-index: 10;
+    text-shadow: 0 0;
+  } 
+  .dropdown{
+    padding: 30px 15px;
+  }
+  .dropdown.last,
+  .col-sm-6 .dropdown{
+    padding: 40px 15px;
+  }
+  .carets img{
+    width: 20px;
+  }
+  #chuyenvien-pager,
+  #chuyenvien{
+    text-align: center;
+  }
+  #chuyenvien-pager{
+    text-align: center;
+    padding-right: 0;
+    margin-top: 30px;
+  }
+  .slider-chuyenvien{
+    width: 100%;
+  }
+  #chuyenvien-next{
+    right: 0;
+  }
+  .chuyenvien h3{
+    padding-bottom: 0;
+    line-height: 1.3;
+  }
+  .chuyenvien h4{
+    line-height: 1.3;
+  }
+  .chuyenvien p.desc-chuyenvien{
+    padding-bottom: 15px;
+  }
+  .reha{
+    padding-bottom: 60px;
+  }
+}
+@media(max-width:440px){
+  .modal-content{
+    padding: 40px 20px 290px;
+    background-size: 140%;
+    background-position: 100% 100%;
+  }
+  .modal-content h3{
+    letter-spacing: -0.3px;
+    width: 100%;
+  }
+  .modal-content p{
+    width: 100%;
+  }
+  .dropdown{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .btnSubmit{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+  }
+  .logo img{
+    width: 194px;
+  }
+  .team .row img{
+    width: 70%;
+  }
+  .question{
+    padding-top: 75px;
+  }
+  .swiper-slide:nth-child(3) {
+    width: 73%;
+  }
+  .btn-register{
+    width: 190px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 8px 0px;
+    padding: 8px;
+  }
+  #btnRegisterDesk .btn-register{
+    width: auto;
+    border:0
+  }
+  .switch{
+    background-color: transparent;
+    height: 100px;
+  }
+  .switch input:checked + .slider{
+    background-color: #FF9533;
+    border-radius: 34px;
+  }
+  .switch label {
+    height: 50px;
+    background-color: #F2F2F2;
+    border-radius: 34px;
+  }
+  .chose-fill strong {
+    font-size: 20px;
+  }
+  .reha p{
+    margin-top: 5px;
+  }
+  .chose-fill{
+    line-height: 1.3
+  }
+}
+@media(max-width:375px) {
+  .dropdown{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .res h3.title{
+    font-size: 46px;
+  }
+  .banner{
+    padding-bottom: 300px;
+  }
+  .banner h1{
+    font-size: 17px;
+  }
+  .banner h2{
+    font-size: 28px;
+  }
+  .banner .col-xs-9 {
+    width: 80%;
+  }
+  .reha h3.title{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .input-label .text-name, .dropdown, .form-contact input[type="text"], .form-contact input[type="email"], .form-contact select{
+    font-size: 16px;
+    height: 44px;
+  }
+}

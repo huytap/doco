@@ -343,12 +343,19 @@ $(function(){
     //
     var flag = false;
     $('#chuyenvien').find('a[role="button"]').click(function(e){
+        let h1 = $('#chuyenvien').parent().height();
+        let h2 = $(this).parent().height();
         if(!flag){
             e.preventDefault();
-            let h1 = $('#chuyenvien').parent().height();
-            let h2 = $(this).parent().height();
             $('#chuyenvien').parent().css('height', (h1+h2+30))
+            $('.chuyenvien').css('padding-bottom', 0)
             flag = true;
+        }else{
+            setTimeout(function(){
+                $('#chuyenvien').parent().css('height', $('#chuyenvien').find('.row').height())
+            }, 500);            
+            $('.chuyenvien').css('padding-bottom', 100)
+            flag=false;
         }
     });
 });

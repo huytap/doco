@@ -990,6 +990,20 @@ a.open[aria-expanded="false"]{
 .desc-chuyenvien{
 	border-top: 1px solid rgba(104, 104, 104, 1);
 	padding-top: 15px;
+	font-size: 16px;
+}
+.desc-chuyenvien p.short{
+	font-family: 'Mulish';
+	font-weight: 700;
+}
+.desc-chuyenvien ul{
+	margin-left: 15px;
+}
+.desc-chuyenvien ul li{
+	list-style: disc;	
+}
+.desc-chuyenvien ul li:not(:last-child){
+	padding-bottom: 15px;
 }
 .chuyenvien p.short-chuyenvien{
 	font-weight: 700;
