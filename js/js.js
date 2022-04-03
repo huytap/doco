@@ -16,21 +16,21 @@ new WOW().init();
 //         }
 //     }
 // })
-$('#viewVideo').click(function(){
+$('#viewVideo').click(function () {
     $('#myVideo').removeClass('hidden-xs');
     playVid();
 });
 
-var vid = document.getElementById("myVideo"); 
-function playVid() { 
-    vid.play(); 
+var vid = document.getElementById("myVideo");
+function playVid() {
+    vid.play();
     $('.close').show();
-    $('.close').click(function(){
+    $('.close').click(function () {
         $(this).hide();
         pauseVid()
         $('#myVideo').addClass('hidden-xs')
     })
-} 
+}
 function pauseVid() {
     vid.pause();
 }
@@ -45,45 +45,45 @@ var swiper = new Swiper('.myswiper', {
 });
 
 $(document).ready(function () {
-    var goSubmit=true;
-    $(".btnSubmit").click(function(){
-        $("#myForm").serializeArray().map(function(x){
-            goSubmit=true;
-            if(x.value=='Khác'){
-                if($.trim($('input[name="'+x.name+'"]').next().next().val()) == ''){
+    var goSubmit = true;
+    $(".btnSubmit").click(function () {
+        $("#myForm").serializeArray().map(function (x) {
+            goSubmit = true;
+            if (x.value == 'Khác') {
+                if ($.trim($('input[name="' + x.name + '"]').next().next().val()) == '') {
                     var other = '<span class="error">Vui lòng điền thông tin vào ô khác</span>';
-                    if($('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').length){
+                    if ($('input[name="' + x.name + '"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').length) {
 
-                    }else{
-                        $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').append(other);
+                    } else {
+                        $('input[name="' + x.name + '"]').parent().parent().parent().find('.checkbox:first-child').append(other);
                     }
                     goSubmit = false;
-                }else{
+                } else {
                     goSubmit = true;
-                    $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').remove()
+                    $('input[name="' + x.name + '"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').remove()
                 }
             }
-        }); 
+        });
     });
     var step2 = true;
-    if($('.switch').find('input[type="radio"]:checked').val() !== 'Tôi muốn đăng ký cơ hội dùng thử'){
+    if ($('.switch').find('input[type="radio"]:checked').val() !== 'Tôi muốn đăng ký cơ hội dùng thử') {
         $('#step2').hide();
     }
-    $('.switch').find('input[type="radio"]').each(function(i, j){
-        $(j).change(function(){
-            if($(this).is(":checked") && $(j).val() == 'Tôi muốn đăng ký cơ hội dùng thử'){
+    $('.switch').find('input[type="radio"]').each(function (i, j) {
+        $(j).change(function () {
+            if ($(this).is(":checked") && $(j).val() == 'Tôi muốn đăng ký cơ hội dùng thử') {
                 $('#step2').show();
                 step2 = true;
                 $('.btnSubmit').text('GỬI THÔNG TIN ĐĂNG KÝ')
-            }else{
+            } else {
                 $('#step2').hide();
                 step2 = false;
                 $('.btnSubmit').text('GỬI THÔNG TIN NHẬN TƯ VẤN')
             }
         })
     })
-    if(step2){
-        $("#myForm").validate({        
+    if (step2) {
+        $("#myForm").validate({
             // onfocusout: true,
             // onkeyup: false,
             // onclick: false,
@@ -142,12 +142,12 @@ $(document).ready(function () {
                     required: "Vui lòng tick vào lựa chọn bên dưới",
                 }
             },
-            submitHandler: function(form, e) {
-                formSubmit(form, goSubmit,e)
+            submitHandler: function (form, e) {
+                formSubmit(form, goSubmit, e)
             }
         });
-    }else{
-        $("#myForm").validate({   
+    } else {
+        $("#myForm").validate({
             rules: {
                 "full_name": {
                     required: true
@@ -173,57 +173,57 @@ $(document).ready(function () {
                     email: 'Email không đúng định dạng'
                 }
             },
-            submitHandler: function(form, e) {
-                formSubmit(form, goSubmit,e)
+            submitHandler: function (form, e) {
+                formSubmit(form, goSubmit, e)
             }
         });
     }
 
-    function formSubmit(form, goSubmit,e){        
-        if(goSubmit == 'false'){
+    function formSubmit(form, goSubmit, e) {
+        if (goSubmit == 'false') {
             return false;
         }
         e.preventDefault();
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwcmd4bzliyfPqEu1d15K7B6WD3LGueLveAipZQZM3lKdwnD25NvDdFhXeZTP2lbBrH/exec';
         //const scriptURL = 'https://script.google.com/macros/s/AKfycbybhhZ2otQ06lVR9MxfGYfLSulqUUif3VQf-lHzogAAEgPyTYNi7Ev_YVJK64GmJyQS/exec';
-        
-        var data = {};
-        
-        $(form).serializeArray().map(function(x){
-            if(x.value=='Khác'){                
-                if($.trim($('input[name="'+x.name+'"]').next().next().val()) == ''){
-                    var other = '<span class="error">Vui lòng điền thông tin vào ô khác</span>';
-                    if($('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').length){
 
-                    }else{
-                        $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').append(other);
+        var data = {};
+
+        $(form).serializeArray().map(function (x) {
+            if (x.value == 'Khác') {
+                if ($.trim($('input[name="' + x.name + '"]').next().next().val()) == '') {
+                    var other = '<span class="error">Vui lòng điền thông tin vào ô khác</span>';
+                    if ($('input[name="' + x.name + '"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').length) {
+
+                    } else {
+                        $('input[name="' + x.name + '"]').parent().parent().parent().find('.checkbox:first-child').append(other);
                     }
                     goSubmit = false;
-                }else{
+                } else {
                     goSubmit = true;
-                    $('input[name="'+x.name+'"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').remove()
+                    $('input[name="' + x.name + '"]').parent().parent().parent().find('.checkbox:first-child').find('span.error').remove()
                 }
-                x.value = 'Khác: '+$('input[name="'+x.name+'"]').next().next().val();
+                x.value = 'Khác: ' + $('input[name="' + x.name + '"]').next().next().val();
             }
-            if(data[x.name] != undefined)
+            if (data[x.name] != undefined)
                 data[x.name] += ';' + x.value;
             else
                 data[x.name] = x.value;
-        }); 
-        if(goSubmit == false){
+        });
+        if (goSubmit == false) {
             return false;
         }
-        
+
         request = $.ajax({
             url: scriptURL,
             type: "post",
-            beforeSend: function(){
+            beforeSend: function () {
                 //history.pushState(null, null, 'https://dokoreha.vn/thankyou.html');
                 $('#loading').show();
             },
             data: data
         });
-        request.done(function (response, textStatus, jqXHR){
+        request.done(function (response, textStatus, jqXHR) {
             //location.href = 'https://dokoreha.vn/thankyou.html';
             var url = window.location.href;
             location.href = url + '/thankyou.html';
@@ -238,80 +238,80 @@ $(document).ready(function () {
     var mgTop = $('#btnRegister').offset().top;
     window.onscroll = function () {
         var st = $(this).scrollTop();
-       // if($(window).width() > 767){
-            if(lastScroll>105){
-                //$('.header').removeClass('nav-up');
-                $('.header').addClass('nav-down');
-            }else{
-                //$('.header').removeClass('nav-up');
-                $('.header').removeClass('nav-down');
-            }
+        // if($(window).width() > 767){
+        if (lastScroll > 105) {
+            //$('.header').removeClass('nav-up');
+            $('.header').addClass('nav-down');
+        } else {
+            //$('.header').removeClass('nav-up');
+            $('.header').removeClass('nav-down');
+        }
         //}else{
-        if($(window).width() <= 767){    
-            if(lastScroll >= mgTop){
+        if ($(window).width() <= 767) {
+            if (lastScroll >= mgTop) {
                 $('.logo').hide();
                 $('#btnRegisterDesk').removeClass('hidden-xs');
-                
-            }else{
+
+            } else {
                 $('.logo').show();
                 $('#btnRegisterDesk').addClass('hidden-xs');
             }
         }
-        lastScroll = st<0?0:st;
+        lastScroll = st < 0 ? 0 : st;
     }
     var url = location.hash;
-    if(url)
-        $('html,body').animate({scrollTop:$(url).offset().top}, 1700);
-    
+    if (url)
+        $('html,body').animate({ scrollTop: $(url).offset().top }, 1700);
+
     $(".btn-register").click(function () {
-        $('html,body').animate({scrollTop:$('#dang-ky-nhan-uu-dai').offset().top}, 1700);
+        $('html,body').animate({ scrollTop: $('#dang-ky-nhan-uu-dai').offset().top }, 1700);
     });
     //$('.btnSubmit').unbind().click(function(e){
-        //e.prenventDefault();
-        
-        // if($.trim($('input[name="full_name"]').val()) == ''){
-        //     $('input[name="full_name"]').focus();
-        //     return false;
-        // }else if($.trim($('input[name="phone_number"]').val()) == ''){
-        //     $('input[name="phone_number"]').focus();
-        //     return false;
-        // }else if($.trim($('input[name="email"]').val()) == ''){
-        //     $('input[name="email"]').focus();
-        //     return false;
-        // }else if(!validateEmail($('input[name="email"]').val())){
-        //     $('input[name="email"]').focus();
-        //     return false;
-        // }else if($.trim($('input[name="who_register"]').val()) == ''){
-        //     $('input[name="who_register"]').parent().addClass('hasError');
-        //     return false;
-        // }else if($.trim($('input[name="your_difficulties"]').val()) == ''){
-        //     $('input[name="who_register"]').parent().removeClass('hasError');
-        //     $('input[name="your_difficulties"]').parent().addClass('hasError');
-        //     return false;
-        // }else if($.trim($('input[name="reason"]').val()) == ''){
-        //     $('input[name="your_difficulties"]').parent().removeClass('hasError');
-        //     $('input[name="reason"]').parent().addClass('hasError');
-        //     return false;
-        // }else if($.trim($('input[name="what_channel"]').val()) == ''){
-        //     $('input[name="reason"]').parent().removeClass('hasError');
-        //     $('input[name="what_channel"]').parent().addClass('hasError');
-        //     return false;
-        // }else{
-            // $('input[name="what_channel"]').parent().removeClass('hasError');
-            // const scriptURL = 'https://script.google.com/macros/s/AKfycbwcmd4bzliyfPqEu1d15K7B6WD3LGueLveAipZQZM3lKdwnD25NvDdFhXeZTP2lbBrH/exec';
-            // const form = document.forms['submit-to-google-sheet']
-            // form.addEventListener('submit', e => {
-            //     e.preventDefault()
-            //     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            //     .then(response => {$('#popup').modal('show')})
-            //     .catch(error => console.error('Error!', error.message));
-            //     document.getElementById("myForm").reset();
-            //     $('#who_register').find('.text-name').text('Bạn đăng ký cho mình hay cho người thân?')
-            //     $('#your_difficulties').find('.text-name').text('Bạn cần luyện tập phục hồi chức năng để cải thiện vấn đề sức khoẻ gì?')
-            //     $('#remote_issue').find('.text-name').text('Xin hãy cho chúng tôi biết nguyên nhân dẫn đến những vấn đề mà bạn gặp phải ở câu trên');
-            //     $('#what_channel').find('.text-name').text('Bạn biết đến Docodemo Reha qua kênh nào?')
-            // });
-        // }
+    //e.prenventDefault();
+
+    // if($.trim($('input[name="full_name"]').val()) == ''){
+    //     $('input[name="full_name"]').focus();
+    //     return false;
+    // }else if($.trim($('input[name="phone_number"]').val()) == ''){
+    //     $('input[name="phone_number"]').focus();
+    //     return false;
+    // }else if($.trim($('input[name="email"]').val()) == ''){
+    //     $('input[name="email"]').focus();
+    //     return false;
+    // }else if(!validateEmail($('input[name="email"]').val())){
+    //     $('input[name="email"]').focus();
+    //     return false;
+    // }else if($.trim($('input[name="who_register"]').val()) == ''){
+    //     $('input[name="who_register"]').parent().addClass('hasError');
+    //     return false;
+    // }else if($.trim($('input[name="your_difficulties"]').val()) == ''){
+    //     $('input[name="who_register"]').parent().removeClass('hasError');
+    //     $('input[name="your_difficulties"]').parent().addClass('hasError');
+    //     return false;
+    // }else if($.trim($('input[name="reason"]').val()) == ''){
+    //     $('input[name="your_difficulties"]').parent().removeClass('hasError');
+    //     $('input[name="reason"]').parent().addClass('hasError');
+    //     return false;
+    // }else if($.trim($('input[name="what_channel"]').val()) == ''){
+    //     $('input[name="reason"]').parent().removeClass('hasError');
+    //     $('input[name="what_channel"]').parent().addClass('hasError');
+    //     return false;
+    // }else{
+    // $('input[name="what_channel"]').parent().removeClass('hasError');
+    // const scriptURL = 'https://script.google.com/macros/s/AKfycbwcmd4bzliyfPqEu1d15K7B6WD3LGueLveAipZQZM3lKdwnD25NvDdFhXeZTP2lbBrH/exec';
+    // const form = document.forms['submit-to-google-sheet']
+    // form.addEventListener('submit', e => {
+    //     e.preventDefault()
+    //     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    //     .then(response => {$('#popup').modal('show')})
+    //     .catch(error => console.error('Error!', error.message));
+    //     document.getElementById("myForm").reset();
+    //     $('#who_register').find('.text-name').text('Bạn đăng ký cho mình hay cho người thân?')
+    //     $('#your_difficulties').find('.text-name').text('Bạn cần luyện tập phục hồi chức năng để cải thiện vấn đề sức khoẻ gì?')
+    //     $('#remote_issue').find('.text-name').text('Xin hãy cho chúng tôi biết nguyên nhân dẫn đến những vấn đề mà bạn gặp phải ở câu trên');
+    //     $('#what_channel').find('.text-name').text('Bạn biết đến Docodemo Reha qua kênh nào?')
+    // });
+    // }
     //})
 });
 function validateEmail(email) {
@@ -319,7 +319,7 @@ function validateEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 /*slide*/
-$(function(){
+$(function () {
     $('#chuyenvien').bxSlider({
         mode: 'fade',
         captions: false,
@@ -330,7 +330,7 @@ $(function(){
         prevText: '<img src="images/chuyenvien-left.png" class="img-responsive">',
         pagerCustom: '#chuyenvien-pager',
     });
-    if($(window).width()<768)
+    if ($(window).width() < 768)
         $('#bxslider').bxSlider({
             mode: 'fade',
             captions: false,
@@ -342,20 +342,20 @@ $(function(){
         });
     //
     var flag = false;
-    $('#chuyenvien').find('a[role="button"]').click(function(e){
+    $('#chuyenvien').find('a[role="button"]').click(function (e) {
         let h1 = $('#chuyenvien').parent().height();
         let h2 = $(this).parent().height();
-        if(!flag){
+        if (!flag) {
             e.preventDefault();
-            $('#chuyenvien').parent().css('height', (h1+h2+30))
+            $('#chuyenvien').parent().css('height', (h1 + h2 + 30))
             $('.chuyenvien').css('padding-bottom', 0)
             flag = true;
-        }else{
-            setTimeout(function(){
+        } else {
+            setTimeout(function () {
                 $('#chuyenvien').parent().css('height', $('#chuyenvien').find('.row').height())
-            }, 500);            
+            }, 500);
             $('.chuyenvien').css('padding-bottom', 100)
-            flag=false;
+            flag = false;
         }
     });
 });

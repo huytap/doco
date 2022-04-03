@@ -35,7 +35,7 @@
     <link href="css/swiper-bundle.min.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">
     <link href="css/style.css?v=005" rel="stylesheet">
-    <link href="css/responsive.css?v=008" rel="stylesheet">
+    <link href="css/responsive.css?v=009" rel="stylesheet">
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

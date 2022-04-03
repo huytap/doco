@@ -716,6 +716,9 @@
   }
   .input-label .text-name, .dropdown, .form-contact input[type="text"], .form-contact input[type="email"], .form-contact select{
     font-size: 16px;
-    height: 44px;
+    height: 50px;
+  }
+  .input-label #remote_issue.text-name{
+    height: 90px;
   }
 }
