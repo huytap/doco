@@ -34,7 +34,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&family=Be+Vietnam:wght@700&family=Mulish&family=Roboto&display=swap" rel="stylesheet">
     <link href="css/swiper-bundle.min.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/style.css?v=003" rel="stylesheet">
+    <link href="css/style.css?v=004" rel="stylesheet">
     <link href="css/responsive.css?v=004" rel="stylesheet">
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -590,6 +590,21 @@
 				<p class="wow fadeInUp" data-wow-duration="1s">Ứng dụng hỗ trợ luyện tập phục hồi chức năng từ xa DOKOREHA cùng bạn giải đáp một số câu hỏi phổ biến, giúp bạn thêm hiểu và tin tưởng để lựa chọn DOKOREHA cho mình, người thân và gia đình.</p>
 				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default wow fadeInUp" data-wow-duration="1s">
+						<div class="panel-heading" role="tab" id="heading1">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+								Q: Lúc nào sẽ triển khai dịch vụ? 
+								</a>
+							</h4>
+						</div>
+						<div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-expanded="false" aria-labelledby="heading1">
+							<div class="panel-body">
+							A: Hiện tại chúng tôi vẫn đang trong quá trình chuẩn bị cho việc triển khai dịch vụ cho thị trường Việt Nam, trong thời gian sớm nhất có thể. Chúng tôi sẽ ưu tiên thông báo và hướng dẫn cho những bạn đã để lại thông tin đăng ký trên trang web này ngay sau khi vừa triển khai.
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default wow fadeInUp" data-wow-duration="1s">
 						<div class="panel-heading" role="tab" id="headingOne">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -597,7 +612,7 @@
 								</a>
 							</h4>
 						</div>
-						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-expanded="true" aria-labelledby="headingOne">
 							<div class="panel-body">
 							A: Để đạt được hiệu quả, bạn nên duy trì luyện tập từ xa thường xuyên mỗi ngày, có thể linh hoạt trong những không gian khác nhau, để chủ động tạo thành thói quen trong cuộc sống, giúp thiết lập và duy trì tiến độ phục hồi vững chắc. Các bài luyện tập phục hồi chức năng được thiết kế phù hợp cho các vấn đề liên quan đến đột quỵ não (tai biến mạch máu não)
 							</div>

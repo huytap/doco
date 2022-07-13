@@ -34,7 +34,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&family=Be+Vietnam:wght@700&family=Mulish&family=Roboto&display=swap" rel="stylesheet">
     <link href="css/swiper-bundle.min.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/style.css?v=005" rel="stylesheet">
+    <link href="css/style.css?v=006" rel="stylesheet">
     <link href="css/responsive.css?v=009" rel="stylesheet">
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -699,42 +699,42 @@
 				<p class="wow fadeInUp" data-wow-duration="1s">Ứng dụng hỗ trợ luyện tập phục hồi chức năng từ xa DOKOREHA cùng bạn giải đáp một số câu hỏi phổ biến, giúp bạn thêm hiểu và tin tưởng để lựa chọn DOKOREHA cho mình, người thân và gia đình.</p>
 				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default wow fadeInUp" data-wow-duration="1s">
-						<div class="panel-heading" role="tab" id="headingOne">
+						<div class="panel-heading" role="tab" id="heading1">
 							<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									Q: Luyện tập phục hồi chức năng từ xa hiệu quả như thế nào?
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+								Q: Luyện tập phục hồi chức năng từ xa hiệu quả như thế nào?
 								</a>
 							</h4>
 						</div>
-						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-expanded="true" aria-labelledby="heading1">
 							<div class="panel-body">
 							A: Để đạt được hiệu quả, bạn nên duy trì luyện tập từ xa thường xuyên mỗi ngày, có thể linh hoạt trong những không gian khác nhau, để chủ động tạo thành thói quen trong cuộc sống, giúp thiết lập và duy trì tiến độ phục hồi vững chắc. Các bài luyện tập phục hồi chức năng được thiết kế phù hợp cho các vấn đề liên quan đến đột quỵ não (tai biến mạch máu não)
 							</div>
 						</div>
 					</div>
 					<div class="panel panel-default wow fadeInUp" data-wow-duration="1s">
-						<div class="panel-heading" role="tab" id="headingTwo">
+						<div class="panel-heading" role="tab" id="heading2">
 							<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
 								Q: DOKOREHA có chịu trách nhiệm trong trường hợp xảy ra tai nạn khi luyện tập? 
 								</a>
 							</h4>
 						</div>
-						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-expanded="false" aria-labelledby="heading2">
 							<div class="panel-body">
 							A: Sau khi thảo luận cùng người dùng hoặc người nhân, chuyên viên sẽ xây dựng một cách tỉ mỉ hệ thống các bài tập thích hợp. Tuy nhiên, DOKOREHA không chịu trách nhiệm nếu có rủi ro hoặc tai nạn xảy ra trong khi luyện tập.  Khi có bất kỳ câu hỏi hoặc vấn đề gì, hãy liên hệ với chuyên viên ngay để được tư vấn và hỗ trợ, tránh những trường hợp ngoài ý muốn.
 							</div>
 						</div>
 					</div>
 					<div class="panel panel-default wow fadeInUp" data-wow-duration="1s">
-						<div class="panel-heading" role="tab" id="headingThree">
+						<div class="panel-heading" role="tab" id="heading3">
 							<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="headingThree">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
 								Q: Có nhất thiết phải luyện tập theo đúng kế hoạch đã đặt ra? 
 								</a>
 							</h4>
 						</div>
-						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-expanded="false" aria-labelledby="heading3">
 							<div class="panel-body">
 							A: Hệ thống bài tập của DOKOREHA được xây dựng một cách hợp lý, giúp người dùng dễ dàng nắm bắt và giữ nhịp luyện tập, bắt đầu bằng việc xây dựng thói quen luyện tập mỗi ngày. 
 							</div>

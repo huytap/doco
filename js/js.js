@@ -348,13 +348,13 @@ $(function () {
         if (!flag) {
             e.preventDefault();
             $('#chuyenvien').parent().css('height', (h1 + h2 + 30))
-            $('.chuyenvien').css('padding-bottom', 0)
+            //$('.chuyenvien').css('padding-bottom', 0)
             flag = true;
         } else {
             setTimeout(function () {
                 $('#chuyenvien').parent().css('height', $('#chuyenvien').find('.row').height())
             }, 500);
-            $('.chuyenvien').css('padding-bottom', 100)
+            //$('.chuyenvien').css('padding-bottom', 100)
             flag = false;
         }
     });
